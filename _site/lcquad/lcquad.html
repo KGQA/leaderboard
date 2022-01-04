@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4957110ecc151ac4dbf7af26c086a7a4a965af25">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Large-scale Complex Question Answering | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Large-scale Complex Question Answering" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/lcquad/lcquad.html" />
+<meta property="og:url" content="http://localhost:4000/lcquad/lcquad.html" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Large-scale Complex Question Answering" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/lcquad/lcquad.html","headline":"Large-scale Complex Question Answering","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="large-scale-complex-question-answering">Large-scale Complex Question Answering</h1>
+
+<p>Question answering is the task of answering a question.</p>
+
+<h3 id="table-of-contents">Table of contents</h3>
+
+<ul>
+  <li><a href="#lc-quad-v1">LC-QuAD 1.0</a></li>
+  <li><a href="#lc-quad-v2">LC-QuAD 2.0</a></li>
+</ul>
+
+<h2 id="lc-quad-v1">LC-QuAD v1</h2>
+
+<p>The <a href="http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf">Largescale Complex Question Answering Dataset 1.0 (LC-QuAD 1.0)</a> LC-QuAD is a Question Answering dataset with 5000 pairs of question and its corresponding SPARQL query. The target knowledge base is DBpedia, specifically, the April, 2016 version. Please see our paper for details about the dataset creation process and framework.</p>
+
+<h3 id="leaderboard">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">EM</th>
+      <th>Paper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BERT (Efimov et al., 2019)</td>
+      <td style="text-align: center">84.8</td>
+      <td style="text-align: center">66.6</td>
+      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+    </tr>
+    <tr>
+      <td>DocQA (Efimov et al., 2019)</td>
+      <td style="text-align: center">79.5</td>
+      <td style="text-align: center">59.6</td>
+      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="lc-quad-v2">LC-QuAD v2</h2>
+
+<p>The <a href="http://jens-lehmann.org/files/2019/iswc_lcquad2.pdf">Largescale Complex Question Answering Dataset 2.0 (LC-QuAD 2.0)</a> is a Large Question Answering dataset with 30,000 pairs of question 
+and its corresponding SPARQL query. The target knowledge base is Wikidata and DBpedia, specifically the 2018 version. Please see our paper for details about the dataset creation process 
+and framework.</p>
+
+<h3 id="leaderboard-1">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">EM</th>
+      <th>Paper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BERT (Efimov et al., 2019)</td>
+      <td style="text-align: center">84.8</td>
+      <td style="text-align: center">66.6</td>
+      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+    </tr>
+    <tr>
+      <td>DocQA (Efimov et al., 2019)</td>
+      <td style="text-align: center">79.5</td>
+      <td style="text-align: center">59.6</td>
+      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="/">Go back to the README</a></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/sebastianruder">sebastianruder</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4957110ecc151ac4dbf7af26c086a7a4a965af25">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Tracking Progress in Question Answering over Knowledge Graphs | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Tracking Progress in Question Answering over Knowledge Graphs" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Tracking Progress in Question Answering over Knowledge Graphs" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/","name":"KGQA-leaderboard","headline":"Tracking Progress in Question Answering over Knowledge Graphs","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="tracking-progress-in-question-answering-over-knowledge-graphs">Tracking Progress in Question Answering over Knowledge Graphs</h1>
+
+<h2 id="table-of-contents">Table of contents</h2>
+
+<h3 id="qald-challenge">QALD Challenge</h3>
+
+<ul>
+  <li><a href="qald/qald.html#qald-9">QALD-9</a></li>
+  <li><a href="qald/qald.html#qald-8">QALD-8</a></li>
+  <li><a href="qald/qald.html#qald-7">QALD-7</a></li>
+  <li><a href="qald/qald.html#qald-6">QALD-6</a></li>
+  <li><a href="qald/qald.html#qald-5">QALD-5</a></li>
+  <li><a href="qald/qald.html#qald-4">QALD-4</a></li>
+  <li><a href="qald/qald.html#qald-3">QALD-3</a></li>
+  <li><a href="qald/qald.html#qald-2">QALD-2</a></li>
+  <li><a href="qald/qald.html#qald-1">QALD-1</a></li>
+</ul>
+
+<h3 id="lc-quad">LC-QuAD</h3>
+
+<ul>
+  <li><a href="lcquad/lcquad.html#lc-quad-v1">LC-QuAD 1.0</a></li>
+  <li><a href="lcquad/lcquad.html#lc-quad-v2">LC-QuAD 2.0</a></li>
+</ul>
+
+<p>This document aims to track the progress in Natural Language Processing (NLP) and give an overview
+of the state-of-the-art (SOTA) across the most common NLP tasks and their corresponding datasets.</p>
+
+<p>It aims to cover both traditional and core NLP tasks such as dependency parsing and part-of-speech tagging
+as well as more recent ones such as reading comprehension and natural language inference. The main objective
+is to provide the reader with a quick overview of benchmark datasets and the state-of-the-art for their
+task of interest, which serves as a stepping stone for further research. To this end, if there is a 
+place where results for a task are already published and regularly maintained, such as a public leaderboard,
+the reader will be pointed there.</p>
+
+<p>If you want to find this document again in the future, just go to <a href="https://nlpprogress.com/"><code class="language-plaintext highlighter-rouge">nlpprogress.com</code></a>
+or <a href="http://nlpsota.com/"><code class="language-plaintext highlighter-rouge">nlpsota.com</code></a> in your browser.</p>
+
+<h3 id="contributing">Contributing</h3>
+
+<h4 id="guidelines">Guidelines</h4>
+
+<p><strong>Results</strong>   Results reported in published papers are preferred; an exception may be made for influential preprints.</p>
+
+<p><strong>Datasets</strong>   Datasets should have been used for evaluation in at least one published paper besides 
+the one that introduced the dataset.</p>
+
+<p><strong>Code</strong>   We recommend to add a link to an implementation 
+if available. You can add a <code class="language-plaintext highlighter-rouge">Code</code> column (see below) to the table if it does not exist.
+In the <code class="language-plaintext highlighter-rouge">Code</code> column, indicate an official implementation with <a href="http://link_to_implementation">Official</a>.
+If an unofficial implementation is available, use <a href="http://link_to_implementation">Link</a> (see below).
+If no implementation is available, you can leave the cell empty.</p>
+
+<h4 id="adding-a-new-result">Adding a new result</h4>
+
+<p>If you would like to add a new result, you can just click on the small edit button in the top-right
+corner of the file for the respective task (see below).</p>
+
+<p><img src="/img/edit_file.png" alt="Click on the edit button to add a file" /></p>
+
+<p>This allows you to edit the file in Markdown. Simply add a row to the corresponding table in the
+same format. Make sure that the table stays sorted (with the best result on top). 
+After you’ve made your change, make sure that the table still looks ok by clicking on the
+“Preview changes” tab at the top of the page. If everything looks good, go to the bottom of the page,
+where you see the below form.</p>
+
+<p><img src="/img/propose_file_change.png" alt="Fill out the file change information" /></p>
+
+<p>Add a name for your proposed change, an optional description, indicate that you would like to
+“Create a new branch for this commit and start a pull request”, and click on “Propose file change”.</p>
+
+<h4 id="adding-a-new-dataset-or-task">Adding a new dataset or task</h4>
+
+<p>For adding a new dataset or task, you can also follow the steps above. Alternatively, you can fork the repository.
+In both cases, follow the steps below:</p>
+
+<ol>
+  <li>If your task is completely new, create a new file and link to it in the table of contents above.</li>
+  <li>If not, add your task or dataset to the respective section of the corresponding file (in alphabetical order).</li>
+  <li>Briefly describe the dataset/task and include relevant references.</li>
+  <li>Describe the evaluation setting and evaluation metric.</li>
+  <li>Show how an annotated example of the dataset/task looks like.</li>
+  <li>Add a download link if available.</li>
+  <li>Copy the below table and fill in at least two results (including the state-of-the-art)
+  for your dataset/task (change Score to the metric of your dataset). If your dataset/task
+  has multiple metrics, add them to the right of <code class="language-plaintext highlighter-rouge">Score</code>.</li>
+  <li>Submit your change as a pull request.</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Score</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td style="text-align: center"> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="wish-list">Wish list</h3>
+
+<p>These are tasks and datasets that are still missing:</p>
+
+<ul>
+  <li>Bilingual dictionary induction</li>
+  <li>Discourse parsing</li>
+  <li>Keyphrase extraction</li>
+  <li>Knowledge base population (KBP)</li>
+  <li>More dialogue tasks</li>
+  <li>Semi-supervised learning</li>
+  <li>Frame-semantic parsing (FrameNet full-sentence analysis)</li>
+</ul>
+
+<h3 id="exporting-into-a-structured-format">Exporting into a structured format</h3>
+
+<p>You can extract all the data into a structured, machine-readable JSON format with parsed tasks, descriptions and SOTA tables.</p>
+
+<p>The instructions are in <a href="/structured/">structured/README.md</a>.</p>
+
+<h3 id="instructions-for-building-the-site-locally">Instructions for building the site locally</h3>
+
+<p>Instructions for building the website locally using Jekyll can be found <a href="/jekyll_instructions.html">here</a>.</p>
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/sebastianruder">sebastianruder</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

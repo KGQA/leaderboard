@@ -1,9 +1,0 @@
-| System  |                     Reported by                     |Language|Year|Language.1|Precision|Recall|F1 |Data manipulations / Preprocessing|Full/sample/augmented vesion of the dataset used|
-|---------|-----------------------------------------------------|--------|---:|----------|---------|------|--:|----------------------------------|------------------------------------------------|
-|WDAqua   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|EN      |2021|en        |-        |-     | 14|-                                 |-                                               |
-|gAnswer  |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|EN      |2021|en        |-        |-     | 24|-                                 |-                                               |
-|Qanary   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|EN      |2021|en        |-        |-     |  0|-                                 |-                                               |
-|QASparql |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|EN      |2021|en        |-        |-     |  1|-                                 |-                                               |
-|AskNow   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|EN      |2021|en        |-        |-     |  7|-                                 |-                                               |
-|FREyA    |[Lopez et al.](https://arxiv.org/pdf/2105.00811.pdf) |EN      |2013|en        |       63|    54| 58|-                                 |dbpedia 3.6                                     |
-|PowerAqua|[Lopez et al.](https://arxiv.org/pdf/2105.00811.pdf) |En      |2013|en        |       52|    48| 50|-                                 |-                                               |

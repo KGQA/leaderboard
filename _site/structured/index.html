@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4957110ecc151ac4dbf7af26c086a7a4a965af25">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Exporting NLP-progress into a structure format | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Exporting NLP-progress into a structure format" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/structured/" />
+<meta property="og:url" content="http://localhost:4000/structured/" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Exporting NLP-progress into a structure format" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/structured/","headline":"Exporting NLP-progress into a structure format","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="exporting-nlp-progress-into-a-structure-format">Exporting NLP-progress into a structure format</h1>
+
+<p>Parse and export the unstructured information from Markdown into a structured JSON format.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Requires Python 3.6+.</p>
+
+<p>Create a virtualenv and install requirements (you can also use conda):</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>virtualenv <span class="nt">-p</span> python3 venv
+<span class="nb">source </span>venv/bin/activate
+
+pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div></div>
+
+<h2 id="running">Running</h2>
+
+<p>From the NLP-progress root directly (where the LICENCE file is), run:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python structured/export.py &lt;one or more directories or files&gt;
+</code></pre></div></div>
+
+<p>For example, to export all the data in the <code class="language-plaintext highlighter-rouge">english/</code> directory:</p>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python structured/export.py english
+</code></pre></div></div>
+
+<p>By default the output will be written into <code class="language-plaintext highlighter-rouge">structured.json</code>, but you can override this with the <code class="language-plaintext highlighter-rouge">--output</code> parameter.</p>
+
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/sebastianruder">sebastianruder</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,586 @@
+[
+  {
+    "task": "Large-scale Complex Question Answering",
+    "description": "Question answering is the task of answering a question.",
+    "subtasks": [
+      {
+        "task": "LC-QuAD v1",
+        "description": "The [Largescale Complex Question Answering Dataset 1.0 (LC-QuAD 1.0)](http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf) LC-QuAD is a Question Answering dataset with 5000 pairs of question and its corresponding SPARQL query. The target knowledge base is DBpedia, specifically, the April, 2016 version. Please see our paper for details about the dataset creation process and framework.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "F1",
+                "EM"
+              ],
+              "rows": [
+                {
+                  "model_name": "BERT",
+                  "metrics": {
+                    "F1": "84.8",
+                    "EM": "66.6"
+                  },
+                  "paper_title": "SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis",
+                  "paper_url": "https://arxiv.org/abs/1912.09723"
+                },
+                {
+                  "model_name": "DocQA",
+                  "metrics": {
+                    "F1": "79.5",
+                    "EM": "59.6"
+                  },
+                  "paper_title": "SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis",
+                  "paper_url": "https://arxiv.org/abs/1912.09723"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "LC-QuAD v2",
+        "description": "The [Largescale Complex Question Answering Dataset 2.0 (LC-QuAD 2.0)](http://jens-lehmann.org/files/2019/iswc_lcquad2.pdf) is a Large Question Answering dataset with 30,000 pairs of question \nand its corresponding SPARQL query. The target knowledge base is Wikidata and DBpedia, specifically the 2018 version. Please see our paper for details about the dataset creation process \nand framework.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "[Go back to the README](../README.md)",
+            "dataset_links": [
+              {
+                "title": "Go back to the README",
+                "url": "../README.md"
+              }
+            ],
+            "sota": {
+              "metrics": [
+                "F1",
+                "EM"
+              ],
+              "rows": [
+                {
+                  "model_name": "BERT",
+                  "metrics": {
+                    "F1": "84.8",
+                    "EM": "66.6"
+                  },
+                  "paper_title": "SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis",
+                  "paper_url": "https://arxiv.org/abs/1912.09723"
+                },
+                {
+                  "model_name": "DocQA",
+                  "metrics": {
+                    "F1": "79.5",
+                    "EM": "59.6"
+                  },
+                  "paper_title": "SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis",
+                  "paper_url": "https://arxiv.org/abs/1912.09723"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "source_link": {
+      "title": "KGQA-leaderboard",
+      "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+    }
+  },
+  {
+    "task": "Question Answering over Linked Data",
+    "description": "Question answering is the task of answering a question.",
+    "subtasks": [
+      {
+        "task": "QALD-9",
+        "description": "Experiments are conducted on the data of the [CoNLL-2012 shared task](http://www.aclweb.org/anthology/W12-4501), which\nuses OntoNotes coreference annotations. Papers\nreport the precision, recall, and F1 of the MUC, B3, and CEAF\u03c64 metrics using the official\nCoNLL-2012 evaluation scripts. The main evaluation metric is the average F1 of the three metrics.\n\n| Model           | Avg F1 |  Paper / Source | Code |\n| ------------- | :-----:| --- | --- |\n| wl-coref + RoBERTa | 81.0 | [Word-Level Coreference Resolution](https://arxiv.org/abs/2109.04127) | [Official](https://github.com/vdobrovolskii/wl-coref) |\n| s2e+Longformer-Large | 80.3 | [Coreference Resolution without Span Representations](https://arxiv.org/abs/2101.00434) | [Official](https://github.com/yuvalkirstain/s2e-coref) |\n| Xu et al. (2020) | 80.2 | [Revealing the Myth of Higher-Order Inference in Coreference Resolution](https://arxiv.org/abs/2009.12013) |[Official](https://github.com/emorynlp/coref-hoi) |\n| Joshi et al. (2019)<sup>[1](#myfootnote1)</sup> | 79.6 | [SpanBERT: Improving Pre-training by Representing and Predicting Spans](https://arxiv.org/pdf/1907.10529) |[Official](https://github.com/facebookresearch/SpanBERT) |\n| Joshi et al. (2019)<sup>[2](#myfootnote2)</sup> | 76.9 | [BERT for Coreference Resolution: Baselines and Analysis](https://arxiv.org/abs/1908.09091) | [Official](https://github.com/mandarjoshi90/coref) |\n| Kantor and Globerson (2019) | 76.6 | [Coreference Resolution with Entity Equalization](https://www.aclweb.org/anthology/P19-1066/) | [Official](https://github.com/kkjawz/coref-ee) |\n| Fei et al. (2019) | 73.8 | [End-to-end Deep Reinforcement Learning Based Coreference Resolution](https://www.aclweb.org/anthology/P19-1064/) | |\n| (Lee et al., 2017)+ELMo (Peters et al., 2018)+coarse-to-fine & second-order inference (Lee et al., 2018) | 73.0 | [Higher-order Coreference Resolution with Coarse-to-fine Inference](http://aclweb.org/anthology/N18-2108) | [Official](https://github.com/kentonl/e2e-coref) |\n| (Lee et al., 2017)+ELMo (Peters et al., 2018) | 70.4 | [Deep contextualized word representations](https://arxiv.org/abs/1802.05365) | |\n| Lee et al. (2017) | 67.2 | [End-to-end Neural Coreference Resolution](https://arxiv.org/abs/1707.07045) | |\n\n<a name=\"myfootnote1\">[1]</a> Joshi et al. (2019): (Lee et al., 2017)+coarse-to-fine & second-order inference (Lee et al., 2018)+SpanBERT (Joshi et al., 2019)\n\n<a name=\"myfootnote2\">[2]</a> Joshi et al. (2019): (Lee et al., 2017)+coarse-to-fine & second-order inference (Lee et al., 2018)+BERT (Devlin et al., 2019)",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        }
+      },
+      {
+        "task": "QALD-8",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-7",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-6",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-5",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-4",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-3",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-2",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "",
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "task": "QALD-1",
+        "description": "Experiments are conducted on [GAP dataset](https://github.com/google-research-datasets/gap-coreference). \nMetrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.",
+        "source_link": {
+          "title": "KGQA-leaderboard",
+          "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+        },
+        "datasets": [
+          {
+            "dataset": "Leaderboard",
+            "description": "[Go back to the README](../README.md)",
+            "dataset_links": [
+              {
+                "title": "Go back to the README",
+                "url": "../README.md"
+              }
+            ],
+            "sota": {
+              "metrics": [
+                "Overall F1",
+                "Masculine F1 (M)",
+                "Feminine F1 (F)",
+                "Bias (F/M)"
+              ],
+              "rows": [
+                {
+                  "model_name": "Attree et al.",
+                  "metrics": {
+                    "Overall F1": "92.5",
+                    "Masculine F1 (M)": "94.0",
+                    "Feminine F1 (F)": "91.1",
+                    "Bias (F/M)": "0.97"
+                  },
+                  "paper_title": "Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling",
+                  "paper_url": "https://arxiv.org/abs/1906.00839",
+                  "code_links": [
+                    {
+                      "title": "GREP",
+                      "url": "https://github.com/sattree/gap"
+                    }
+                  ]
+                },
+                {
+                  "model_name": "Chada et al.",
+                  "metrics": {
+                    "Overall F1": "90.2",
+                    "Masculine F1 (M)": "90.9",
+                    "Feminine F1 (F)": "89.5",
+                    "Bias (F/M)": "0.98"
+                  },
+                  "paper_title": "Gendered Pronoun Resolution using BERT and an extractive question answering formulation",
+                  "paper_url": "https://arxiv.org/abs/1906.03695",
+                  "code_links": [
+                    {
+                      "title": "CorefQA",
+                      "url": "https://github.com/rakeshchada/corefqa"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "source_link": {
+      "title": "KGQA-leaderboard",
+      "url": "https://github.com/semantic-systems/KGQA-leaderboard"
+    }
+  }
+]

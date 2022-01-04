@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4957110ecc151ac4dbf7af26c086a7a4a965af25">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Question Answering over Linked Data | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Question Answering over Linked Data" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/qald/qald.html" />
+<meta property="og:url" content="http://localhost:4000/qald/qald.html" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Question Answering over Linked Data" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/qald/qald.html","headline":"Question Answering over Linked Data","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="question-answering-over-linked-data">Question Answering over Linked Data</h1>
+
+<p>Question answering is the task of answering a question.</p>
+
+<h3 id="table-of-contents">Table of contents</h3>
+
+<ul>
+  <li><a href="#qald-9">QALD 9</a></li>
+  <li><a href="#qald-8">QALD 8</a></li>
+  <li><a href="#qald-7">QALD 7</a></li>
+  <li><a href="#qald-6">QALD 6</a></li>
+  <li><a href="#qald-5">QALD 5</a></li>
+  <li><a href="#qald-4">QALD 4</a></li>
+  <li><a href="#qald-3">QALD 3</a></li>
+  <li><a href="#qald-2">QALD 2</a></li>
+  <li><a href="#qald-1">QALD 1</a></li>
+</ul>
+
+<h2 id="qald-9">QALD-9</h2>
+
+<p>Experiments are conducted on the data of the <a href="http://www.aclweb.org/anthology/W12-4501">CoNLL-2012 shared task</a>, which
+uses OntoNotes coreference annotations. Papers
+report the precision, recall, and F1 of the MUC, B3, and CEAFφ4 metrics using the official
+CoNLL-2012 evaluation scripts. The main evaluation metric is the average F1 of the three metrics.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Avg F1</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>wl-coref + RoBERTa</td>
+      <td style="text-align: center">81.0</td>
+      <td><a href="https://arxiv.org/abs/2109.04127">Word-Level Coreference Resolution</a></td>
+      <td><a href="https://github.com/vdobrovolskii/wl-coref">Official</a></td>
+    </tr>
+    <tr>
+      <td>s2e+Longformer-Large</td>
+      <td style="text-align: center">80.3</td>
+      <td><a href="https://arxiv.org/abs/2101.00434">Coreference Resolution without Span Representations</a></td>
+      <td><a href="https://github.com/yuvalkirstain/s2e-coref">Official</a></td>
+    </tr>
+    <tr>
+      <td>Xu et al. (2020)</td>
+      <td style="text-align: center">80.2</td>
+      <td><a href="https://arxiv.org/abs/2009.12013">Revealing the Myth of Higher-Order Inference in Coreference Resolution</a></td>
+      <td><a href="https://github.com/emorynlp/coref-hoi">Official</a></td>
+    </tr>
+    <tr>
+      <td>Joshi et al. (2019)<sup><a href="#myfootnote1">1</a></sup></td>
+      <td style="text-align: center">79.6</td>
+      <td><a href="https://arxiv.org/pdf/1907.10529">SpanBERT: Improving Pre-training by Representing and Predicting Spans</a></td>
+      <td><a href="https://github.com/facebookresearch/SpanBERT">Official</a></td>
+    </tr>
+    <tr>
+      <td>Joshi et al. (2019)<sup><a href="#myfootnote2">2</a></sup></td>
+      <td style="text-align: center">76.9</td>
+      <td><a href="https://arxiv.org/abs/1908.09091">BERT for Coreference Resolution: Baselines and Analysis</a></td>
+      <td><a href="https://github.com/mandarjoshi90/coref">Official</a></td>
+    </tr>
+    <tr>
+      <td>Kantor and Globerson (2019)</td>
+      <td style="text-align: center">76.6</td>
+      <td><a href="https://www.aclweb.org/anthology/P19-1066/">Coreference Resolution with Entity Equalization</a></td>
+      <td><a href="https://github.com/kkjawz/coref-ee">Official</a></td>
+    </tr>
+    <tr>
+      <td>Fei et al. (2019)</td>
+      <td style="text-align: center">73.8</td>
+      <td><a href="https://www.aclweb.org/anthology/P19-1064/">End-to-end Deep Reinforcement Learning Based Coreference Resolution</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>(Lee et al., 2017)+ELMo (Peters et al., 2018)+coarse-to-fine &amp; second-order inference (Lee et al., 2018)</td>
+      <td style="text-align: center">73.0</td>
+      <td><a href="http://aclweb.org/anthology/N18-2108">Higher-order Coreference Resolution with Coarse-to-fine Inference</a></td>
+      <td><a href="https://github.com/kentonl/e2e-coref">Official</a></td>
+    </tr>
+    <tr>
+      <td>(Lee et al., 2017)+ELMo (Peters et al., 2018)</td>
+      <td style="text-align: center">70.4</td>
+      <td><a href="https://arxiv.org/abs/1802.05365">Deep contextualized word representations</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Lee et al. (2017)</td>
+      <td style="text-align: center">67.2</td>
+      <td><a href="https://arxiv.org/abs/1707.07045">End-to-end Neural Coreference Resolution</a></td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a name="myfootnote1">[1]</a> Joshi et al. (2019): (Lee et al., 2017)+coarse-to-fine &amp; second-order inference (Lee et al., 2018)+SpanBERT (Joshi et al., 2019)</p>
+
+<p><a name="myfootnote2">[2]</a> Joshi et al. (2019): (Lee et al., 2017)+coarse-to-fine &amp; second-order inference (Lee et al., 2018)+BERT (Devlin et al., 2019)</p>
+
+<h2 id="qald-8">QALD-8</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-7">QALD-7</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-1">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-6">QALD-6</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-2">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-5">QALD-5</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-3">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-4">QALD-4</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-4">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-3">QALD-3</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-5">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-2">QALD-2</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-6">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="qald-1">QALD-1</h2>
+
+<p>Experiments are conducted on <a href="https://github.com/google-research-datasets/gap-coreference">GAP dataset</a>. 
+Metrics used are F1 score on Masculine (M) and Feminine (F) examples, Overall, and a Bias factor calculated as F / M.</p>
+
+<h3 id="leaderboard-7">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Model</th>
+      <th style="text-align: center">Overall F1</th>
+      <th style="text-align: center">Masculine F1 (M)</th>
+      <th style="text-align: center">Feminine F1 (F)</th>
+      <th style="text-align: center">Bias (F/M)</th>
+      <th>Paper / Source</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Attree et al. (2019)</td>
+      <td style="text-align: center">92.5</td>
+      <td style="text-align: center">94.0</td>
+      <td style="text-align: center">91.1</td>
+      <td style="text-align: center">0.97</td>
+      <td><a href="https://arxiv.org/abs/1906.00839">Gendered Ambiguous Pronouns Shared Task: Boosting Model Confidence by Evidence Pooling</a></td>
+      <td><a href="https://github.com/sattree/gap">GREP</a></td>
+    </tr>
+    <tr>
+      <td>Chada et al. (2019)</td>
+      <td style="text-align: center">90.2</td>
+      <td style="text-align: center">90.9</td>
+      <td style="text-align: center">89.5</td>
+      <td style="text-align: center">0.98</td>
+      <td><a href="https://arxiv.org/abs/1906.03695">Gendered Pronoun Resolution using BERT and an extractive question answering formulation</a></td>
+      <td><a href="https://github.com/rakeshchada/corefqa">CorefQA</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="/">Go back to the README</a></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/sebastianruder">sebastianruder</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
