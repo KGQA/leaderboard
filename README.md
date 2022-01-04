@@ -2,7 +2,7 @@
 
 ## Table of contents
 
-### QALD Challenge
+### QALD Series
 
 - [QALD-9](qald/qald.html#qald-9)
 - [QALD-8](qald/qald.html#qald-8)

@@ -1,6 +1,12 @@
-# Question Answering over Linked Data
+# Question Answering over Linked Data (QALD)
 
-Question answering is the task of answering a question.
+**QALD** is a series of evaluation campaigns on question answering over linked data, which aims at providing an up-to-date benchmark for assessing and comparing 
+state-of-the-art systems that mediate between a user, expressing his or her information need in natural language, and RDF data. Thus, it targets all researchers 
+and practitioners working on querying Linked Data, natural language processing for question answering, multilingual information retrieval and related topics. The
+main goal is to gain insights into the strengths and shortcomings of different approaches and into possible solutions for coping with the large, heterogeneous and
+distributed nature of Semantic Web data.
+
+**QALD** has a 9-year history of developing a benchmark that is increasingly being used as standard evaluation benchmark for question answering over Linked Data.
 
 ### Table of contents
 

@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=4957110ecc151ac4dbf7af26c086a7a4a965af25">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=f1c121d21771c6e8fc06ffaa24797b3db51b6131">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Large-scale Complex Question Answering | KGQA-leaderboard</title>
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Large-scale Complex Question Answering" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/lcquad/lcquad.html","headline":"Large-scale Complex Question Answering","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/lcquad/lcquad.html","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","headline":"Large-scale Complex Question Answering","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
@@ -57,7 +57,7 @@
       <section id="main_content" class="inner">
         <h1 id="large-scale-complex-question-answering">Large-scale Complex Question Answering</h1>
 
-<p>Question answering is the task of answering a question.</p>
+<p>LC-QuAD v1.0 and v2.0 are large-scale QA datasets towards complex questions against knowledge graphs.</p>
 
 <h3 id="table-of-contents">Table of contents</h3>
 
@@ -68,31 +68,41 @@
 
 <h2 id="lc-quad-v1">LC-QuAD v1</h2>
 
-<p>The <a href="http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf">Largescale Complex Question Answering Dataset 1.0 (LC-QuAD 1.0)</a> LC-QuAD is a Question Answering dataset with 5000 pairs of question and its corresponding SPARQL query. The target knowledge base is DBpedia, specifically, the April, 2016 version. Please see our paper for details about the dataset creation process and framework.</p>
+<p>The <a href="http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf">Largescale Complex Question Answering Dataset 1.0 (LC-QuAD 1.0)</a> is a Question Answering dataset with 5000 pairs of question and its corresponding SPARQL query. The target knowledge base is DBpedia, specifically, the April, 2016 version. 
+Please see our [paper for details about the dataset creation process and framework.</p>
 
 <h3 id="leaderboard">Leaderboard</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Model</th>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
       <th style="text-align: center">F1</th>
-      <th style="text-align: center">EM</th>
-      <th>Paper</th>
+      <th style="text-align: center">Lang</th>
+      <th style="text-align: center">Reported by</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>BERT (Efimov et al., 2019)</td>
-      <td style="text-align: center">84.8</td>
-      <td style="text-align: center">66.6</td>
-      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+      <td style="text-align: center">STaG-QA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">76.5</td>
+      <td style="text-align: center">52.8</td>
+      <td style="text-align: center">51.4</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
     </tr>
     <tr>
-      <td>DocQA (Efimov et al., 2019)</td>
-      <td style="text-align: center">79.5</td>
-      <td style="text-align: center">59.6</td>
-      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+      <td style="text-align: center">STaG-QA_pre</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">74.5</td>
+      <td style="text-align: center">54.8</td>
+      <td style="text-align: center">53.6</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
     </tr>
   </tbody>
 </table>
@@ -100,32 +110,41 @@
 <h2 id="lc-quad-v2">LC-QuAD v2</h2>
 
 <p>The <a href="http://jens-lehmann.org/files/2019/iswc_lcquad2.pdf">Largescale Complex Question Answering Dataset 2.0 (LC-QuAD 2.0)</a> is a Large Question Answering dataset with 30,000 pairs of question 
-and its corresponding SPARQL query. The target knowledge base is Wikidata and DBpedia, specifically the 2018 version. Please see our paper for details about the dataset creation process 
-and framework.</p>
+and its corresponding SPARQL query. The target knowledge base is <a href="https://wikidata.org/wiki/Wikidata:Main_Page/">Wikidata</a> and <a href="https://dbpedia.org/">DBpedia</a>, specifically the 2018 version. 
+Please see our <a href="https://figshare.com/projects/LCQuAD_2_0/62270">paper</a> for details about the dataset creation process and framework.</p>
 
 <h3 id="leaderboard-1">Leaderboard</h3>
 
 <table>
   <thead>
     <tr>
-      <th>Model</th>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
       <th style="text-align: center">F1</th>
-      <th style="text-align: center">EM</th>
-      <th>Paper</th>
+      <th style="text-align: center">Lang</th>
+      <th style="text-align: center">Reported by</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>BERT (Efimov et al., 2019)</td>
-      <td style="text-align: center">84.8</td>
-      <td style="text-align: center">66.6</td>
-      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+      <td style="text-align: center">NSQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">38.19</td>
+      <td style="text-align: center">40.39</td>
+      <td style="text-align: center">38.29</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.findings-acl.339.pdf">Kapanipathi et al.</a></td>
     </tr>
     <tr>
-      <td>DocQA (Efimov et al., 2019)</td>
-      <td style="text-align: center">79.5</td>
-      <td style="text-align: center">59.6</td>
-      <td><a href="https://arxiv.org/abs/1912.09723">SberQuAD - Russian Reading Comprehension Dataset: Description and Analysis</a></td>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.findings-acl.339.pdf">Kapanipathi et al.</a></td>
     </tr>
   </tbody>
 </table>
@@ -139,7 +158,7 @@ and framework.</p>
     <div id="footer_wrap" class="outer">
       <footer class="inner">
         
-        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/sebastianruder">sebastianruder</a></p>
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/semantic-systems">semantic-systems</a></p>
         
         <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
       </footer>
