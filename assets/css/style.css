@@ -201,7 +201,9 @@ table { border: 1px solid #373737; margin-bottom: 20px; text-align: left; }
 
 th { font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 10px; background: #373737; color: #fff; }
 
-td { padding: 10px; border: 1px solid #373737; }
+td { padding: 10px;  }
+
+tr { border: 1px solid #373737; }
 
 form { background: #f2f2f2; padding: 20px; }
 
@@ -212,11 +214,11 @@ Full-Width Styles
 *******************************************************************************/
 .outer { width: 100%; }
 
-.inner { position: relative; max-width: 640px; padding: 20px 10px; margin: 0 auto; }
+.inner { position: relative; max-width: 900px; padding: 20px 10px; margin: 0 auto; }
 
 #forkme_banner { display: block; position: absolute; top: 0; right: 10px; z-index: 10; padding: 10px 50px 10px 10px; color: #fff; background: url("../images/blacktocat.png") #0090ff no-repeat 95% 50%; font-weight: 700; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
 
-#header_wrap { background: #212121; background: -moz-linear-gradient(top, #373737, #212121); background: -webkit-linear-gradient(top, #373737, #212121); background: -ms-linear-gradient(top, #373737, #212121); background: -o-linear-gradient(top, #373737, #212121); background: linear-gradient(to top, #023e8a, #023e8a); }
+#header_wrap { background: #023e8a; background: -moz-linear-gradient(top, #023e8a, #023e8a); background: -webkit-linear-gradient(top, #023e8a, #023e8a); background: -ms-linear-gradient(top, #023e8a, #023e8a); background: -o-linear-gradient(top, #023e8a, #023e8a); background: linear-gradient(to top, #023e8a, #023e8a); }
 
 #header_wrap .inner { padding: 50px 10px 30px 10px; }
 
