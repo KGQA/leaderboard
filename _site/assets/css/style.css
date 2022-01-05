@@ -216,7 +216,7 @@ Full-Width Styles
 
 #forkme_banner { display: block; position: absolute; top: 0; right: 10px; z-index: 10; padding: 10px 50px 10px 10px; color: #fff; background: url("../images/blacktocat.png") #0090ff no-repeat 95% 50%; font-weight: 700; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); border-bottom-left-radius: 2px; border-bottom-right-radius: 2px; }
 
-#header_wrap { background: #212121; background: -moz-linear-gradient(top, #373737, #212121); background: -webkit-linear-gradient(top, #373737, #212121); background: -ms-linear-gradient(top, #373737, #212121); background: -o-linear-gradient(top, #373737, #212121); background: linear-gradient(to top, #373737, #212121); }
+#header_wrap { background: #212121; background: -moz-linear-gradient(top, #373737, #212121); background: -webkit-linear-gradient(top, #373737, #212121); background: -ms-linear-gradient(top, #373737, #212121); background: -o-linear-gradient(top, #373737, #212121); background: linear-gradient(to top, #023e8a, #023e8a); }
 
 #header_wrap .inner { padding: 50px 10px 30px 10px; }
 
@@ -238,7 +238,7 @@ Full-Width Styles
 
 #main_content { padding-top: 40px; }
 
-#footer_wrap { background: #212121; }
+#footer_wrap { background: #023e8a; }
 
 /*******************************************************************************
 Small Device Styles
