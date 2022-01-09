@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=69f176a11e95f9fd06d3a864faf35b4fbae504bc">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=ca7c17cb39c1937e9967fc602642ce7642e7936f">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Tracking Progress in Question Answering over Knowledge Graphs | KGQA-leaderboard</title>
@@ -20,7 +20,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Tracking Progress in Question Answering over Knowledge Graphs" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/","name":"KGQA-leaderboard","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebSite","headline":"Tracking Progress in Question Answering over Knowledge Graphs","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/","name":"KGQA-leaderboard","headline":"Tracking Progress in Question Answering over Knowledge Graphs","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebSite","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
@@ -59,54 +59,64 @@
 
 <h2 id="table-of-contents">Table of contents</h2>
 
-<h3 id="qald-series">QALD Series</h3>
+<h3 id="dbpedia">DBpedia</h3>
 
 <ul>
-  <li><a href="qald/qald.html#qald-9">QALD-9</a></li>
-  <li><a href="qald/qald.html#qald-8">QALD-8</a></li>
-  <li><a href="qald/qald.html#qald-7">QALD-7</a></li>
-  <li><a href="qald/qald.html#qald-6">QALD-6</a></li>
-  <li><a href="qald/qald.html#qald-5">QALD-5</a></li>
-  <li><a href="qald/qald.html#qald-4">QALD-4</a></li>
-  <li><a href="qald/qald.html#qald-3">QALD-3</a></li>
-  <li><a href="qald/qald.html#qald-2">QALD-2</a></li>
-  <li><a href="qald/qald.html#qald-1">QALD-1</a></li>
+  <li><a href="dbpedia/lcquad.html#lc-quad-v1">LC-QuAD 1.0</a></li>
+  <li><a href="dbpedia/lcquad.html#lc-quad-v2">LC-QuAD 2.0</a></li>
+  <li><a href="dbpedia/qald.html#qald-9">QALD-9</a></li>
+  <li><a href="dbpedia/qald.html#qald-8">QALD-8</a></li>
+  <li><a href="dbpedia/qald.html#qald-7">QALD-7</a></li>
+  <li><a href="dbpedia/qald.html#qald-6">QALD-6</a></li>
+  <li><a href="dbpedia/qald.html#qald-5">QALD-5</a></li>
+  <li><a href="dbpedia/qald.html#qald-4">QALD-4</a></li>
+  <li><a href="dbpedia/qald.html#qald-3">QALD-3</a></li>
+  <li><a href="dbpedia/qald.html#qald-2">QALD-2</a></li>
+  <li><a href="dbpedia/qald.html#qald-1">QALD-1</a></li>
+  <li><a href="dbpedia/simple_dbpedia_qa.html">SimpleDBpediaQA</a></li>
+  <li><a href="dbpedia/mlpq.html">MLPQ</a></li>
 </ul>
 
-<h3 id="lc-quad">LC-QuAD</h3>
+<h3 id="wikidata">Wikidata</h3>
 
 <ul>
-  <li><a href="lcquad/lcquad.html#lc-quad-v1">LC-QuAD 1.0</a></li>
-  <li><a href="lcquad/lcquad.html#lc-quad-v2">LC-QuAD 2.0</a></li>
+  <li><a href="wikidata/kqa_pro.html">KQA Pro</a></li>
+  <li><a href="wikidata/rubq.html#rubq-1">RuQA 1.0</a></li>
+  <li><a href="wikidata/rubq.html#rubq-2">RuQA 2.0</a></li>
+  <li><a href="wikidata/compositional_wikidata_questions.html">Compositional Wikidata Questions</a></li>
+  <li><a href="wikidata/time_questions.html">TimeQuestions</a></li>
+  <li><a href="wikidata/cron_questions.html">CronQuestions</a></li>
+  <li><a href="wikidata/clcquad.html">CLC-QuAD</a></li>
+  <li><a href="wikidata/simple_questions_wikidata.html">SimpleQuestionsWikidata</a></li>
 </ul>
 
-<p>This document aims to track the progress in Natural Language Processing (NLP) and give an overview
-of the state-of-the-art (SOTA) across the most common NLP tasks and their corresponding datasets.</p>
+<h3 id="freebase">Freebase</h3>
 
-<p>It aims to cover both traditional and core NLP tasks such as dependency parsing and part-of-speech tagging
-as well as more recent ones such as reading comprehension and natural language inference. The main objective
-is to provide the reader with a quick overview of benchmark datasets and the state-of-the-art for their
-task of interest, which serves as a stepping stone for further research. To this end, if there is a 
-place where results for a task are already published and regularly maintained, such as a public leaderboard,
-the reader will be pointed there.</p>
+<ul>
+  <li><a href="freebase/free917.html">Free917</a></li>
+  <li><a href="freebase/web_questions.html">WebQuestions</a></li>
+  <li><a href="freebase/complex_questions.html">ComplexQuestions</a></li>
+  <li><a href="freebase/graph_questions.html">GraphQuestions</a></li>
+  <li><a href="freebase/web_questions_sp.html">WebQuestionSP</a></li>
+  <li><a href="freebase/complex_web_questions.html">ComplexWebQuestions</a></li>
+  <li><a href="freebase/the_30m_factoid_qa.html">30M Factoid QA</a></li>
+  <li><a href="freebase/path_question.html">PathQuestion</a></li>
+  <li><a href="freebase/compositional_freebase_questions.html">Compositional Freebase Questions</a></li>
+  <li><a href="freebase/grailqa/grailqa.html">GrailQA</a></li>
+  <li><a href="freebase/temp_questions.html">TempQuestions</a></li>
+</ul>
 
-<p>If you want to find this document again in the future, just go to <a href="https://nlpprogress.com/"><code class="language-plaintext highlighter-rouge">nlpprogress.com</code></a>
-or <a href="http://nlpsota.com/"><code class="language-plaintext highlighter-rouge">nlpsota.com</code></a> in your browser.</p>
+<h3 id="other-kgs">Other KGs</h3>
+
+<ul>
+  <li><a href="other/meta_qa.html">MetaQA</a></li>
+  <li><a href="other/event_kg.html">EventKQ</a></li>
+</ul>
+
+<p>This document aims to provide a central place where the capabilities of different KGQA approaches can be compared, and give a global view of the state-of-the-art (SOTA) across these QA benchmarks.
+Thus, the trust of evaluation results could be further enhanced, especially in the case that they are incomplete or missing while comparing to certain systems.</p>
 
 <h3 id="contributing">Contributing</h3>
-
-<h4 id="guidelines">Guidelines</h4>
-
-<p><strong>Results</strong>   Results reported in published papers are preferred; an exception may be made for influential preprints.</p>
-
-<p><strong>Datasets</strong>   Datasets should have been used for evaluation in at least one published paper besides 
-the one that introduced the dataset.</p>
-
-<p><strong>Code</strong>   We recommend to add a link to an implementation 
-if available. You can add a <code class="language-plaintext highlighter-rouge">Code</code> column (see below) to the table if it does not exist.
-In the <code class="language-plaintext highlighter-rouge">Code</code> column, indicate an official implementation with <a href="http://link_to_implementation">Official</a>.
-If an unofficial implementation is available, use <a href="http://link_to_implementation">Link</a> (see below).
-If no implementation is available, you can leave the cell empty.</p>
 
 <h4 id="adding-a-new-result">Adding a new result</h4>
 
@@ -147,41 +157,23 @@ In both cases, follow the steps below:</p>
 <table>
   <thead>
     <tr>
-      <th>Model</th>
-      <th style="text-align: center">Score</th>
-      <th>Paper / Source</th>
-      <th>Code</th>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Metric1</th>
+      <th style="text-align: center">Metric2</th>
+      <th style="text-align: center">Reported by</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td> </td>
       <td style="text-align: center"> </td>
-      <td> </td>
-      <td> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
+      <td style="text-align: center"> </td>
     </tr>
   </tbody>
 </table>
-
-<h3 id="wish-list">Wish list</h3>
-
-<p>These are tasks and datasets that are still missing:</p>
-
-<ul>
-  <li>Bilingual dictionary induction</li>
-  <li>Discourse parsing</li>
-  <li>Keyphrase extraction</li>
-  <li>Knowledge base population (KBP)</li>
-  <li>More dialogue tasks</li>
-  <li>Semi-supervised learning</li>
-  <li>Frame-semantic parsing (FrameNet full-sentence analysis)</li>
-</ul>
-
-<h3 id="exporting-into-a-structured-format">Exporting into a structured format</h3>
-
-<p>You can extract all the data into a structured, machine-readable JSON format with parsed tasks, descriptions and SOTA tables.</p>
-
-<p>The instructions are in <a href="/structured/">structured/README.md</a>.</p>
 
 <h3 id="instructions-for-building-the-site-locally">Instructions for building the site locally</h3>
 

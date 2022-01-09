@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=ca7c17cb39c1937e9967fc602642ce7642e7936f">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Large-scale Complex Question Answering | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Large-scale Complex Question Answering" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/dbpedia/lcquad.html" />
+<meta property="og:url" content="http://localhost:4000/dbpedia/lcquad.html" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Large-scale Complex Question Answering" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/dbpedia/lcquad.html","headline":"Large-scale Complex Question Answering","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="large-scale-complex-question-answering">Large-scale Complex Question Answering</h1>
+
+<p>LC-QuAD v1.0 and v2.0 are large-scale QA datasets towards complex questions against knowledge graphs.</p>
+
+<h3 id="table-of-contents">Table of contents</h3>
+
+<ul>
+  <li><a href="#lc-quad-v1">LC-QuAD 1.0</a></li>
+  <li><a href="#lc-quad-v2">LC-QuAD 2.0</a></li>
+</ul>
+
+<h2 id="lc-quad-v1">LC-QuAD v1</h2>
+
+<p>The Largescale Complex Question Answering Dataset 1.0 (LC-QuAD 1.0)<sup><a href="#myfootnote1">[1]</a></sup> is a Question Answering dataset with 5000 pairs of question and its corresponding SPARQL query. The target knowledge base is DBpedia, specifically, the April, 2016 version. 
+Please see the original <a href="http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf">paper</a> for details about the dataset creation process and framework.</p>
+
+<p>This dataset can be downloaded via the <a href="https://github.com/AskNowQA/LC-QuAD">link</a>.</p>
+
+<h3 id="leaderboard">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">Language</th>
+      <th style="text-align: center">Reported by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">LAMA</td>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">81.60</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="http://www.semantic-web-journal.net/system/files/swj2537.pdf">Radoev et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G Maheshwari et. al. Pointwise</td>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">65</td>
+      <td style="text-align: center">76</td>
+      <td style="text-align: center">70</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/1811.01118.pdf">G Maheshwari et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">G Maheshwari et. al. Pairwise</td>
+      <td style="text-align: center">2019</td>
+      <td style="text-align: center">66</td>
+      <td style="text-align: center">77</td>
+      <td style="text-align: center">71</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/1811.01118.pdf">G Maheshwari et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">73</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">85.50</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">71.70</td>
+      <td style="text-align: center">FA</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">82.40</td>
+      <td style="text-align: center">DE</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">72.60</td>
+      <td style="text-align: center">RO</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">72.30</td>
+      <td style="text-align: center">IT</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">74.50</td>
+      <td style="text-align: center">RU</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">73.20</td>
+      <td style="text-align: center">FR</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">80.90</td>
+      <td style="text-align: center">NL</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">76.10</td>
+      <td style="text-align: center">ES</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">71.90</td>
+      <td style="text-align: center">HI_IN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">74</td>
+      <td style="text-align: center">PT</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">STaG-QA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">76.50</td>
+      <td style="text-align: center">52.80</td>
+      <td style="text-align: center">51.40</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">STaG-QA_pre</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">74.50</td>
+      <td style="text-align: center">54.80</td>
+      <td style="text-align: center">53.60</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NSQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">44.80</td>
+      <td style="text-align: center">45.80</td>
+      <td style="text-align: center">44.40</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Wdaqua-core0</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">38</td>
+      <td style="text-align: center">28</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">WDAqua-core1</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">59</td>
+      <td style="text-align: center">38</td>
+      <td style="text-align: center">46</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf">Liang et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Frankenstein</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">20</td>
+      <td style="text-align: center">21</td>
+      <td style="text-align: center">20</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf">Liang et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Liang et al.</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">88</td>
+      <td style="text-align: center">56</td>
+      <td style="text-align: center">68</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf">Liang et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Wdaqua-core0</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">15</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2105.00811.pdf">Orogat et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Qanary(TM+DP+QB)</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2105.00811.pdf">Orogat et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QASparql</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">34</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2105.00811.pdf">Orogat et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">AskNow</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">11</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2105.00811.pdf">Orogat et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">WDAqua-core1</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">38</td>
+      <td style="text-align: center">28</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17988">Abdelaziz et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17988">Abdelaziz et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DTQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">33.94</td>
+      <td style="text-align: center">34.99</td>
+      <td style="text-align: center">33.72</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/17988">Abdelaziz et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://link.springer.com/article/10.1007/s13740-021-00128-9">Steinmetz et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">WDAqua-core1</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">38</td>
+      <td style="text-align: center">28</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://link.springer.com/article/10.1007/s13740-021-00128-9">Steinmetz et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">WDAqua-core1</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">38</td>
+      <td style="text-align: center">28</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33.33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Stage-I No Noise</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">83.11</td>
+      <td style="text-align: center">83.04</td>
+      <td style="text-align: center">83.08</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Stage-I Part Noise</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">42.40</td>
+      <td style="text-align: center">42.26</td>
+      <td style="text-align: center">42.33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Stage-I Full Noise</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25.54</td>
+      <td style="text-align: center">25.64</td>
+      <td style="text-align: center">25.59</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Stage-II w/o type</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">32.12</td>
+      <td style="text-align: center">32.20</td>
+      <td style="text-align: center">32.18</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Stage-II w/ type</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">37.03</td>
+      <td style="text-align: center">37.06</td>
+      <td style="text-align: center">37.05</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.09475.pdf">Purkayastha et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">sparql-qa</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">49.50</td>
+      <td style="text-align: center">49.20</td>
+      <td style="text-align: center">49.10</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="http://ceur-ws.org/Vol-2918/paper3.pdf"> M. Borroto et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">STAGG</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">69</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HR-BiLSTM</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">70</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Slot-Matching</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">71</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">AQGnet</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">74.80</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">DAM</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">72</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">S-Ranking</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">65.89</td>
+      <td style="text-align: center">75.30</td>
+      <td style="text-align: center">69.53</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">O-Ranking</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">75.54</td>
+      <td style="text-align: center">74.95</td>
+      <td style="text-align: center">74.81</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">BART</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">48.01</td>
+      <td style="text-align: center">49.19</td>
+      <td style="text-align: center">47.62</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NHGG</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">46.93</td>
+      <td style="text-align: center">48.36</td>
+      <td style="text-align: center">46.12</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">HGNet</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">75.82</td>
+      <td style="text-align: center">75.22</td>
+      <td style="text-align: center">75.10</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.00732.pdf">Chen et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">SYGMA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">47</td>
+      <td style="text-align: center">48</td>
+      <td style="text-align: center">47</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://www.researchgate.net/publication/354950006_SYGMA_System_for_Generalizable_Modular_Question_Answering_OverKnowledge_Bases"> S Neelam et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Evseev D. A. et al</td>
+      <td style="text-align: center">2020</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://www.dialog-21.ru/media/5088/evseevdaplusarkhipov-myu-048.pdf"> Evseev D. A. et al</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="lc-quad-v2">LC-QuAD v2</h2>
+
+<p>The Largescale Complex Question Answering Dataset 2.0 (LC-QuAD 2.0)<sup><a href="#myfootnote2">[2]</a></sup> is a Large Question Answering dataset with 30,000 pairs of question 
+and its corresponding SPARQL query. The target knowledge base is <a href="https://wikidata.org/wiki/Wikidata:Main_Page/">Wikidata</a> and <a href="https://dbpedia.org/">DBpedia</a>, specifically the 2018 version. 
+Please see our <a href="https://figshare.com/projects/LCQuAD_2_0/62270">paper</a> for details about the dataset creation process and framework.</p>
+
+<p>This dataset can be downloaded via the <a href="https://figshare.com/projects/LCQuAD_2_0/62270">link</a>.</p>
+
+<h3 id="leaderboard-1">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">Language</th>
+      <th style="text-align: center">Reported by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">ElNeuQA-ConvS2S [1]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">26.90</td>
+      <td style="text-align: center">27</td>
+      <td style="text-align: center">26.90</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2107.02865.pdf">Diomedi, Hogan</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">AQG-net</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">44.90</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.06086.pdf">Zou et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Multi-hop QGG</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">52.60</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.06086.pdf">Zou et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Zou et al. + Tencent Word</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">52.90</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.06086.pdf">Zou et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Zou et al. + Bert</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">59.30</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2111.06086.pdf">Zou et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NSQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">38.19</td>
+      <td style="text-align: center">40.39</td>
+      <td style="text-align: center">38.29</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.findings-acl.339.pdf">Kapanipathi et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">QAmp</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">25</td>
+      <td style="text-align: center">50</td>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.findings-acl.339.pdf">Kapanipathi et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">GRAFT-Net  [2]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.06109.pdf">Y Feng et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NT-GRAFT-Net [3]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.06109.pdf">Y Feng et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NSM [4]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.06109.pdf">Y Feng et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">NT-NSM [5]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.06109.pdf">Y Feng et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Evseev D. A. et al</td>
+      <td style="text-align: center">2020</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://www.dialog-21.ru/media/5088/evseevdaplusarkhipov-myu-048.pdf"> Evseev D. A. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">GRAFT-Net + Clocq [6]</td>
+      <td style="text-align: center">2022</td>
+      <td style="text-align: center">19.70</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2108.08597.pdf">Christmann P. et al</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>[1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues..</li>
+  <li>[2] only ordinal questions.</li>
+  <li>[3] only ordinal questions.</li>
+  <li>[4] only ordinal questions.</li>
+  <li>[5] only ordinal questions.</li>
+  <li>[6] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0.</li>
+</ul>
+
+<h2 id="lc-quad-v2--qald-9">LC-QuAD v2 + QALD-9</h2>
+
+<h3 id="leaderboard-2">Leaderboard</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">Language</th>
+      <th style="text-align: center">Reported by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">mBERT [1]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">66.7</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [2]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">60.0</td>
+      <td style="text-align: center">FA</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [3]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">62.2</td>
+      <td style="text-align: center">DE</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [4]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">62.1</td>
+      <td style="text-align: center">RO</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [5]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">57.7</td>
+      <td style="text-align: center">IT</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [6]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">63.5</td>
+      <td style="text-align: center">RU</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [7]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">63.6</td>
+      <td style="text-align: center">FR</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [8]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">65.9</td>
+      <td style="text-align: center">NL</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [9]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">58.8</td>
+      <td style="text-align: center">ES</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [10]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">62.6</td>
+      <td style="text-align: center">HI_IN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [11]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">63.5</td>
+      <td style="text-align: center">PT</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mBERT [12]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">70.0</td>
+      <td style="text-align: center">PT_BR</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.naacl-main.465.pdf">Zhou Y. et al</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>[1] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[2] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[3] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[4] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[5] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[6] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[7] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[8] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[9] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[10] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[11] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+  <li>[12] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss.</li>
+</ul>
+
+<h2 id="references">References</h2>
+<p><a name="myfootnote1">[1]</a> Trivedi, Priyansh, Gaurav Maheshwari, Mohnish Dubey, and Jens Lehmann. <a href="http://lc-quad.sda.tech/static/ISWC2017_paper_152.pdf">Lc-quad: A corpus for complex question answering over knowledge graphs.</a> In International Semantic Web Conference, pp. 210-218. Springer, Cham, 2017.</p>
+
+<p><a name="myfootnote2">[2]</a> Dubey, Mohnish, Debayan Banerjee, Abdelrahman Abdelkawi, and Jens Lehmann. <a href="http://jens-lehmann.org/files/2019/iswc_lcquad2.pdf">Lc-quad 2.0: A large dataset for complex question answering over wikidata and dbpedia.</a> In International semantic web conference, pp. 69-78. Springer, Cham, 2019.</p>
+
+<p><a href="/">Go back to the README</a></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/semantic-systems">semantic-systems</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=ca7c17cb39c1937e9967fc602642ce7642e7936f">
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>CronQuestions | KGQA-leaderboard</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="CronQuestions" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<meta property="og:description" content="Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks." />
+<link rel="canonical" href="http://localhost:4000/wikidata/cron_questions.html" />
+<meta property="og:url" content="http://localhost:4000/wikidata/cron_questions.html" />
+<meta property="og:site_name" content="KGQA-leaderboard" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="CronQuestions" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/wikidata/cron_questions.html","headline":"CronQuestions","description":"Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          
+            <a id="forkme_banner" href="https://github.com/semantic-systems/KGQA-leaderboard">View on GitHub</a>
+          
+
+          <h1 id="project_title">KGQA-leaderboard</h1>
+          <h2 id="project_tagline">Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.</h2>
+
+          
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1 id="cronquestions">CronQuestions</h1>
+
+<p><strong>CronQuestions</strong><sup><a href="#myfootnote1">[1]</a></sup> is the largest known Temporal KGQA dataset, clearly stratified into buckets of structural complexity. CronQuestions expands the only known previous dataset by a factor of 340×.
+This dataset consists of two parts: a KG with temporal annotations, and a set of natural language questions requiring temporal reasoning. Temporal KG was prepared by taking all facts with temporal 
+annotations from the WikiData subset. The QA dataset was generated with a set of templates for temporal reasoning. These were made using the five most frequent relations from our WikiData subset, namely
+<em>member of sports team</em>, <em>position held</em>, <em>award received</em>, <em>spouse</em>, and <em>employer</em>.</p>
+
+<h2 id="leaderboard-overall">Leaderboard: Overall</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Hits@1</th>
+      <th style="text-align: center">Hits@10</th>
+      <th style="text-align: center">Reported by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">BERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.071</td>
+      <td style="text-align: center">0.213</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2106.01515.pdf">Saxena et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">BERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.243</td>
+      <td style="text-align: center">0.620</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RoBERTa</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.225</td>
+      <td style="text-align: center">0.585</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">RoBERTa</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.07</td>
+      <td style="text-align: center">0.202</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2106.01515.pdf">Saxena et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">KnowBERT</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.07</td>
+      <td style="text-align: center">0.201</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2106.01515.pdf">Saxena et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T5-3B</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.081</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2106.01515.pdf">Saxena et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">EmbedKGQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.288</td>
+      <td style="text-align: center">0.672</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T-EaE-add</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.278</td>
+      <td style="text-align: center">0.663</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2106.01515.pdf">Saxena et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">EaE</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.288</td>
+      <td style="text-align: center">0.678</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">CronKGQA</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.647</td>
+      <td style="text-align: center">0.884</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">EntityQR</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.745</td>
+      <td style="text-align: center">0.944</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TempoQR-Soft</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.799</td>
+      <td style="text-align: center">0.957</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TempoQR-Hard</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">0.918</td>
+      <td style="text-align: center">0.978</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2112.05785.pdf">Mavromatis et. al.</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="references">References</h2>
+<p><a name="myfootnote1">[1]</a> Saxena, Apoorv, Soumen Chakrabarti, and Partha Talukdar. <a href="https://arxiv.org/abs/2106.01515">Question Answering Over Temporal Knowledge Graphs.</a> arXiv preprint arXiv:2106.01515 (2021).</p>
+
+<p><a href="/">Go back to the README</a></p>
+
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        
+        <p class="copyright">KGQA-leaderboard maintained by <a href="https://github.com/semantic-systems">semantic-systems</a></p>
+        
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
