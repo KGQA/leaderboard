@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=8d554dc6626aa77df78f4790473aeca00a753d84">
+    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css?v=2487433cf59c6299e7edb19e666147a8f40531b4">
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>SimpleQuestionsWikidata | KGQA-leaderboard</title>
@@ -63,8 +63,130 @@
 
 <h2 id="leaderboard">Leaderboard</h2>
 
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Model / System</th>
+      <th style="text-align: center">Year</th>
+      <th style="text-align: center">Precision</th>
+      <th style="text-align: center">Recall</th>
+      <th style="text-align: center">F1</th>
+      <th style="text-align: center">Language</th>
+      <th style="text-align: center">Reported by</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">STaG-QA_pre [1]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">60.2</td>
+      <td style="text-align: center">63.2</td>
+      <td style="text-align: center">61.7</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">STaG-QA [2]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">59.4</td>
+      <td style="text-align: center">62.7</td>
+      <td style="text-align: center">60.1</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/abs/2111.05825">Ravishankar et al.</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">SYGMA [3]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">42</td>
+      <td style="text-align: center">55</td>
+      <td style="text-align: center">44</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://arxiv.org/pdf/2109.13430.pdf">Neelam S et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">MemNN</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.emnlp-main.345.pdf">Oliya A et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">KBQA-Adapter</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.emnlp-main.345.pdf">Oliya A et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rigel-Baseline</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.emnlp-main.345.pdf">Oliya A et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rigel-ER</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.emnlp-main.345.pdf">Oliya A et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rigel-E2E</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://aclanthology.org/2021.emnlp-main.345.pdf">Oliya A et al</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Rigel-E2E</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ad-publications.cs.uni-freiburg.de/theses/Master_Thomas_Götte_2021.pdf">Thomas Goette</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Aqqu Wikidata (rules)</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ad-publications.cs.uni-freiburg.de/theses/Master_Thomas_Götte_2021.pdf">Thomas Goette</a></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Aqqu Wikidata (learned) [4]</td>
+      <td style="text-align: center">2021</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">EN</td>
+      <td style="text-align: center"><a href="https://ad-publications.cs.uni-freiburg.de/theses/Master_Thomas_Götte_2021.pdf">Thomas Goette</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>[1]  wikidata 03/2020.</li>
+  <li>[2]  wikidata 03/2020.</li>
+  <li>[3] wikidata version not stated.</li>
+  <li>[4] Wikidata dump 2021-06-10.</li>
+</ul>
+
 <h2 id="references">References</h2>
-<p><a name="myfootnote1">[1]</a> Diefenbach, Dennis, Thomas Tanon, Kamal Singh, and Pierre Maret. “Question answering benchmarks for wikidata.” In ISWC 2017. 2017.</p>
+<p><a name="myfootnote1">[1]</a> Diefenbach, Dennis, Thomas Tanon, Kamal Singh, and Pierre Maret. <a href="http://ceur-ws.org/Vol-1963/paper555.pdf">Question answering benchmarks for wikidata.</a> In ISWC 2017. 2017.</p>
 
 <p><a href="/">Go back to the README</a></p>
 
