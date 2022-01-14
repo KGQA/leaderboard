@@ -1,0 +1,238 @@
+Dataset,System,Link,Year,F1
+QALD-1,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,14
+QALD-1,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,24
+QALD-1,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,1
+QALD-1,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,7
+QALD-1,FREyA,https://arxiv.org/pdf/2105.00811.pdf,2013,58
+QALD-1,PowerAqua,https://arxiv.org/pdf/2105.00811.pdf,2013,50
+QALD-2,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,16
+QALD-2,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,21
+QALD-2,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,1
+QALD-2,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,10
+QALD-2,SemSeK,https://www.sciencedirect.com/science/article/pii/S157082681300022X?casa_token=NBVj-I48uxAAAAAA:izoYV-LubTYApUYRCtnZFPuvdACyWHHNnwVBjo1S1K24AiXYmMde9vdEBsCxdpAvlfNvPswrzr8#br000150,2013,46
+QALD-2,Alexandria,https://www.sciencedirect.com/science/article/pii/S157082681300022X?casa_token=NBVj-I48uxAAAAAA:izoYV-LubTYApUYRCtnZFPuvdACyWHHNnwVBjo1S1K24AiXYmMde9vdEBsCxdpAvlfNvPswrzr8#br000150,2013,45
+QALD-2,MHE,https://www.sciencedirect.com/science/article/pii/S157082681300022X?casa_token=NBVj-I48uxAAAAAA:izoYV-LubTYApUYRCtnZFPuvdACyWHHNnwVBjo1S1K24AiXYmMde9vdEBsCxdpAvlfNvPswrzr8#br000150,2013,38
+QALD-2,QAKiS,https://www.sciencedirect.com/science/article/pii/S157082681300022X?casa_token=NBVj-I48uxAAAAAA:izoYV-LubTYApUYRCtnZFPuvdACyWHHNnwVBjo1S1K24AiXYmMde9vdEBsCxdpAvlfNvPswrzr8#br000150,2013,38
+QALD-2,QAKiS,https://hal.inria.fr/hal-01171115/,2013,38
+QALD-2,BELA,https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf,2012,67
+QALD-2,WolframAlpha,https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf,2012,30.9
+QALD-2,TLDRet,https://link.springer.com/article/10.1007/s10844-017-0483-2,2018,63
+QALD-2,SenseAware,https://www.researchgate.net/profile/Ziqi-Zhang-13/publication/287589278_Using_BabelNet_in_bridging_the_gap_between_natural_language_queries_and_linked_data_concepts/links/5aba9998a6fdcc71647082e0/Using-BabelNet-in-bridging-the-gap-between-natural-language-queries-and-linked-data-concepts.pdf,2013,52
+QALD-2,semanticQA,https://dl.acm.org/doi/abs/10.1145/2457317.2457331?casa_token=36QssuFGvwYAAAAA:N1avCIXP2n0_cEVCFYRcMkZcQXHmojZSm93T1lJ1OtIkCrMN2pfEkW01mqvUdBHiFZWGyDbzfgbXrg,2013,46
+QALD-2,robustQA,https://dl.acm.org/doi/abs/10.1145/2505515.2505677?casa_token=Qq2Vo4VRohsAAAAA:s_GSmXPMLjasepBGBARFWENM9qRQE6pqVY5bnVUMzAV5G0s50-5Igpj1jgwrnnfXEJjX2wTI4wmyzg,2013,23
+QALD-2,robustQA,https://dl.acm.org/doi/abs/10.1145/2505515.2505677?casa_token=Qq2Vo4VRohsAAAAA:s_GSmXPMLjasepBGBARFWENM9qRQE6pqVY5bnVUMzAV5G0s50-5Igpj1jgwrnnfXEJjX2wTI4wmyzg,2013,68
+QALD-3,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,11
+QALD-3,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,16
+QALD-3,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,2
+QALD-3,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,6
+QALD-3,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,13
+QALD-3,CASIA,http://www.nlpr.ia.ac.cn/cip/shizhuhe/articles/QALD-3.pdf,2013,36
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,51
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,42
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,41
+QALD-3,gAnswer,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,40
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,38
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,37
+QALD-3,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,36
+QALD-3,RTV,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,33
+QALD-3,Intui2,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,32
+QALD-3,SINA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,32
+QALD-3,DEANNA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,21
+QALD-3,SWIP,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,17
+QALD-3,Zhu et al.,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,38
+QALD-3,Intui2,https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.666.7844&rep=rep1&type=pdf,2013,32
+QALD-3,CASIA,http://nlpr-web.ia.ac.cn/cip/~liukang/liukangPageFile/QALD-3.pdf,2013,36
+QALD-3,virtual player,https://reader.elsevier.com/reader/sd/pii/S0004370215000259?token=FB393D21799A6B75BDC436414AE01B228DF054D86D53A35C538F9F7B859CBD11103353F39E7530607239E025589F7A18&originRegion=eu-west-1&originCreation=20220102201741,2015,64.29
+QALD-3,virtual player,https://reader.elsevier.com/reader/sd/pii/S0004370215000259?token=FB393D21799A6B75BDC436414AE01B228DF054D86D53A35C538F9F7B859CBD11103353F39E7530607239E025589F7A18&originRegion=eu-west-1&originCreation=20220102201741,2015,59.47
+QALD-4,Xser,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,72
+QALD-4,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,39
+QALD-4,gAnswer,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,37
+QALD-4,CASIA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,36
+QALD-4,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,32
+QALD-4,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,32
+QALD-4,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,32
+QALD-4,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,29
+QALD-4,Intui3,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,24
+QALD-4,ISOFT,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,23
+QALD-4,Hakimov,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,21
+QALD-4,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,12
+QALD-4,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,16
+QALD-4,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,1
+QALD-4,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,8
+QALD-4,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,8
+QALD-4,Zhang et. al.,https://ojs.aaai.org/index.php/AAAI/article/view/10381,2016,88
+QALD-4,POMELO,https://ojs.aaai.org/index.php/AAAI/article/view/10381,2016,85
+QALD-4,RO FII,https://ojs.aaai.org/index.php/AAAI/article/view/10381,2016,16
+QALD-4,SINA,https://ojs.aaai.org/index.php/AAAI/article/view/10381,2016,79
+QALD-5,Xser,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,73
+QALD-5,UTQA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,65
+QALD-5,UTQA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,54
+QALD-5,UTQA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,52
+QALD-5,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,47
+QALD-5,AskNow,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,33
+QALD-5,QAnswer,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,29
+QALD-5,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,28
+QALD-5,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,28
+QALD-5,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,30
+QALD-5,WDAqua-core1,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,25
+QALD-5,SemGraphQA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,20
+QALD-5,YodaQA,http://www.semantic-web-journal.net/system/files/swj2038.pdf,2020,18
+QALD-5,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,18
+QALD-5,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,20
+QALD-5,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,2
+QALD-5,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,12
+QALD-5,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,9
+QALD-5,UTQA,https://aclanthology.org/W16-1403.pdf,2016,65.2
+QALD-5,ISOFT,missing,2015,33
+QALD-6,gAnswer,https://ieeexplore.ieee.org/document/8085196,2017,78
+QALD-6,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,24
+QALD-6,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,25
+QALD-6,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,2
+QALD-6,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,17
+QALD-6,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,9
+QALD-7,G Maheshwari et. al. Pointwise,https://arxiv.org/pdf/1811.01118.pdf,2019,34
+QALD-7,G Maheshwari et. al. Pairwise,https://arxiv.org/pdf/1811.01118.pdf,2019,28
+QALD-7,WDAqua-core0,https://arxiv.org/pdf/2004.13843.pdf,2020,51
+QALD-7,gAnswer2,https://arxiv.org/pdf/2004.13843.pdf,2020,55.6
+QALD-7,TeBaQA RNN,https://arxiv.org/pdf/2004.13843.pdf,2020,41.7
+QALD-7,LAMA,https://arxiv.org/pdf/2004.13843.pdf,2019,90.5
+QALD-7,WDAqua-core0,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,51.1
+QALD-7,gAnswer2,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,55.6
+QALD-7,Liang et al.,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,63.9
+QALD-7,STAGG,https://arxiv.org/pdf/2101.01510.pdf,2021,18.61
+QALD-7,Yu et al.,https://arxiv.org/pdf/2101.01510.pdf,2021,19.23
+QALD-7,Luo et al.,https://arxiv.org/pdf/2101.01510.pdf,2021,20.16
+QALD-7,GGNN,https://arxiv.org/pdf/2101.01510.pdf,2021,21.1
+QALD-7,gGCN,https://arxiv.org/pdf/2101.01510.pdf,2021,24.37
+QALD-7,gRGCN,https://arxiv.org/pdf/2101.01510.pdf,2021,30.24
+QALD-7,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,29
+QALD-7,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,6
+QALD-7,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,17
+QALD-7,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,15
+QALD-7,Platypus,https://arxiv.org/pdf/2105.00811.pdf,2021,8
+QALD-7,LingTeQA,https://ieeexplore.ieee.org/abstract/document/9282949,2020,64.2
+QALD-8,qaSearch,https://arxiv.org/pdf/1910.09760.pdf,2019,24.4
+QALD-8,qaSQP,https://arxiv.org/pdf/1910.09760.pdf,2019,46.1
+QALD-8,QAKiS,https://arxiv.org/pdf/1910.09760.pdf,2019,5.6
+QALD-8,WDAqua-core0,https://arxiv.org/pdf/1910.09760.pdf,2019,38.7
+QALD-8,gAnswer2,https://arxiv.org/pdf/1910.09760.pdf,2019,38.8
+QALD-8,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,33
+QALD-8,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,4
+QALD-8,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,30
+QALD-8,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,13
+QALD-8,Platypus,https://arxiv.org/pdf/2105.00811.pdf,2021,6
+QALD-8,QAKiS,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,5.63
+QALD-8,gAnswer,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,38.8
+QALD-8,WDAqua-core0,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,38.72
+QALD-9,Elon,https://arxiv.org/pdf/1910.09760.pdf,2019,5
+QALD-9,QASystem,https://arxiv.org/pdf/1910.09760.pdf,2019,9.8
+QALD-9,TeBaQA,https://arxiv.org/pdf/1910.09760.pdf,2019,13
+QALD-9,WDAqua-core1,https://arxiv.org/pdf/1910.09760.pdf,2019,25
+QALD-9,gAnswer2,https://arxiv.org/pdf/1910.09760.pdf,2019,29.8
+QALD-9,qaSearch,https://arxiv.org/pdf/1910.09760.pdf,2019,23.7
+QALD-9,qaSQP,https://arxiv.org/pdf/1910.09760.pdf,2019,46.3
+QALD-9,WDAqua-core1,https://dl.acm.org/doi/pdf/10.1145/3357384.3358026?casa_token=X_2SYFDIrd8AAAAA:Z9FcBHNuARtktnurgKswRUvVZx7E1eSdRsXWqVIZej6fJDVTcUGVQ-aqazqiStuQKqAd362eKw3CzQ,2019,28
+QALD-9,QAmp,https://dl.acm.org/doi/pdf/10.1145/3357384.3358026?casa_token=X_2SYFDIrd8AAAAA:Z9FcBHNuARtktnurgKswRUvVZx7E1eSdRsXWqVIZej6fJDVTcUGVQ-aqazqiStuQKqAd362eKw3CzQ,2019,33
+QALD-9,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,32
+QALD-9,gAnswer,https://arxiv.org/pdf/2105.00811.pdf,2021,30
+QALD-9,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,7
+QALD-9,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,19
+QALD-9,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,8
+QALD-9,WDAqua-core1,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,24.99
+QALD-9,gAnswer,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,29.81
+QALD-9,DTQA,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,30.88
+QALD-9,Elon,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,5
+QALD-9,QASystem,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,9.8
+QALD-9,TeBaQA,,2021,13
+QALD-9,WDAqua-core1,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,25
+QALD-9,gAnswer,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,29.8
+QALD-9,WDAqua-core1,https://arxiv.org/pdf/2109.09475.pdf,2021,25
+QALD-9,gAnswer,https://arxiv.org/pdf/2109.09475.pdf,2021,29.8
+QALD-9,Stage-I No Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,40.9
+QALD-9,Stage-I Part Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,22.4
+QALD-9,Stage-I Full Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,20.6
+QALD-9,Stage-II w/o type,https://arxiv.org/pdf/2109.09475.pdf,2021,23.3
+QALD-9,Stage-II w/ type,https://arxiv.org/pdf/2109.09475.pdf,2021,23.3
+QALD-9,WDAqua-core1,http://ceur-ws.org/Vol-2980/paper312.pdf,2021,24.99
+QALD-9,gAnswer,http://ceur-ws.org/Vol-2980/paper312.pdf,2021,29.81
+QALD-9,DTQA,http://ceur-ws.org/Vol-2980/paper312.pdf,2021,30.88
+QALD-9,KGQAn,http://ceur-ws.org/Vol-2980/paper312.pdf,2021,41.15
+QALD-9,NSQA,https://arxiv.org/pdf/2111.03000.pdf,2021,30.8
+QALD-9,NSQA,https://aclanthology.org/2021.findings-acl.339.pdf,2021,31.26
+QALD-9,sparql-qa,https://arxiv.org/pdf/2111.03000.pdf,2021,30.6
+QALD-9,LingTeQA,https://ieeexplore.ieee.org/abstract/document/9282949,2020,53.5
+QALD-9,gAnswer,http://www.semantic-web-journal.net/system/files/swj2701.pdf,2021,29.6
+QALD-9,QAnswer,http://www.semantic-web-journal.net/system/files/swj2701.pdf,2021,19.7
+QALD-9,TeBaQA,http://www.semantic-web-journal.net/system/files/swj2701.pdf,2021,13.9
+LC-QuAD 1.0,LAMA,http://www.semantic-web-journal.net/system/files/swj2537.pdf,2019,81.6
+LC-QuAD 1.0,G Maheshwari et. al. Pointwise,https://arxiv.org/pdf/1811.01118.pdf,2019,70
+LC-QuAD 1.0,G Maheshwari et. al. Pairwise,https://arxiv.org/pdf/1811.01118.pdf,2019,71
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,85.5
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,71.7
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,82.4
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,72.6
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,72.3
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,74.5
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,73.2
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,80.9
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,76.1
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,71.9
+LC-QuAD 1.0,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,74
+LC-QuAD 1.0,STaG-QA,https://arxiv.org/abs/2111.05825,2021,51.4
+LC-QuAD 1.0,STaG-QA_pre,https://arxiv.org/abs/2111.05825,2021,53.6
+LC-QuAD 1.0,NSQA,https://arxiv.org/abs/2111.05825,2021,44.4
+LC-QuAD 1.0,QAmp,https://arxiv.org/abs/2111.05825,2021,33
+LC-QuAD 1.0,WDAqua-core0,https://arxiv.org/abs/2111.05825,2021,28
+LC-QuAD 1.0,WDAqua-core1,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,46
+LC-QuAD 1.0,Frankenstein,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,20
+LC-QuAD 1.0,Liang et al.,https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf,2021,68
+LC-QuAD 1.0,WDAqua-core0,https://arxiv.org/pdf/2105.00811.pdf,2021,15
+LC-QuAD 1.0,Qanary(TM+DP+QB),https://arxiv.org/pdf/2105.00811.pdf,2021,1
+LC-QuAD 1.0,QASparql,https://arxiv.org/pdf/2105.00811.pdf,2021,34
+LC-QuAD 1.0,AskNow,https://arxiv.org/pdf/2105.00811.pdf,2021,11
+LC-QuAD 1.0,WDAqua-core1,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,28
+LC-QuAD 1.0,QAmp,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,33
+LC-QuAD 1.0,DTQA,https://ojs.aaai.org/index.php/AAAI/article/view/17988,2021,33.72
+LC-QuAD 1.0,QAmp,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,33
+LC-QuAD 1.0,WDAqua-core1,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,28
+LC-QuAD 1.0,WDAqua-core1,https://arxiv.org/pdf/2109.09475.pdf,2021,28
+LC-QuAD 1.0,QAmp,https://arxiv.org/pdf/2109.09475.pdf,2021,33.33
+LC-QuAD 1.0,Stage-I No Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,83.08
+LC-QuAD 1.0,Stage-I Part Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,42.33
+LC-QuAD 1.0,Stage-I Full Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,25.59
+LC-QuAD 1.0,Stage-II w/o type,https://arxiv.org/pdf/2109.09475.pdf,2021,32.18
+LC-QuAD 1.0,Stage-II w/ type,https://arxiv.org/pdf/2109.09475.pdf,2021,37.05
+LC-QuAD 1.0,sparql-qa,http://ceur-ws.org/Vol-2918/paper3.pdf,2021,49.1
+LC-QuAD 1.0,STAGG,https://arxiv.org/pdf/2111.00732.pdf,2021,69
+LC-QuAD 1.0,HR-BiLSTM,https://arxiv.org/pdf/2111.00732.pdf,2021,70
+LC-QuAD 1.0,Slot-Matching,https://arxiv.org/pdf/2111.00732.pdf,2021,71
+LC-QuAD 1.0,AQG-net,https://arxiv.org/pdf/2111.00732.pdf,2021,74.8
+LC-QuAD 1.0,DAM,https://arxiv.org/pdf/2111.00732.pdf,2021,72
+LC-QuAD 1.0,S-Ranking,https://arxiv.org/pdf/2111.00732.pdf,2021,69.53
+LC-QuAD 1.0,O-Ranking,https://arxiv.org/pdf/2111.00732.pdf,2021,74.81
+LC-QuAD 1.0,BART,https://arxiv.org/pdf/2111.00732.pdf,2021,47.62
+LC-QuAD 1.0,NHGG,https://arxiv.org/pdf/2111.00732.pdf,2021,46.12
+LC-QuAD 1.0,HGNet,https://arxiv.org/pdf/2111.00732.pdf,2021,75.1
+LC-QuAD 1.0,SYGMA,https://www.researchgate.net/publication/354950006_SYGMA_System_for_Generalizable_Modular_Question_Answering_OverKnowledge_Bases,2021,47
+LC-QuAD 2.0,ElNeuQA-ConvS2S,https://arxiv.org/pdf/2107.02865.pdf,2021,26.9
+LC-QuAD 2.0,AQG-net,https://arxiv.org/pdf/2111.06086.pdf,2021,44.9
+LC-QuAD 2.0,Multi-hop QGG,https://arxiv.org/pdf/2111.06086.pdf,2021,52.6
+LC-QuAD 2.0,Zou et al. + Tencent Word,https://arxiv.org/pdf/2111.06086.pdf,2021,52.9
+LC-QuAD 2.0,Zou et al. + Bert,https://arxiv.org/pdf/2111.06086.pdf,2021,59.3
+LC-QuAD 2.0,5,https://aclanthology.org/2021.findings-acl.339.pdf,2021,38.29
+LC-QuAD 1.0,QAmp,https://aclanthology.org/2021.findings-acl.339.pdf,2021,33
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,66.7
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,60
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,62.2
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,62.1
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,57.7
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,63.5
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,63.6
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,65.9
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,58.8
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,62.6
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,63.5
+LC-QuAD 1.0 + qald multilingual,mBERT,https://aclanthology.org/2021.naacl-main.465.pdf,2021,70
+simplequestionwikidata,SYGMA,https://arxiv.org/pdf/2109.13430.pdf,2021,44
+simplequestionwikidata,STaG-QA,https://arxiv.org/abs/2111.05825,2021,60.1
+simplequestionwikidata,STaG-QA_pre,https://arxiv.org/abs/2111.05825,2021,61.7
