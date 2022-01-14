@@ -3,4 +3,4 @@ show_downloads: false
 description: Repository to track the progress in Question Answering over Knowledge Graphs (KGQA), including the datasets and the current state-of-the-art for the most common KGQA tasks.
 theme: jekyll-theme-slate
 github:
-    repository_url: https://github.com/semantic-systems/KGQA-leaderboard
+    repository_url: https://github.com/KGQA/leaderboard
