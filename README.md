@@ -4,49 +4,49 @@
 
 ### DBpedia
 
-- [LC-QuAD 1.0](dbpedia/lcquad.html#lc-quad-v1)
-- [LC-QuAD 2.0](dbpedia/lcquad.html#lc-quad-v2)
-- [QALD-9](dbpedia/qald.html#qald-9)
-- [QALD-8](dbpedia/qald.html#qald-8)
-- [QALD-7](dbpedia/qald.html#qald-7)
-- [QALD-6](dbpedia/qald.html#qald-6)
-- [QALD-5](dbpedia/qald.html#qald-5)
-- [QALD-4](dbpedia/qald.html#qald-4)
-- [QALD-3](dbpedia/qald.html#qald-3)
-- [QALD-2](dbpedia/qald.html#qald-2)
-- [QALD-1](dbpedia/qald.html#qald-1)
-- [SimpleDBpediaQA](dbpedia/simple_dbpedia_qa.html)
-- [MLPQ](dbpedia/mlpq.html)
+- [LC-QuAD 1.0](dbpedia/lcquad.md#lc-quad-v1)
+- [LC-QuAD 2.0](dbpedia/lcquad.md#lc-quad-v2)
+- [QALD-9](dbpedia/qald.md#qald-9)
+- [QALD-8](dbpedia/qald.md#qald-8)
+- [QALD-7](dbpedia/qald.md#qald-7)
+- [QALD-6](dbpedia/qald.md#qald-6)
+- [QALD-5](dbpedia/qald.md#qald-5)
+- [QALD-4](dbpedia/qald.md#qald-4)
+- [QALD-3](dbpedia/qald.md#qald-3)
+- [QALD-2](dbpedia/qald.md#qald-2)
+- [QALD-1](dbpedia/qald.md#qald-1)
+- [SimpleDBpediaQA](dbpedia/simple_dbpedia_qa.md)
+- [MLPQ](dbpedia/mlpq.md)
 
 ### Wikidata
 
-- [KQA Pro](wikidata/kqa_pro.html)
-- [RuQA 1.0](wikidata/rubq.html#rubq-1)
-- [RuQA 2.0](wikidata/rubq.html#rubq-2)
-- [Compositional Wikidata Questions](wikidata/compositional_wikidata_questions.html)
-- [TimeQuestions](wikidata/time_questions.html)
-- [CronQuestions](wikidata/cron_questions.html) 
-- [CLC-QuAD](wikidata/clcquad.html)
-- [SimpleQuestionsWikidata](wikidata/simple_questions_wikidata.html)
+- [KQA Pro](wikidata/kqa_pro.md)
+- [RuQA 1.0](wikidata/rubq.md#rubq-1)
+- [RuQA 2.0](wikidata/rubq.md#rubq-2)
+- [Compositional Wikidata Questions](wikidata/compositional_wikidata_questions.md)
+- [TimeQuestions](wikidata/time_questions.md)
+- [CronQuestions](wikidata/cron_questions.md) 
+- [CLC-QuAD](wikidata/clcquad.md)
+- [SimpleQuestionsWikidata](wikidata/simple_questions_wikidata.md)
 
 ### Freebase
 
-- [Free917](freebase/free917.html)
-- [WebQuestions](freebase/web_questions.html)
-- [ComplexQuestions](freebase/complex_questions.html)
-- [GraphQuestions](freebase/graph_questions.html)
-- [WebQuestionSP](freebase/web_questions_sp.html)
-- [ComplexWebQuestions](freebase/complex_web_questions.html)
-- [30M Factoid QA](freebase/the_30m_factoid_qa.html)
-- [PathQuestion](freebase/path_question.html)
-- [Compositional Freebase Questions](freebase/compositional_freebase_questions.html)
-- [GrailQA](freebase/grailqa/grailqa.html)
-- [TempQuestions](freebase/temp_questions.html)
+- [Free917](freebase/free917.md)
+- [WebQuestions](freebase/web_questions.md)
+- [ComplexQuestions](freebase/complex_questions.md)
+- [GraphQuestions](freebase/graph_questions.md)
+- [WebQuestionSP](freebase/web_questions_sp.md)
+- [ComplexWebQuestions](freebase/complex_web_questions.md)
+- [30M Factoid QA](freebase/the_30m_factoid_qa.md)
+- [PathQuestion](freebase/path_question.md)
+- [Compositional Freebase Questions](freebase/compositional_freebase_questions.md)
+- [GrailQA](freebase/grailqa/grailqa.md)
+- [TempQuestions](freebase/temp_questions.md)
 
 ### Other KGs
 
-- [MetaQA](other/meta_qa.html)
-- [EventKQ/EventQA](other/event_kg.html)
+- [MetaQA](other/meta_qa.md)
+- [EventKQ/EventQA](other/event_kg.md)
 
 This leaderboard aims to provide a central place to compare the capabilities of different Knowledge Graph Question Answering (KGQA) approaches. It gives a global view of the state-of-the-art (SOTA) across many KGQA benchmarks.
 
