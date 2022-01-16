@@ -70,9 +70,6 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 |         WDAqua-core0         | 2021 |    -    |  -   | 15  |   EN   |                                               [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                               |
 |            AskNow            | 2021 |    -    |  -   | 11  |   EN   |                                               [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                               |
 |       Qanary(TM+DP+QB)       | 2021 |    -    |  -   |  1  |   EN   |                                               [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                               |
-|      Evseev D. A. et al      | 2020 |    -    |  -   |  -  |   EN   |                            [ Evseev D. A. et al](https://www.dialog-21.ru/media/5088/evseevdaplusarkhipov-myu-048.pdf)                            |
-|              -               |  -   |    -    |  -   |  -  |   -    |                                                                         -                                                                         |
-
 
 ## LC-QuAD v2
 
@@ -84,28 +81,18 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 ### Leaderboard
 
-|     Model / System      | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
-|:-----------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
-|    Zou et al. + Bert    | 2021 |    -    |  -   |59.30|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|Zou et al. + Tencent Word| 2021 |    -    |  -   |52.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|      Multi-hop QGG      | 2021 |    -    |  -   |52.60|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|         AQG-net         | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|            5            | 2021 |  38.19  |40.39 |38.29|   EN   |         [Kapanipathi et al.](https://aclanthology.org/2021.findings-acl.339.pdf)          |
-|   ElNeuQA-ConvS2S [1]   | 2021 |  26.90  |  27  |26.90|   EN   |                  [Diomedi, Hogan](https://arxiv.org/pdf/2107.02865.pdf)                   |
-|     GRAFT-Net  [2]      | 2021 |    -    |  -   |  -  |   EN   |                   [Y Feng et al.](https://arxiv.org/pdf/2112.06109.pdf)                   |
-|     NT-GRAFT-Net [3]    | 2021 |    -    |  -   |  -  |   EN   |                   [Y Feng et al.](https://arxiv.org/pdf/2112.06109.pdf)                   |
-|         NSM [4]         | 2021 |    -    |  -   |  -  |   EN   |                   [Y Feng et al.](https://arxiv.org/pdf/2112.06109.pdf)                   |
-|       NT-NSM [5]        | 2021 |    -    |  -   |  -  |   EN   |                   [Y Feng et al.](https://arxiv.org/pdf/2112.06109.pdf)                   |
-|    Evseev D. A. et al   | 2020 |    -    |  -   |  -  |   EN   |[ Evseev D. A. et al](https://www.dialog-21.ru/media/5088/evseevdaplusarkhipov-myu-048.pdf)|
-|  GRAFT-Net + Clocq [6]  | 2022 |  19.70  |  -   |  -  |   EN   |                [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)                |
-|            -            |  -   |    -    |  -   |  -  |   -    |                                             -                                             |
+|      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
+|:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
+|     Zou et al. + Bert     | 2021 |    -    |  -   |59.30|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
+| Zou et al. + Tencent Word | 2021 |    -    |  -   |52.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
+|       Multi-hop QGG       | 2021 |    -    |  -   |52.60|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
+|          AQG-net          | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
+|             5             | 2021 |  38.19  |40.39 |38.29|   EN   |         [Kapanipathi et al.](https://aclanthology.org/2021.findings-acl.339.pdf)          |
+|    ElNeuQA-ConvS2S [1]    | 2021 |  26.90  |  27  |26.90|   EN   |                  [Diomedi, Hogan](https://arxiv.org/pdf/2107.02865.pdf)                   |
+|   GRAFT-Net + Clocq [2]   | 2022 |  19.70  |  -   |  -  |   EN   |                [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)                |
 
- * [1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues.. 
- * [2] only ordinal questions. 
- * [3] only ordinal questions. 
- * [4] only ordinal questions. 
- * [5] only ordinal questions. 
- * [6] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0. 
+ * [1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues..
+ * [2] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0. 
 
 
 ## LC-QuAD v2 + QALD-9
@@ -126,7 +113,6 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |  mBERT [10]  | 2021 |    -    |  -   | 60 |   FA   | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) |
 |  mBERT [11]  | 2021 |    -    |  -   |58.8|   ES   | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) |
 |  mBERT [12]  | 2021 |    -    |  -   |57.7|   IT   | [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf) |
-|      -       |  -   |    -    |  -   | -  |   -    |                                 -                                 |
 
  * [1] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss. 
  * [2] trained on LC-QuAD 1.0, tested on a data combining qald4 -9 and filter out some out-of-scope questionss. 

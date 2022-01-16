@@ -75,7 +75,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |   Qanary(TM+DP+QB)   | 2021 |    -    |  -   |  7  |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |         Elon         | 2019 |  4.90   | 5.30 |  5  |   EN   |                                                              [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)                                                               |
 |         Elon         | 2021 |  4.90   | 5.30 |  5  |   EN   |                                                 [Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)                                                 |
-|          -           |  -   |    -    |  -   |  -  |   -    |                                                                                        -                                                                                         |
 
  * [1] DBpedia 2016-10. 
  * [2] DBpedia 2016-10. 
@@ -107,7 +106,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 |     QAKiS      | 2021 |  6.10   | 5.28 |5.63 |   EN   |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
 |     QAKiS      | 2019 |  6.10   | 5.30 |5.60 |   EN   |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
 |Qanary(TM+DP+QB)| 2021 |    -    |  -   |  4  |   EN   |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
-|       -        |  -   |    -    |  -   |  -  |   -    |                                       -                                        |
 
 
 ## QALD-7
@@ -139,7 +137,6 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |            AskNow            | 2021 |    -    |  -   | 15  |   EN   |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
 |           Platypus           | 2021 |    -    |  -   |  8  |   EN   |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
 |       Qanary(TM+DP+QB)       | 2021 |    -    |  -   |  6  |   EN   |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
-|              -               |  -   |    -    |  -   |  -  |   -    |                                       -                                       |
 
  * [1] Wikidata. 
 
@@ -157,7 +154,6 @@ Please see the original [paper](http://qald.aksw.org/6/documents/qald-6.pdf) for
 |    QASparql    |2021|    -    |  -   | 17  |   EN   |  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)  |
 |     AskNow     |2021|    -    |  -   |  9  |   EN   |  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)  |
 |Qanary(TM+DP+QB)|2021|    -    |  -   |  2  |   EN   |  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)  |
-|       -        | -  |    -    |  -   |  -  |   -    |                            -                            |
 
 
 ## QALD-5
@@ -188,7 +184,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-1391/173-CR.pdf) for deta
 |    QASparql    |2021|    -    |  -   |  12  |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |     AskNow     |2021|    -    |  -   |  9   |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |Qanary(TM+DP+QB)|2021|    -    |  -   |  2   |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
-|       -        | -  |    -    |  -   |  -   |   -    |                                        -                                        |
 
 
 
@@ -220,7 +215,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-1180/CLEF2014wn-QA-UngerE
 |    QASparql    |2021|    -    |  -   |  8  |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |     AskNow     |2021|    -    |  -   |  8  |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |Qanary(TM+DP+QB)|2021|    -    |  -   |  1  |   EN   |              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
-|       -        | -  |    -    |  -   |  -  |   -    |                                        -                                        |
 
 
 
@@ -255,8 +249,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-1179/CLEF2013wn-QALD3-Cab
 |WDAqua-core0 [2] | 2021 |    -    |  -   | 11  |   EN   |                                                                                         [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                          |
 |    QASparql     | 2021 |    -    |  -   |  6  |   EN   |                                                                                         [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                          |
 |Qanary(TM+DP+QB) | 2021 |    -    |  -   |  2  |   EN   |                                                                                         [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                          |
-|open architecture| 2014 |    -    |  -   |  -  |   EN   |                              [Marx et al.](https://dl.acm.org/doi/abs/10.1145/2660517.2660519?casa_token=fiz_S3BfluoAAAAA:H0XJuhnjMIH5CH_y7lO6_I7xmCUo_1Of3wwQx0CyYB6adVDVxjrn0Rq3HSJUmfSG4cFAoG1cXN7_Iw)                              |
-|        -        |  -   |    -    |  -   |  -  |   -    |                                                                                                                   -                                                                                                                    |
 
  * [1] DBpedia 3.8. 
  * [2] DBpedia 2016-04. 
@@ -286,9 +278,6 @@ Please see the original [paper](https://qald.aksw.org/2/documents/qald-2-challen
 |  WDAqua-core0  |2021|    -    |  -   |  16  |   EN   |                                                                                                                                  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                                                                   |
 |     AskNow     |2021|    -    |  -   |  10  |   EN   |                                                                                                                                  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                                                                   |
 |    QASparql    |2021|    -    |  -   |  1   |   EN   |                                                                                                                                  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                                                                   |
-|  RealTextasg   |2015|    -    |  -   |  -   |   EN   |                                                                                                                                 [Perera and Nand](https://aclanthology.org/Y15-2024.pdf)                                                                                                                                 |
-|Qanary(TM+DP+QB)|2021|    -    |  -   |  -   |   EN   |                                                                                                                                  [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                                                                                                   |
-|       -        | -  |    -    |  -   |  -   |   -    |                                                                                                                                                            -                                                                                                                                                             |
 
  * [1] factoid type questions. 
  * [2] only temporal quetions. 
@@ -310,8 +299,6 @@ Please see the original [paper](http://qald.aksw.org/1/documents/qald-1-challeng
 |  WDAqua-core0  | 2021 |    -    |  -   |14 |   EN   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|
 |     AskNow     | 2021 |    -    |  -   | 7 |   EN   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|
 |    QASparql    | 2021 |    -    |  -   | 1 |   EN   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|
-|Qanary(TM+DP+QB)| 2021 |    -    |  -   | - |   EN   |[Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)|
-|       -        |  -   |    -    |  -   | - |   -    |                          -                          |
 
  * [1] DBpedia 3.6. 
 
