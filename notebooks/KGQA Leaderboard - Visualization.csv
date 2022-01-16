@@ -17,6 +17,7 @@ QALD-2,QAKiS,https://hal.inria.fr/hal-01171115/,2013,38
 QALD-2,BELA,https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf,2012,67
 QALD-2,WolframAlpha,https://download.hrz.tu-darmstadt.de/pub/FB20/Dekanat/Publikationen/UKP/76500354.pdf,2012,30.9
 QALD-2,TLDRet,https://link.springer.com/article/10.1007/s10844-017-0483-2,2018,63
+QALD-2,TLDRet+,https://link.springer.com/article/10.1007/s10844-017-0483-2,2018,88
 QALD-2,SenseAware,https://www.researchgate.net/profile/Ziqi-Zhang-13/publication/287589278_Using_BabelNet_in_bridging_the_gap_between_natural_language_queries_and_linked_data_concepts/links/5aba9998a6fdcc71647082e0/Using-BabelNet-in-bridging-the-gap-between-natural-language-queries-and-linked-data-concepts.pdf,2013,52
 QALD-2,semanticQA,https://dl.acm.org/doi/abs/10.1145/2457317.2457331?casa_token=36QssuFGvwYAAAAA:N1avCIXP2n0_cEVCFYRcMkZcQXHmojZSm93T1lJ1OtIkCrMN2pfEkW01mqvUdBHiFZWGyDbzfgbXrg,2013,46
 QALD-2,robustQA,https://dl.acm.org/doi/abs/10.1145/2505515.2505677?casa_token=Qq2Vo4VRohsAAAAA:s_GSmXPMLjasepBGBARFWENM9qRQE6pqVY5bnVUMzAV5G0s50-5Igpj1jgwrnnfXEJjX2wTI4wmyzg,2013,23
@@ -148,8 +149,6 @@ QALD-9,WDAqua-core1,https://link.springer.com/article/10.1007/s13740-021-00128-9
 QALD-9,gAnswer,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,29.8
 QALD-9,WDAqua-core1,https://arxiv.org/pdf/2109.09475.pdf,2021,25
 QALD-9,gAnswer,https://arxiv.org/pdf/2109.09475.pdf,2021,29.8
-QALD-9,Stage-I No Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,40.9
-QALD-9,Stage-I Part Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,22.4
 QALD-9,Stage-I Full Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,20.6
 QALD-9,Stage-II w/o type,https://arxiv.org/pdf/2109.09475.pdf,2021,23.3
 QALD-9,Stage-II w/ type,https://arxiv.org/pdf/2109.09475.pdf,2021,23.3
@@ -197,8 +196,6 @@ LC-QuAD 1.0,QAmp,https://link.springer.com/article/10.1007/s13740-021-00128-9,20
 LC-QuAD 1.0,WDAqua-core1,https://link.springer.com/article/10.1007/s13740-021-00128-9,2021,28
 LC-QuAD 1.0,WDAqua-core1,https://arxiv.org/pdf/2109.09475.pdf,2021,28
 LC-QuAD 1.0,QAmp,https://arxiv.org/pdf/2109.09475.pdf,2021,33.33
-LC-QuAD 1.0,Stage-I No Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,83.08
-LC-QuAD 1.0,Stage-I Part Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,42.33
 LC-QuAD 1.0,Stage-I Full Noise,https://arxiv.org/pdf/2109.09475.pdf,2021,25.59
 LC-QuAD 1.0,Stage-II w/o type,https://arxiv.org/pdf/2109.09475.pdf,2021,32.18
 LC-QuAD 1.0,Stage-II w/ type,https://arxiv.org/pdf/2109.09475.pdf,2021,37.05
