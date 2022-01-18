@@ -2,6 +2,10 @@
 
 ## Table of contents
 
+### Question Answering Systems with Descriptions
+
+[Systems](systems.md)
+
 ### DBpedia
 
 - [LC-QuAD 1.0](dbpedia/lcquad.md#lc-quad-v1)
@@ -48,9 +52,6 @@
 - [MetaQA](other/meta_qa.md)
 - [EventKQ/EventQA](other/event_kg.md)
 
-### Question Answering Systems with Descriptions
-
-- [Systems](systems.md)
 
 This leaderboard aims to provide a central place to compare the capabilities of different Knowledge Graph Question Answering (KGQA) approaches. It gives a global view of the state-of-the-art (SOTA) across many KGQA benchmarks.
 
