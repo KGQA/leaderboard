@@ -8,11 +8,7 @@ This table contains an overview of 100 QA systems, selected for the leaderboard.
 - System description (short description retrieved from the original system's paper)
 
 ## Systems
-<style>
-    table {
-        width: 100%;
-    }
-</style>
+
 | System Name                           | Reported by         | Reported in the paper | Demo/Repo/API available (yes or no or not working) | | Link to Demo/Repo/API| Original paper (if it is system mention in col.3) | System description (short description retrieved from the original system's paper)|
 | -                           | -         | - | - | - | - | - | - |
 | Alexandria                           | Lopez et al.         | https://www.sciencedirect.com/science/article/pii/S157082681300022X?casa_token=NBVj-I48uxAAAAAA:izoYV-LubTYApUYRCtnZFPuvdACyWHHNnwVBjo1S1K24AiXYmMde9vdEBsCxdpAvlfNvPswrzr8#br000150                                                                                                                  | not working |                                             | http://alexandria.neofonie.de/                                                                                         | https://link.springer.com/chapter/10.1007/978-3-662-46641-4_8                                                                                                                                            | Alexandria is a German question answering system over a domain ontology that was built primarily with data from Freebase, parts of DBpedia, and some manually generated content, and contains information on persons, locations, works, etc., as well as events, including temporal ones, and n-ary relations between entities.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
