@@ -48,6 +48,10 @@
 - [MetaQA](other/meta_qa.md)
 - [EventKQ/EventQA](other/event_kg.md)
 
+### Question Answering Systems with Descriptions
+
+- [Systems](systems.md)
+
 This leaderboard aims to provide a central place to compare the capabilities of different Knowledge Graph Question Answering (KGQA) approaches. It gives a global view of the state-of-the-art (SOTA) across many KGQA benchmarks.
 
 Using a global and open resource, trusting evaluation results will be easier. In particular, we want to close gaps in evaluation campaigns to avoid incomplete or missing comparisons. The ultimate goal is to prevent a replication crisis before it even starts.
