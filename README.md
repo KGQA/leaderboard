@@ -3,8 +3,8 @@
 ## Table of contents
 
 ### Question Answering Systems with Descriptions
-The table contains links to papers, demo/API (if available) and short descriptions of 100 QA systems.
--[QA Systems Table](systems.md)
+
+The [QA Systems Table](systems.md) contains links to papers, demo/APIs (if available) and short descriptions of 100 QA systems.
 
 ### DBpedia
 
