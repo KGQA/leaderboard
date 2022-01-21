@@ -4,9 +4,9 @@
 
 ### Question Answering Systems with Descriptions
 
-The [QA Systems Table](systems.md) contains links to papers, demo/APIs (if available) and short descriptions of 100 QA systems.
+The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if available) and short descriptions of ca. 100 QA systems.
 
-### DBpedia
+### DBpedia 
 
 - [LC-QuAD 1.0](dbpedia/lcquad.md#lc-quad-v1)
 - [LC-QuAD 2.0](dbpedia/lcquad.md#lc-quad-v2)
@@ -74,12 +74,12 @@ For adding a new dataset or task, you can also follow the steps above. Alternati
 3. Describe the evaluation setting and evaluation metric.
 4. Show how an annotated example of the dataset looks like.
 5. Add a download link if available.
-6. Copy the below table and fill in at least two results (including the state-of-the-art)for your dataset (change Score to the metric of your dataset). If your dataset has multiple metrics, add them to the right of `Score`.
+6. Copy the below table and fill in at least two results (including the state-of-the-art) for your dataset (change Metric1/Metric2/Metric3 to the metric of your dataset). 
 7. Submit your change as a pull request.
   
-| Model / System | Year | Metric1 | Metric2 | Reported by |
-|:--------------:|:----:|:-------:|:-------:|:-----------:|
-|                |      |         |         |             |
+| Model / System | Year | Metric1 | Metric2 | Metric3 | Reported by |
+|:--------------:|:----:|:-------:|:-------:|:-------:|:-----------:|
+|                |      |         |         |         |             |
 
 
 ### Instructions for building the site locally
