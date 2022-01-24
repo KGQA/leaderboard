@@ -25,8 +25,8 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 ### Wikidata
 
 - [KQA Pro](wikidata/kqa_pro.md)
-- [RuQA 1.0](wikidata/rubq.md#rubq-1)
-- [RuQA 2.0](wikidata/rubq.md#rubq-2)
+- [RuBQ 1.0](wikidata/rubq.md#rubq-1)
+- [RuBQ 2.0](wikidata/rubq.md#rubq-2)
 - [Compositional Wikidata Questions](wikidata/compositional_wikidata_questions.md)
 - [TimeQuestions](wikidata/time_questions.md)
 - [CronQuestions](wikidata/cron_questions.md) 
