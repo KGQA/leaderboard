@@ -86,6 +86,11 @@ For adding a new dataset or task, you can also follow the steps above. Alternati
 
 Instructions for building the website locally using Jekyll can be found [here](jekyll_instructions.md).
 
+### Citation
+
+Please cite the following:
+
+```Perevalov, A., Yan, X., Kovriguina, L., Jiang, L., Both, A., & Usbeck, R. (2022). Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis. arXiv preprint arXiv:2201.08174.```
 ### Acknowledgement 
 
 This site is based on https://nlpprogress.com/ and thus, a great thanks goes to Sebastian Ruder.
