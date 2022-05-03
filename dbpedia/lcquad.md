@@ -19,13 +19,20 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 
 |        Model / System        | Year |Precision|Recall| F1  |Language|                                                                    Reported by                                                                    |
 |:----------------------------:|:----:|:-------:|:----:|:---:|:------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-|            mBERT             | 2021 |   73    |  -   |85.50|   EN   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)                                         |
+|           T5-Base            | 2022 |   -   |  -   |91|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
+|           T5-Small            | 2022 |   -   |  -   |90|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
+|           PGN-BERT-BERT            | 2022 |   -   |  -   |88|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
+|            mBERT             | 2021 |   73    |  -   |85.50|   EN   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)
+|           SubQG            | 2019 |   -   |  -   |85|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
+|           BART            | 2022 |   -   |  -   |84|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
 |       Stage-I No Noise       | 2021 |  83.11  |83.04 |83.08|   EN   |                                            [Purkayastha et al.](https://arxiv.org/pdf/2109.09475.pdf)                                             |
 |            mBERT             | 2021 |    -    |  -   |82.40|   DE   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)                                         |
 |             LAMA             | 2019 |    -    |  -   |81.60|   EN   |                                  [Radoev et. al.](http://www.semantic-web-journal.net/system/files/swj2537.pdf)                                   |
-|            mBERT             | 2021 |    -    |  -   |80.90|   NL   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)                                         |
+|            mBERT             | 2021 |    -    |  -   |80.90|   NL   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)
+|           CompQA            | 2018 |   -   |  -   |77|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  |
 |            mBERT             | 2021 |    -    |  -   |76.10|   ES   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)                                         |
-|            HGNet             | 2021 |  75.82  |75.22 |75.10|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
+|            HGNet             | 2021 |  75.82  |75.22 |75.10|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)     
+|           SQG            | 2018 |   -   |  -   |75|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  ||
 |          O-Ranking           | 2021 |  75.54  |74.95 |74.81|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
 |           AQG-net            | 2021 |    -    |  -   |74.80|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
 |            mBERT             | 2021 |    -    |  -   |74.50|   RU   |                                         [Zhou Y. et al](https://aclanthology.org/2021.naacl-main.465.pdf)                                         |
@@ -42,11 +49,13 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 |          HR-BiLSTM           | 2021 |    -    |  -   | 70  |   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
 |          S-Ranking           | 2021 |  65.89  |75.30 |69.53|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
 |            STAGG             | 2021 |    -    |  -   | 69  |   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
-|         Liang et al.         | 2021 |   88    |  56  | 68  |   EN   |                                  [Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)                                  |
+|         Liang et al.         | 2021 |   88    |  56  | 68  |   EN   |                                  [Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)   
+|           PGN-BERT            | 2018 |   -   |  -   |67|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
 |         STaG-QA_pre          | 2021 |  74.50  |54.80 |53.60|   EN   |                                              [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                                               |
 |           STaG-QA            | 2021 |  76.50  |52.80 |51.40|   EN   |                                              [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                                               |
 |          sparql-qa           | 2021 |  49.50  |49.20 |49.10|   EN   |                                            [ M. Borroto et al](http://ceur-ws.org/Vol-2918/paper3.pdf)                                            |
 |             BART             | 2021 |  48.01  |49.19 |47.62|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
+|           NLIWOD            | 2018 |   -   |  -   |48|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  
 |            SYGMA             | 2021 |   47    |  48  | 47  |   EN   |[ S Neelam et al](https://www.researchgate.net/publication/354950006_SYGMA_System_for_Generalizable_Modular_Question_Answering_OverKnowledge_Bases)|
 |             NHGG             | 2021 |  46.93  |48.36 |46.12|   EN   |                                                [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                |
 |         WDAqua-core1         | 2021 |   59    |  38  | 46  |   EN   |                                  [Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)                                  |
@@ -60,7 +69,8 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 |             QAmp             | 2021 |   25    |  50  | 33  |   EN   |                                    [Abdelaziz et al.](https://ojs.aaai.org/index.php/AAAI/article/view/17988)                                     |
 |             QAmp             | 2021 |   25    |  50  | 33  |   EN   |                                              [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                                               |
 |             QAmp             | 2021 |   25    |  50  | 33  |   EN   |                                     [Kapanipathi et al.](https://aclanthology.org/2021.findings-acl.339.pdf)                                      |
-|      Stage-II w/o type       | 2021 |  32.12  |32.20 |32.18|   EN   |                                            [Purkayastha et al.](https://arxiv.org/pdf/2109.09475.pdf)                                             |
+|      Stage-II w/o type       | 2021 |  32.12  |32.20 |32.18|   EN   |                                            [Purkayastha et al.](https://arxiv.org/pdf/2109.09475.pdf)
+|           SINA               | 2015 |   -   |  -   |24|   EN   |                                         [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)  |
 |         WDAqua-core1         | 2021 |   22    |  38  | 28  |   EN   |                                    [Abdelaziz et al.](https://ojs.aaai.org/index.php/AAAI/article/view/17988)                                     |
 |         WDAqua-core1         | 2021 |   22    |  38  | 28  |   EN   |                                            [Purkayastha et al.](https://arxiv.org/pdf/2109.09475.pdf)                                             |
 |         WDAqua-core1         | 2021 |   22    |  38  | 28  |   EN   |                                 [Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)                                  |
