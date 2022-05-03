@@ -17,6 +17,7 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 
 ### Table of contents
 
+- [QALD-9-plus](#qald-9-plus)
 - [QALD 9](#qald-9)
 - [QALD 8](#qald-8)
 - [QALD 7](#qald-7)
@@ -26,6 +27,24 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 - [QALD 3](#qald-3)
 - [QALD 2](#qald-2)
 - [QALD 1](#qald-1)
+
+## QALD-9-PLUS
+
+Please see the original [paper](https://arxiv.org/pdf/2202.00120v2.pdf) for details about the dataset creation process, data format, task and participating systems. 
+
+### Leaderboard
+
+| Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
+|:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
+|     QAnswer    | 2022 |  50.46  |44.84 |44.59|   EN   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     QAnswer    | 2022 |  33.05  |32.44 |31.71|   DE   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     QAnswer    | 2022 |  25.32  |25.35 |23.00|   FR   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     QAnswer    | 2022 |  22.29  |22.23 |21.43|   RU   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     DeepPavlov | 2022 |  17.65  |11.30 |12.40|   EN   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     Platypus   | 2022 |  15.89  |15.26 |15.03|   EN   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     DeepPavlov | 2022 |  9.56   |8.33  |8.7  |   RU   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+|     Platypus   | 2022 |  4.17   |4.17  |4.17 |   EN   |         [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+
 
 ## QALD-9
 
