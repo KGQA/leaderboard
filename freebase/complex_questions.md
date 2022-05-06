@@ -12,10 +12,14 @@ This dataset can be downloaded via the [link](https://github.com/JunweiBao/MulCQ
 | Reranking | 2022 |   42.9    | [Yonghui Jia and Wenliang Chen](https://arxiv.org/pdf/2204.12808.pdf) |
 | Luo et al. [2] | 2020 |   42.8    | [Yonghui Jia and Wenliang Chen](https://arxiv.org/pdf/2204.12808.pdf) |
 | (Bao et al.)'s work | 2018 |   42.33    | [Bao et. al.](https://aclanthology.org/C16-1236.pdf) |
+| SGM  | 2022 |   41.38    | [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229) |
+| MulCG  | 2016 |   40.94    | [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229) |
 | Bao et al. [3]  | 2016 |   40.9    | [Yonghui Jia and Wenliang Chen](https://arxiv.org/pdf/2204.12808.pdf) |
+| SeqM  | 2020 |   40.55    | [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229) |
 | Ranking  | 2022 |   38.4    | [Yonghui Jia and Wenliang Chen](https://arxiv.org/pdf/2204.12808.pdf) |
 |        STAGG        | 2016 |   37.69    | [Bao et. al.](https://aclanthology.org/C16-1236.pdf) |
-
+| STAGG  | 2016 |   36.89    | [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229) |
+| UHop  | 2016 |   35.30    | [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229) |
 
 
 ## References
@@ -23,5 +27,7 @@ This dataset can be downloaded via the [link](https://github.com/JunweiBao/MulCQ
 * [1] Lan, Y., Jiang, J.: Query graph generation for answering multi-hop complex questions from knowledge bases. In: Proceedings of ACL. pp. 969–974 (2020)
 * [2] Luo,K.,Lin,F.,Luo,X.,Zhu,K.:Knowledge base question answering via encoding of complex query graphs. In: Proceedings of EMNLP. pp. 2185–2194 (2018)
 * [3] Bao, J., Duan, N., Yan, Z., Zhou, M., Zhao, T.: Constraint-based question answer- ing with knowledge graph. In: Proceedings of COLING. pp. 2503–2514 (2016)
+
+Note that **MulCG**, **(Bao et al.)'s work** and **Bao et al. [3]** are the same system reported by different papers.
 
 [Go back to the README](../README.md)
