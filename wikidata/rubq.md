@@ -22,6 +22,17 @@ used for experiments in hybrid QA, where KBQA and text-based QA can enrich and c
 
 ### Leaderboard
 
+| Model / System |Year|Precision|Recall| F1  |Language|                       Reported by                       |
+|:--------------:|:---:|:-------:|:----:|:---:|:------:|:-------------------------------------------------------:|
+|    Text2Graph(MEKER Wiki4M)   |2022|   -    |  -  | 49.06  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    Text2Graph(PTBG (TransE) Wiki4M)   |2022|   -    |  -  | 48.84  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    Text2Graph(PTBG (ComplEX) Wiki4M)   |2022|   -    |  -  | 48.16  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    QA-En   |2022|   -    |  -  | 32.3  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    SimBa   |2022|   -    |  -  | 32.3  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    QA-Ru   |2022|   -    |  -  | 30.8  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+|    DeepPavlov   |2022|   -    |  -  | 30.5  |   EN   |[Chekalina1 V et al.](https://arxiv.org/pdf/2204.10629.pdf)|
+
+
 ## References
 <a name="myfootnote1">[1]</a> Korablinov, Vladislav, and Pavel Braslavski. [RuBQ: a Russian dataset for question answering over Wikidata.](https://link.springer.com/chapter/10.1007/978-3-030-62466-8_7) In International Semantic Web Conference, pp. 97-110. Springer, Cham, 2020.
 
