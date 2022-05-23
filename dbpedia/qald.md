@@ -16,7 +16,7 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 > that retrieves these answers.
 
 ### Table of contents
-
+- [QALD-9-plus](#qald-9-plus)
 - [QALD 9](#qald-9)
 - [QALD 8](#qald-8)
 - [QALD 7](#qald-7)
@@ -26,6 +26,31 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 - [QALD 3](#qald-3)
 - [QALD 2](#qald-2)
 - [QALD 1](#qald-1)
+
+## QALD-9-PLUS
+
+ Please see the original [paper](https://arxiv.org/pdf/2202.00120v2.pdf) for details about the dataset creation process, data format, task and participating systems. 
+
+ ### Leaderboard
+
+ | Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
+ |:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
+ |     QAnswer    | 2022 | -   |- |30.39(Macro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf) |
+ |     QAnswer    | 2022 |  -  |- |19.98(Macro F1)|   DE   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     QAnswer    | 2022 |  -  |- |15.06(Macro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     QAnswer    | 2022 |  -  |- |09.57(Macro F1)|   RU   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     QAnswer    | 2022 |  -  |- |05.27(Micro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf) |
+ |     QAnswer    | 2022 | -   |- |02.19(Micro F1)|   DE   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     QAnswer    | 2022 | -   |- |04.06(Micro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     QAnswer    | 2022 |  -  |- |01.53(Micro F1)|   RU   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     DeepPavlov | 2022 |  -  |- |12.40(Macro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     DeepPavlov | 2022 |  -  |- |00.13(Micro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     Platypus   | 2022 |  -  |- |15.03(Macro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     Platypus   | 2022 |  -  |- |01.26(Micro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     DeepPavlov | 2022 |  -  |- |08.7 (Macro F1)|   RU   |       [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     DeepPavlov | 2022 |  -  |- |00.05(Micro F1)|   RU   |       [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     Platypus   | 2022 | -   |- |4.17 (Macro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
+ |     Platypus   | 2022 | -   |- |0.00 (Micro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
 
 ## QALD-9
 
