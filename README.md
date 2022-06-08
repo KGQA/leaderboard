@@ -46,6 +46,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 - [Compositional Freebase Questions](freebase/compositional_freebase_questions.md)
 - [GrailQA](freebase/grailqa/grailqa.md)
 - [TempQuestions](freebase/temp_questions.md)
+- [freebaseQA](freebase/freebaseQA.md)
 
 ### Other KGs
 
