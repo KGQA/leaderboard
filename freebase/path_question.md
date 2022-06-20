@@ -10,6 +10,33 @@ This dataset can be downloaded via the [link](https://github.com/zmtkeke/IRN).
 
 ## Leaderboard 
 
+## 2-hop
+
+### Leaderboard
+
+| Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
+|:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|     QAGCN      | 2022 |    -    |  -   | 98.5(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|      SRN       | 2022 |    -    |  -   | 96.3(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|      IRN       | 2022 |    -    |  -   | 91.9(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|    MINERVA     | 2022 |    -    |  -   | 75.9(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+
+
+
+## 3-hop
+
+### Leaderboard
+
+| Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
+|:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|     QAGCN      | 2022 |    -    |  -   | 90.6(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|      SRN       | 2022 |    -    |  -   | 89.2(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|      IRN       | 2022 |    -    |  -   | 83.3(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|    MINERVA     | 2022 |    -    |  -   | 71.2(Hits@1)  | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+
+
+
+
 ## References 
 <a name="myfootnote1">[1]</a> Zhou, Mantong, Minlie Huang, and Xiaoyan Zhu. [An interpretable reasoning network for multi-relation question answering.](https://arxiv.org/abs/1801.04726) arXiv preprint arXiv:1801.04726 (2018).
 
