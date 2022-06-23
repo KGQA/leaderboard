@@ -7,9 +7,16 @@ This dataset can be downloaded via the [link](https://github.com/kelvin-jiang/Fr
 
 ## Leaderboard 
 
-| Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
-|:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
-|     FOFE-net     | 2019 |   37      |      | |   EN |[Jiang et al.](https://aclanthology.org/N19-1028.pdf)|
+| Model / System | Year | Accuracy | Language |                       Reported by                        |
+|:--------------:|:----:|:--------:|:--------:|:--------------------------------------------------------:|
+|       FAE        | 2022 |  63.30   |    EN    | [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)  |
+|      EAE       | 2022 |  53.40   |    EN    | [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)  |
+|    CBR-SUBG    | 2022 |  52.07   |    EN    |    [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)    |
+|     BuboQA     | 2022 |  38.25   |    EN    | [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)  |
+|    FOFE-net    | 2019 |  37.00   |    EN    |  [Jiang et al.](https://aclanthology.org/N19-1028.pdf)   |
+|  KBQA-Adapter  | 2022 |  28.78   |    EN    |    [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)    |
+|      KEQA      | 2022 |  28.73   |    EN    |    [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)    |
+|   HR-BiLSTM    | 2022 |  28.40   |    EN    |    [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)    |
 
 
 
