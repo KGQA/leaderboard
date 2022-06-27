@@ -94,7 +94,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |          KV-MemNN           | 2017 |  10.1  |      -      |                                    EN                                     |            [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)            |
 |            T5+KG            | 2022 |   -    |    43.41    |                                    EN                                     |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
 |             T5              | 2022 |   -    |    42.31    |                                    EN                                     |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
-|             T5              | 2022 |   -    |     39.66     |                                    EN                                     |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
+|            T5+C4             | 2022 |   -    |     39.66     |                                    EN                                     |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
 
 
 
