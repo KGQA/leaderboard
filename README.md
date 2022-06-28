@@ -21,6 +21,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 - [QALD-1](dbpedia/qald.md#qald-1)
 - [SimpleDBpediaQA](dbpedia/simple_dbpedia_qa.md)
 - [MLPQ](dbpedia/mlpq.md)
+- [Monument](dbpedia/monument.md)
 
 ### Wikidata
 
