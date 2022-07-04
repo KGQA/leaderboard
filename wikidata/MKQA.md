@@ -13,7 +13,7 @@ This dataset can be downloaded via the [link](https://github.com/apple/ml-mkqa).
 
 | Model / System |Year|Precision|Recall| F1  |Language|                       Reported by                       |
 |:--------------:|:---:|:-------:|:----:|:---:|:------:|:-------------------------------------------------------:|
-|  (Baseline) XLM-R Large Translate Train	 |2020|   -    |  -  | 46  |   EN   |[Shayne L et al.](https://arxiv.org/pdf/2007.15207.pdf)|
+|  (Baseline) XLM-R Large Translate Train	 |2020|   -    |  -  | 46  |   EN   |[Longpre S et al.](https://arxiv.org/pdf/2007.15207.pdf)|
 
 
 
