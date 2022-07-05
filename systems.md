@@ -1,4 +1,4 @@
-This table contains an overview of 121 QA systems, selected for the leaderboard. For each system the following information is provided:
+This table contains an overview of 122 QA systems, selected for the leaderboard. For each system the following information is provided:
 - System name (if available),
 - Reported by (authors, who report or introduce the systems)
 - Reported in the paper (link to the paper, where system is mentioned or presented by the authors)
