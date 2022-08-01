@@ -197,7 +197,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-1391/173-CR.pdf) for deta
 |      UTQA      |2016|    -    |  -   | 65.2 |   EN   |               [Ben Veyseh](https://aclanthology.org/W16-1403.pdf)               |
 |      UTQA      |2020|    -    |  -   |  65  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |      UTQA      |2020|   55    |  53  |  54  |   ES   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
-|      UTQA      |2020|   53    |  51  |  52  |   FS   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
+|      UTQA      |2020|   53    |  51  |  52  |   FA   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |  WDAqua-core1  |2020|   56    |  41  |  47  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |     AskNow     |2020|   32    |  34  |  33  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |     ISOFT      |2015|   100   | 100  |  33  |   EN   |                                      ISOFT                                      |
