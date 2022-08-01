@@ -26,7 +26,7 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 
  | Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
  |:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
-  |     QAnswer    | 2022 | 50.46  | 44.84 |44.59|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer    | 2022 | 50.46  | 44.84 |44.59|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
  |     QAnswer-en-de-Yandex    | 2022 | 34.91  | 35.18 |32.83|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
  |     QAnswer-en-de-Helsinki NLP | 2022 | 34.90  | 35.00 |33.74|  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
  |     QAnswer-en-ru-Yandex    | 2022 | 22.84  | 21.61 |21.07|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
@@ -71,3 +71,64 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
  |     QAnswer-be-de-Yandex    | 2022 | 36.54 | 27.47 | 27.46 |   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
  |     QAnswer-be-ru-Yandex    | 2022 | 18.18  | 18.18 | 18.18 |   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
  |     QAnswer-be-fr-Yandex  | 2022 | 40.91  | 22.81 | 24.41 |   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-en-Yandex  | 2022 | 26.32  | 21.88 | 22.53 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-de-Yandex  | 2022 | 27.74  | 34.95 | 29.50 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-ru-Yandex  | 2022 | 5.26  | 5.26 | 5.26 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-fr-Yandex  | 2022 | 16.84  | 16.6 | 13.78 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-en-Yandex  | 2022 | 31.42  | 28.45 | 28.44 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-de-Yandex  | 2022 | 23.66  | 23.19 | 22.87 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-ru-Yandex  | 2022 | 20.73  | 20.16 | 19.17 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-fr-Yandex  | 2022 | 18.63  | 17.23 | 16.08 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov    | 2022 | 17.65  | 11.30 | 12.40 |   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-en-ru-Yandex    | 2022 | 7.35  | 6.99 | 7.11 |   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-en-ru-Helsinki NLP | 2022 | 8.82  | 7.35 | 7.84 |  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-de-en-Yandex    | 2022 | 19.85  | 12.59 | 13.92 |   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-de-en-Helsinki NLP | 2022 | 16.18 | 9.83 | 10.93 |  DE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-de-ru-Yandex    | 2022 | 8.82  | 7.37 | 7.63 |   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov    | 2022 | 9.56  | 8.33 | 8.70 |   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-ru-en-Yandex    | 2022 | 16.91  | 10.54 | 11.61 |   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-ru-en-Helsinki NLP | 2022 | 13.24 | 7.93 | 8.79 |  RU |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-fr-en-Yandex    | 2022 | 31.58 | 22.02 | 22.73 | FR |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-fr-en-Helsinki NLP | 2022 | 21.05 | 16.67 | 17.29 |  FR |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-fr-ru-Yandex  | 2022 | 10.53 | 10.53 | 10.53 |   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-fr-ru-Helsinki NLP | 2022 | 10.53 | 10.53 | 10.53 |   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-lt-en-Yandex    | 2022 | 17.39 | 10.94 | 11.73 |   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-lt-ru-Yandex    | 2022 | 4.35 | 4.35 | 4.35 |   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-lt-ru-Helsinki NLP | 2022 | 4.35 | 4.35 | 4.35 |  LT |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-uk-en-Yandex    | 2022 | 16.91  | 10.18 | 11.37 |   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ | DeepPavlov-uk-en-Helsinki NLP    | 2022 | 16.91 | 10.24 | 11.18 |  UK |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+ |     DeepPavlov-uk-ru-Yandex | 2022 | 7.35 | 6.99 | 7.11 |  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-uk-ru-Helsinki NLP | 2022 | 6.62  | 6.25 | 6.37 |  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ | DeepPavlov-be-en-Yandex    | 2022 | 9.09 | 4.55 | 6.06 | BE |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+ |     DeepPavlov-be-ru-Yandex    | 2022 | 9.09 | 9.09 | 9.09 |   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-hy-en-Yandex  | 2022 | 21.05 | 11.49 | 12.21 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-hy-ru-Yandex  | 2022 | 10.53 | 10.53 | 10.53 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-ba-en-Yandex  | 2022 | 15.62 | 9.07 | 9.86 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     DeepPavlov-ba-ru-Yandex  | 2022 | 9.38 | 7.55 | 8.06 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus    | 2022 | 15.89 | 15.26 | 15.03 |   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-en-fr-Yandex  | 2022 | 8.94 | 10.10 | 8.92 |   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-en-fr-Helsinki NLP | 2022 | 8.21 | 9.36 | 8.19 |  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-de-en-Yandex    | 2022 | 12.27  | 11.60 | 11.44 |   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-de-en-Helsinki NLP | 2022 | 15.21  | 14.34 | 14.26 |  DE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-de-fr-Yandex  | 2022 | 12.27 | 11.60 | 11.44 |   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-de-fr-Helsinki NLP | 2022 | 5.91  | 6.62 | 5.93 |  DE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-ru-en-Yandex    | 2022 | 16.13 | 15.27 | 15.11 |   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-ru-en-Helsinki NLP | 2022 | 13.24 | 7.93 | 8.79 |  RU |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-ru-fr-Yandex  | 2022 | 7.84 | 9.19 | 7.81 |   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-ru-fr-Helsinki NLP | 2022 | 6.64 | 7.35 | 6.67 |  RU |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus    | 2022 | 4.17 | 4.17 | 4.17 |   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-fr-en-Yandex    | 2022 | 21.05 | 21.05 | 21.05 | FR |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-fr-en-Helsinki NLP | 2022 | 21.05 | 21.05 | 21.05 |  FR |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-lt-en-Yandex    | 2022 | 17.39  | 15.22 | 15.94 |   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-lt-fr-Yandex  | 2022 | 13.59 | 15.22 | 12.56 |   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-lt-fr-Helsinki NLP | 2022 | 13.04 | 13.04 | 13.04 |  LT |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-uk-en-Yandex    | 2022 | 14.97 | 14.35 | 14.17 |   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ | Platypus-uk-en-Helsinki NLP    | 2022 | 14.22 | 13.44 | 13.48 |  UK |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+ |     Platypus-uk-fr-Yandex  | 2022 | 9.68 | 10.66 | 9.53 |   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     Platypus-uk-fr-Helsinki NLP | 2022 | 7.75 | 8.46 | 7.65 |  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ | QAnswer-be-en-Yandex    | 2022 | 9.09 | 9.09 | 9.09 | BE |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
+ |     QAnswer-be-fr-Yandex  | 2022 | 9.09 | 9.09 | 9.09 |   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-en-Yandex  | 2022 | 15.79  | 15.79 | 15.79 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-hy-fr-Yandex  | 2022 | 5.26  | 5.26 | 5.26 |   HY   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-en-Yandex  | 2022 | 8.77 | 8.36 | 7.95 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer-ba-fr-Yandex  | 2022 | 5.24 | 6.25 | 5.28 |   BA   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
