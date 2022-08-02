@@ -35,67 +35,22 @@ processing and inferencing techniques. The main task of QALD therefore is the fo
 
  | Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
  |:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
- |     QAnswer    | 2022 | -   |- |30.39(Macro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf) |
- |     QAnswer    | 2022 |  -  |- |19.98(Macro F1)|   DE   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer    | 2022 |  -  |- |15.06(Macro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer    | 2022 |  -  |- |09.57(Macro F1)|   RU   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer    | 2022 |  -  |- |05.27(Micro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf) |
- |     QAnswer    | 2022 | -   |- |02.19(Micro F1)|   DE   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer    | 2022 | -   |- |04.06(Micro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer    | 2022 |  -  |- |01.53(Micro F1)|   RU   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     DeepPavlov | 2022 |  -  |- |12.40(Macro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     DeepPavlov | 2022 |  -  |- |00.13(Micro F1)|   EN   |         [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     Platypus   | 2022 |  -  |- |15.03(Macro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     Platypus   | 2022 |  -  |- |01.26(Micro F1)|   EN   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     DeepPavlov | 2022 |  -  |- |08.7 (Macro F1)|   RU   |       [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     DeepPavlov | 2022 |  -  |- |00.05(Micro F1)|   RU   |       [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     Platypus   | 2022 | -   |- |4.17 (Macro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     Platypus   | 2022 | -   |- |0.00 (Micro F1)|   FR   |        [Perevalov et. al.](https://arxiv.org/pdf/2202.00120v2.pdf)|
- |     QAnswer-en-de-Yandex    | 2022 | 34.91  | 35.18 |32.83|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-en-de-Helsinki NLP | 2022 | 34.90  | 35.00 |33.74|  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-en-ru-Yandex    | 2022 | 22.84  | 21.61 |21.07|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-en-ru-Helsinki NLP | 2022 | 22.38  | 20.63 |20.41|  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-en-fr-Yandex  | 2022 | 32.16  | 29.49 |28.86|   EN   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-en-fr-Helsinki NLP | 2022 | 30.76  | 28.19 |27.57|  EN |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-de-en-Yandex    | 2022 | 41.36  | 38.71 |36.49|   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-de-en-Helsinki NLP | 2022 | 40.95  | 38.11 |36.57|  DE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-de-ru-Yandex    | 2022 | 22.33  | 21.61 |21.07|   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-de-fr-Yandex  | 2022 | 31.05  | 28.23 |27.71|   DE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-de-fr-Helsinki NLP | 2022 | 28.32  | 26.21 |25.21|  DE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-ru-en-Yandex    | 2022 | 44.09  | 39.79 |38.98|   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-ru-en-Helsinki NLP | 2022 | 39.12  | 36.02 |34.63|  RU |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-ru-de-Yandex    | 2022 | 29.20  | 29.88 |27.17|   RU  |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-ru-fr-Yandex  | 2022 | 29.82  | 27.34 |26.62|   RU   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-ru-fr-Helsinki NLP | 2022 | 21.60 | 20.44 |19.72|  RU |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-en-Yandex    | 2022 | 42.11 | 35.04 |36.57|   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-en-Helsinki NLP | 2022 | 42.11 | 35.04 |36.57|  FR |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-de-Yandex    | 2022 | 33.01  | 35.82 |31.01|   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-de-Helsinki NLP | 2022 | 27.74  | 30.56 |25.74|  FR |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-fr-Yandex  | 2022 | 11.58  | 15.74|12.28|   FR   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-fr-fr-Helsinki NLP | 2022 | 0  | 0 |0|  FR |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-en-Yandex    | 2022 | 41.96  | 39.19 |39.30|   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-de-Yandex    | 2022 | 38.94  | 36.60 |37.34|   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-de-Helsinki NLP | 2022 | 45.73  | 39.35 |39.49|  LT |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-ru-Yandex    | 2022 | 17.32  | 17.39 |17.35|   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-ru-Helsinki NLP | 2022 | 14.13  | 15.22 |14.49|  LT |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-fr-Yandex  | 2022 | 33.26  | 28.32 |29.16|   LT   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-lt-fr-Helsinki NLP | 2022 | 30.36  | 26.28 |26.42|  LT |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-en-Yandex    | 2022 | 43.15  | 43.15 |39.17|   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- | QAnswer-uk-en-Helsinki NLP    | 2022 | 43.15  | 43.15 |39.17|  UK |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
- |     QAnswer-uk-de-Yandex    | 2022 | 32.67  | 33.01 |30.38|   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-de-Helsinki NLP | 2022 | 31.86  | 30.32 |28.82|  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-ru-Yandex    | 2022 |9.48  | 27.32 |27.13|   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-ru-Helsinki NLP | 2022 | 24.64  | 23.97 |23.19|  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-fr-Yandex  | 2022 | 30.85  | 28.07 |27.27|   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-uk-fr-Helsinki NLP | 2022 | 22.68 | 23.52 |20.76|  UK |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
-|     QAnswer-uk-en-Yandex    | 2022 | 43.15  | 43.15 |39.17|   UK   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- | QAnswer-be-en-Helsinki NLP    | 2022 | 43.15  | 43.15 |39.17|  BE |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940)|
- |     QAnswer-be-de-Yandex    | 2022 | 32.67  | 33.01 |30.38|   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-be-de-Helsinki NLP | 2022 | 31.86  | 30.32 |28.82|  BE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-be-ru-Yandex    | 2022 |9.48  | 27.32 |27.13|   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-be-ru-Helsinki NLP | 2022 | 24.64  | 23.97 |23.19|  BE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-be-fr-Yandex  | 2022 | 30.85  | 28.07 |27.27|   BE   |        [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
- |     QAnswer-be-fr-Helsinki NLP | 2022 | 22.68 | 23.52 |20.76|  BE |   [Perevalov et. al.](https://dl.acm.org/doi/pdf/10.1145/3485447.3511940) |
+ |     QAnswer    | 2022 | -   |- |30.39 (Macro F1)|   EN   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271) |
+ |     QAnswer    | 2022 |  -  |- |19.98 (Macro F1)|   DE   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     QAnswer    | 2022 |  -  |- |15.06 (Macro F1)|   FR   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     QAnswer    | 2022 |  -  |- |9.57 (Macro F1)|   RU   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     QAnswer    | 2022 |  -  |- |5.27 (Micro F1)|   EN   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271) |
+ |     QAnswer    | 2022 | -   |- |2.19 (Micro F1)|   DE   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     QAnswer    | 2022 | -   |- |4.06 (Micro F1)|   FR   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     QAnswer    | 2022 |  -  |- |1.53 (Micro F1)|   RU   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     DeepPavlov | 2022 |  -  |- |12.40 (Macro F1)|   EN   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     DeepPavlov | 2022 |  -  |- |0.13 (Micro F1)|   EN   |         [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     Platypus   | 2022 |  -  |- |15.03 (Macro F1)|   EN   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     Platypus   | 2022 |  -  |- |1.26 (Micro F1)|   EN   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     DeepPavlov | 2022 |  -  |- |8.70 (Macro F1)|   RU   |       [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     DeepPavlov | 2022 |  -  |- |0.05 (Micro F1)|   RU   |       [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     Platypus   | 2022 | -   |- |4.17 (Macro F1)|   FR   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
+ |     Platypus   | 2022 | -   |- |0.00 (Micro F1)|   FR   |        [Perevalov et. al.](https://ieeexplore.ieee.org/document/9736271)|
  
  
 ## QALD-9
@@ -242,7 +197,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-1391/173-CR.pdf) for deta
 |      UTQA      |2016|    -    |  -   | 65.2 |   EN   |               [Ben Veyseh](https://aclanthology.org/W16-1403.pdf)               |
 |      UTQA      |2020|    -    |  -   |  65  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |      UTQA      |2020|   55    |  53  |  54  |   ES   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
-|      UTQA      |2020|   53    |  51  |  52  |   FS   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
+|      UTQA      |2020|   53    |  51  |  52  |   FA   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |  WDAqua-core1  |2020|   56    |  41  |  47  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |     AskNow     |2020|   32    |  34  |  33  |   EN   |[Diefenbach et al.](http://www.semantic-web-journal.net/system/files/swj2038.pdf)|
 |     ISOFT      |2015|   100   | 100  |  33  |   EN   |                                      ISOFT                                      |
