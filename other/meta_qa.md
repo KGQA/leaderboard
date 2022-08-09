@@ -12,6 +12,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |       Model / System        | Year | Hits@1 | Exact Match | Language  |                                   Reported by                      |
 |:---------------------------:|:----:|:------:|:-----------:|:---------:|:------------------------------------------------------------------:|
 |           SSKGQA            | 2022 |  99.1  |      -      |    EN     |   [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
+|           NRQA              | 2022 |  98.1  |      -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |            DCRN             | 2022 |  97.5  |      -      |    EN     |   [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 |             VRN             | 2017 |  97.5  |      -      |    EN     |              [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)  |
 |          EmbedKGQA          | 2020 |  97.5  |      -      |    EN     |         [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf) |
@@ -49,6 +50,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |           SSKGQA            | 2022 |  99.7  |      -      |                                 EN                                 | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 |          EmbedKGQA          | 2020 |  98.8  |      -      |                                 EN                                 |      [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf)       |
 |         TransferNet         | 2022 |  98.5  |      -      |                                 EN                                 | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
+|           NRQA              | 2022 |  97.5  |      -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |         ReifKB+mask         | 2020 |  95.4  |      -      |                                 EN                                 |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
 |             SRN             | 2020 |  95.1  |      -      |                                 EN                                 |        [Qiu et al.](https://dl.acm.org/doi/10.1145/3336191.3371812)        |
 |          GraftNet           | 2018 |  94.8  |      -      |                                 EN                                 |            [Sun et al.](https://aclanthology.org/D18-1455.pdf)             |
@@ -60,7 +62,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |           ReifKB            | 2020 |  81.1  |      -      |                                 EN                                 |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
 |             IRN             | 2022 |  71.3  |      -      |                                 EN                                 |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |    Supervised embedding     | 2017 |  29.1  |      -      |                                 EN                                 |             [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)           |
-|          KV-MemNN           | 2017 |   25.1 |      -      |                                 EN                                 |        [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)        |
+|          KV-MemNN           | 2017 |  25.1  |      -      |                                 EN                                 |        [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)        |
 |            T5+KG            | 2022 |   -    |    33.57    |                                 EN                                 |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
 |            T5+C4            | 2022 |   -    |    32.78    |                                 EN                                 |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
 |             T5              | 2022 |   -    |    32.65    |                                 EN                                 |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
@@ -77,6 +79,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |            NSM+p            | 2021 |  98.9  |      -      |                                    EN                                     |             [He et al.](https://arxiv.org/pdf/2101.03737.pdf)              |
 |            NSM+h            | 2021 |  98.9  |      -      |                                    EN                                     |             [He et al.](https://arxiv.org/pdf/2101.03737.pdf)              |
 |            QAGCN            | 2022 |  97.6  |      -      |                                    EN                                     |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|           NRQA              | 2022 |  96.1  |      -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |          EmbedKGQA          | 2020 |  94.8  |      -      |                                    EN                                     |      [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf)       |
 |         TransferNet         | 2022 |  94.7  |      -      |                                    EN                                     | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 |           PullNet           | 2022 |  91.4  |      -      |                                    EN                                     |             [Sun et al.](https://arxiv.org/pdf/1904.09537.pdf)             |
