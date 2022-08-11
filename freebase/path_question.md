@@ -10,31 +10,71 @@ This dataset can be downloaded via the [link](https://github.com/zmtkeke/IRN).
 
 ## Leaderboard 
 
-## 2-hop
+## PQ (2-hop)
 
 ### Leaderboard
 
 | Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
 |:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|     ISM      | 2022 |    -    |  -   | 99.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
 |     QAGCN      | 2022 |    -    |  -   | 98.5(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|  Uhop-HR| 2022 |    -    |  -   | 97.6(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  AlAgha, 2022| 2022 |    -    |  -   | 97.4(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |      SRN       | 2022 |    -    |  -   | 96.3(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|  RL-MHR| 2022 |    -    |  -   | 94.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  TransferNet| 2022 |    -    |  -   | 93.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |      IRN       | 2022 |    -    |  -   | 91.9(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|  IRN| 2022 |    -    |  -   | 78.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  HR-BiLSTM| 2022 |    -    |  -   | 76.8(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |    MINERVA     | 2022 |    -    |  -   | 75.9(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 
 
-
-## 3-hop
+## PQL (2-hop)
 
 ### Leaderboard
 
 | Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
 |:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|  AlAgha, 2022| 2022 |    -    |  -   | 92.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|     ISM      | 2022 |    -    |  -   | 84.9(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
+|  TransferNet| 2022 |    -    |  -   | 84.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  Uhop-HR| 2022 |    -    |  -   | 82.6(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  RL-MHR| 2022 |    -    |  -   | 82.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  HR-BiLSTM| 2022 |    -    |  -   | 71.9(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  IRN| 2022 |    -    |  -   | 66.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+
+## PQ (3-hop)
+
+### Leaderboard
+
+| Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
+|:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|  AlAgha, 2022| 2022 |    -    |  -   | 98.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|     ISM      | 2022 |    -    |  -   | 95.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
+|  TransferNet| 2022 |    -    |  -   | 91.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  Uhop-HR| 2022 |    -    |  -   | 91.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |     QAGCN      | 2022 |    -    |  -   | 90.6(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |      SRN       | 2022 |    -    |  -   | 89.2(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|  RL-MHR| 2022 |    -    |  -   | 87.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |      IRN       | 2022 |    -    |  -   | 83.3(Hits@1) | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
+|  IRN| 2022 |    -    |  -   | 74.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  HR-BiLSTM| 2022 |    -    |  -   | 74.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |    MINERVA     | 2022 |    -    |  -   | 71.2(Hits@1)  | EN  |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 
 
+## PQL (3-hop)
+
+### Leaderboard
+
+| Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
+|:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+|  AlAgha, 2022| 2022 |    -    |  -   | 89.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  TransferNet| 2022 |    -    |  -   | 82.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|     ISM      | 2022 |    -    |  -   | 81.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
+|  Uhop-HR| 2022 |    -    |  -   | 80.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  RL-MHR| 2022 |    -    |  -   | 77.8(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  HR-BiLSTM| 2022 |    -    |  -   | 61.6(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  IRN| 2022 |    -    |  -   | 59.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 
 
 ## References 
