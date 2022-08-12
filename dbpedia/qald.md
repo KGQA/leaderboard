@@ -124,7 +124,9 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 
 | Model / System | Year |Precision|Recall| F1  |Language|                                  Reported by                                   |
 |:--------------:|:----:|:-------:|:----:|:---:|:------:|:------------------------------------------------------------------------------:|
+|Entity Type Tags Modified|2022|-|-|88.15(accuracy)| EN | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |     qaSQP      | 2019 |  45.90  |46.30 |46.10|   EN   |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
+| SPARQL Generator|2022|-|-|40.09(accuracy)| EN | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |    gAnswer2    | 2019 |  38.60  |  39  |38.80|   EN   |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
 |    gAnswer     | 2021 |  38.62  |39.02 |38.80|   EN   |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
 |  WDAqua-core0  | 2021 |  39.12  |40.65 |38.72|   EN   |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
@@ -148,8 +150,10 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |        Model / System        | Year |Precision|Recall| F1  |Language|                                  Reported by                                  |
 |:----------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------:|
 |             LAMA             | 2019 |    -    |  -   |90.50|   EN   |            [Radoev et. al.](https://arxiv.org/pdf/2004.13843.pdf)             |
+|Entity Type Tags Modified|2022|-|-|76.69(accuracy)| EN | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |         LingTeQA [1]         | 2020 |  63.40  |73.50 |64.20|   EN   |    [D. Nhuan et al](https://ieeexplore.ieee.org/abstract/document/9282949)    |
 |         Liang et al.         | 2021 |  81.30  |52.70 |63.90|   EN   |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
+| SPARQL Generator|2022|-|-|60.74(accuracy)| EN | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |           gAnswer2           | 2020 |  55.70  |59.20 |55.60|   EN   |            [Athreya et. al](https://arxiv.org/pdf/2004.13843.pdf)             |
 |           gAnswer2           | 2021 |  55.70  |59.20 |55.60|   EN   |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
 |         WDAqua-core0         | 2021 |  48.80  |53.50 |51.10|   EN   |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
