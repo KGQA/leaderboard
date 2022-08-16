@@ -18,6 +18,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |      NPI       | 2022 |   -   |  72.6  |    EN    |            [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)            |
 |    TextRay     | 2022 |   -   |  72.2  |    EN    |            [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)            |
 |    CBR-SUBG    | 2022 |   -   | 72.10  |    EN    |                 [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)                 |
+| KGQA Based on Query Path Generation| 2022 | - | 71.7 | EN | [Yang et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_12) |
 |     SSKGQA     | 2022 |   -   |  71.4  |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
 |  TransferNet   | 2022 |   -   |  71.4  |    EN    |                 [Shi et al.](https://arxiv.org/pdf/2104.07302.pdf)                 |
 |      SeqM      | 2020 | 71.83 |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
