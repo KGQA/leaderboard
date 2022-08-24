@@ -121,7 +121,7 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |          AQG-net    [3]      | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
 
 
- * [10][12] Exact match of query surface form is performed. Answers are not fetched from KG.
+ * [10][12] Token wise match of query string is performed. Answers are not fetched from KG.
 
 
 
@@ -145,7 +145,7 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 * [1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues..
 * [2] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0. 
-* [14] Exact match of query surface form is performed. Answers are not fetched from KG.
+* [14] Token wise match of query string is performed. Answers are not fetched from KG.
 
 ## LC-QuAD v2 + QALD-9
 
