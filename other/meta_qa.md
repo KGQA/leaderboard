@@ -35,6 +35,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 | Borders et al. 's QA system | 2017 |  95.7  |      -      |     EN      |              [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)  |
 |          KV-MemNN           | 2017 |  95.8  |      -      |     EN      |              [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)  |
 |          AlAgha, 2022   | 2022 |  95.4  |      -      |     EN      |              [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)|
+|   KGQA Based on Query Path Generation| 2022 |  93.9  |      -      |     EN      |              [Yang et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_12)|
 |             IRN             | 2022 |  85.9  |      -      |     EN      |               [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)  |
 |    Supervised embedding     | 2017 |  54.4  |      -      |     EN      |              [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)  |
 |            T5+KG            | 2022 |   -    |    71.47    |     EN      |       [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)       |
@@ -47,6 +48,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 
 |       Model / System        | Year | Hits@1 | Exact Match |                               Language                             |                                       Reported by                                       |
 |:---------------------------:|:----:|:------:|:-----------:|:------------------------------------------------------------------:|:---------------------------------------------------------------------------------------:|
+|   KGQA Based on Query Path Generation| 2022 |  99.9  |      -      |     EN      |              [Yang et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_12)|
 |           PullNet           | 2019 |  99.9  |      -      |                                 EN                                 |       [Sun et al.](https://arxiv.org/pdf/1904.09537.pdf)        |
 |            DCRN             | 2022 |  99.9  |      -      |                                 EN                                 |       [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)        |
 |             NSM             | 2021 |  99.9  |      -      |                                 EN                                 |              [He et al.](https://arxiv.org/pdf/2101.03737.pdf)              |
@@ -89,6 +91,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |            NSM+h            | 2021 |  98.9  |      -      |                                   EN                                   |             [He et al.](https://arxiv.org/pdf/2101.03737.pdf)              |
 |           QNRKGQA           | 2022 |  98.9  |      -      |                                   EN                                   |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |          QNRKGQA+h          | 2022 |  98.9  |      -      |                                   EN                                   |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
+|   KGQA Based on Query Path Generation| 2022 |  98.5  |      -      |     EN      |              [Yang et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_12)|
 |            QAGCN            | 2022 |  97.6  |      -      |                                   EN                                   |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |            NRQA             | 2022 |  96.1  |      -      |                                   EN                                   | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |          EmbedKGQA          | 2020 |  94.8  |      -      |                                   EN                                   |      [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf)       |
