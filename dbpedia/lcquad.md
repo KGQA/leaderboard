@@ -104,22 +104,22 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
 |:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
-|     T5-Small   [16]           | 2022 |    -    |  -   |92|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|     T5-Base    [15]          | 2022 |    -    |  -   |91|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|     PGN-BERT-BERT   [13]     | 2022 |    -    |  -   |86|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|         SGPT_Q,K     [14]     | 2022 |     -     |    -    | 89.04 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
-|     PGN-BERT    [11]          | 2022 |    -    |  -   |77|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|             NSpM      [10]       | 2022 |     -     |    -    | 66.47 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
-|     PGN-BERT       [9]       | 2022 |    -    |  -   |64|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|     Zou et al. + Bert [8]     | 2021 |    -    |  -   |59.30|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|    CLC    [7]         | 2021 |    -    |  -   |59|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|     T5-Small              | 2022 |    -    |  -   |92|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|     T5-Base              | 2022 |    -    |  -   |91|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|     PGN-BERT-BERT        | 2022 |    -    |  -   |86|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|         SGPT_Q,K    [1]     | 2022 |     -     |    -    | 89.04 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|     PGN-BERT              | 2022 |    -    |  -   |77|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|             NSpM      [2]       | 2022 |     -     |    -    | 66.47 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|     BART              | 2022 |    -    |  -   |64|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|     Zou et al. + Bert      | 2021 |    -    |  -   |59.30|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
+|    CLC             | 2021 |    -    |  -   |59|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 |    Multi-hop QGG        [6]     | 2020 |    -    |  -   |53|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-| Zou et al. + Tencent Word [5] | 2021 |    -    |  -   |52.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)  |
-|       Multi-hop QGG    [4]   | 2021 |    -    |  -   |52.60|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
-|          AQG-net    [3]      | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
+| Zou et al. + Tencent Word  | 2021 |    -    |  -   |52.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)  |
+|       Multi-hop QGG       | 2021 |    -    |  -   |52.60|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
+|          AQG-net         | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
 
 
- * [10][12] Token wise match of query string is performed. Answers are not fetched from KG.
+ * [1][2] Token wise match of query string is performed. Answers are not fetched from KG.
 
 
 
@@ -129,20 +129,20 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
 |:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
-|          SGPT_Q     [12]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
-|          UNIQORN [18]        | 2021 |    33.1 |  -   | - |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
-|           QAnswer [19]       | 2020 | 30.80   |  -   | - |   EN   | [Diefenbach et al.](https://doi.org/10.3233/SW-190343) reported by [18]  |
-|           GraftNet [20]      | 2018 | 19.7    |  -   | - |   EN   |  [Sun et al.](https://aclanthology.org/D18-1455.pdf) reported by [2]     |
+|          SGPT_Q     [3]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|          UNIQORN         | 2021 |    33.1 |  -   | - |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
+|           QAnswer        | 2020 | 30.80   |  -   | - |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)  |
+|           GraftNet      | 2018 | 19.7    |  -   | - |   EN   |   [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)     |
 |   ElNeuQA-ConvS2S [1]     | 2021 |  26.90  |  27  |26.90|   EN   |                  [Diomedi, Hogan](https://arxiv.org/pdf/2107.02865.pdf)    |
 |   GRAFT-Net + Clocq [2]   | 2022 |  19.70  |  -   |  -  |   EN   |       [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)          |
-|           Platypus [21]   | 2018 |  3.6    |  -   |  -  |   EN   | [Tanon et al.](https://link.springer.com/chapter/10.1007/978-3-319-98192-5_21) reported by [18] |
-|   Pullnet [22]            | 2019 |  1.1    |  -   |  -  |   EN   | [Sun et al.](https://aclanthology.org/D19-1242.pdf) reported by [18]      |
-|   UNIK-QA     [17]        | 2020 |    0.5    |  -   | - |   EN   |       [Oguz et al.](https://arxiv.org/abs/2012.14610) reported by [18]    |
+|           Platypus    | 2018 |  3.6    |  -   |  -  |   EN   |[Pramanik et al.](https://arxiv.org/abs/2108.08614) |
+|   Pullnet            | 2019 |  1.1    |  -   |  -  |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)      |
+|   UNIK-QA          | 2020 |    0.5    |  -   | - |   EN   |    [Pramanik et al.](https://arxiv.org/abs/2108.08614)   |
 
 
 * [1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues..
 * [2] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0. 
-* [14] Token wise match of query string is performed. Answers are not fetched from KG.
+* [3] Token wise match of query string is performed. Answers are not fetched from KG.
 
 ## LC-QuAD v2 + QALD-9
 
