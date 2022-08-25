@@ -99,10 +99,8 @@ Please see our [paper](https://figshare.com/projects/LCQuAD_2_0/62270) for detai
 
 This dataset can be downloaded via the [link](https://figshare.com/projects/LCQuAD_2_0/62270).
 
-### Leaderboard
+### Leaderboard for systems which require gold entity and/or relation as input
 
-
-#### Gold Entities or Relations provided in Input
 
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
 |:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
@@ -126,8 +124,7 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 
 
-#### No gold entity or relation provided as input.
-#### Some systems do entity and relation linking themselves, while others use an off the shelf EL/RL system.
+### Leaderboard for systems which do not require gold entity and/or relation as input
 
 
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
