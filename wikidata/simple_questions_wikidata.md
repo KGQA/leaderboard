@@ -8,6 +8,7 @@ This dataset can be downloaded via the [link](https://github.com/askplatypus/wik
 
 |      Model / System       |Year|Precision|Recall|  F1  |Language|                                          Reported by                                          |
 |:-------------------------:|:---:|:-------:|:----:|:----:|:------:|:---------------------------------------------------------------------------------------------:|
+|      Rigel-Baseline            |2021|  73.4   | - | - |   EN   |        [Oliya et al.](https://arxiv.org/pdf/2109.05817.pdf)                     |
 |      Rigel-ER            |2021|  70.1   | - | - |   EN   |        [Oliya et al.](https://arxiv.org/pdf/2109.05817.pdf)                     |
 |      KBQA-Adapter            |2021|  72.0   | - | - |   EN   |        [Oliya et al.](https://arxiv.org/pdf/2109.05817.pdf)                     |
 
