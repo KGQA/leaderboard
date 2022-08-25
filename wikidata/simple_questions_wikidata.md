@@ -8,6 +8,7 @@ This dataset can be downloaded via the [link](https://github.com/askplatypus/wik
 
 |      Model / System       |Year|Precision|Recall|  F1  |Language|                                          Reported by                                          |
 |:-------------------------:|:---:|:-------:|:----:|:----:|:------:|:---------------------------------------------------------------------------------------------:|
+|      Rigel-E2E            |2021|  68.2   | - | - |   EN   |        [Oliya et al.](https://arxiv.org/pdf/2109.05817.pdf)                     |
 |      Text2Graph (MEKER Wikidata5m)  |2022|  -   | - | 61.81 ± 0.13 |   EN   |        [Chekalina et al.](https://arxiv.org/pdf/2204.10629.pdf)                     |
 |      STaG-QA_pre [1]      |2021|  60.2   | 63.2 | 61.7 |   EN   |                    [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                     |
 |        STaG-QA [2]        |2021|  59.4   | 62.7 | 60.1 |   EN   |                    [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                     |
