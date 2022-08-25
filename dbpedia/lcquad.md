@@ -107,7 +107,7 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |     T5-Small   [16]           | 2022 |    -    |  -   |92|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 |     T5-Base    [15]          | 2022 |    -    |  -   |91|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 |     PGN-BERT-BERT   [13]     | 2022 |    -    |  -   |86|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|          SGPT_Q     [12]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|         SGPT_Q,K     [14]     | 2022 |     -     |    -    | 89.04 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
 |     PGN-BERT    [11]          | 2022 |    -    |  -   |77|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 |             NSpM      [10]       | 2022 |     -     |    -    | 66.47 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
 |     PGN-BERT       [9]       | 2022 |    -    |  -   |64|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
@@ -129,7 +129,7 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
 |:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
-|         SGPT_Q,K     [14]     | 2022 |     -     |    -    | 89.04 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|          SGPT_Q     [12]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
 |          UNIQORN [18]        | 2021 |    33.1 |  -   | - |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
 |           QAnswer [19]       | 2020 | 30.80   |  -   | - |   EN   | [Diefenbach et al.](https://doi.org/10.3233/SW-190343) reported by [18]  |
 |           GraftNet [20]      | 2018 | 19.7    |  -   | - |   EN   |  [Sun et al.](https://aclanthology.org/D18-1455.pdf) reported by [2]     |
