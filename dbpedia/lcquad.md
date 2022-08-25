@@ -112,8 +112,8 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |             NSpM      [2]       | 2022 |     -     |    -    | 66.47 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
 |     BART              | 2022 |    -    |  -   |64|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 |     Zou et al. + Bert      | 2021 |    -    |  -   |59.30|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)                     |
-|    CLC             | 2021 |    -    |  -   |59|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
-|    Multi-hop QGG        [6]     | 2020 |    -    |  -   |53|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|    CLC                   | 2021 |    -    |  -   |59|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
+|    Multi-hop QGG       | 2020 |    -    |  -   |53|   EN   |                    [Banerjee et al.](https://arxiv.org/pdf/2204.12793.pdf)                     |
 | Zou et al. + Tencent Word  | 2021 |    -    |  -   |52.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)  |
 |       Multi-hop QGG       | 2021 |    -    |  -   |52.60|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
 |          AQG-net         | 2021 |    -    |  -   |44.90|   EN   |                    [Zou et al.](https://arxiv.org/pdf/2111.06086.pdf)   |
