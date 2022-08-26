@@ -10,6 +10,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 
 - [LC-QuAD 1.0](dbpedia/lcquad.md#lc-quad-v1)
 - [LC-QuAD 2.0](dbpedia/lcquad.md#lc-quad-v2)
+- [QALD-9-plus](dbpedia/qald.md#qald-9-plus)
 - [QALD-9](dbpedia/qald.md#qald-9)
 - [QALD-8](dbpedia/qald.md#qald-8)
 - [QALD-7](dbpedia/qald.md#qald-7)
