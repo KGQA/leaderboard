@@ -24,6 +24,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |      SeqM      | 2020 | 71.83 |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |     STAGG      | 2015 | 69.00 |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |      UHop      | 2019 | 68.5  |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
+|     KBIGER     | 2022 | 68.4  |  75.3  |    EN    |  [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
 |      NSM       | 2022 |   -   |  69.0  |    EN    |            [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)            |
 | GraftNet-EF+LF | 2018 |   -   |  68.7  |    EN    |                [Sun et al.](https://aclanthology.org/D18-1455.pdf)                 |
 |    PullNet     | 2019 |   -   |  68.1  |    EN    |                 [Sun et al.](https://arxiv.org/pdf/1904.09537.pdf)                 |
