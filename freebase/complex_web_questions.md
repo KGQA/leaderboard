@@ -14,8 +14,11 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 |     QNRKGQA+h      | 2022 |   -   |  51.5  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |      QNRKGQA       | 2022 |   -   |  50.5  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 | ProgramTransfer-f  | 2022 | 45.9 |  45.2  |     EN     |     [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)      |
+| KBIGER             | 2022 | 45.5  | 50.2 |      EN     |     [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)      |
 |     TeacherNet     | 2022 | 44.0 |  48.8  |     EN     |     [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)      |
+|        NSM         | 2022 | 44.0 |  48.8  |    EN    |    [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)     |
 |       NSM+h        | 2022 |   -   |  48.8  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
+|       TransferNet  | 2022 |   -   |  48.6  |    EN    |     [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)      |
 |       NSM+p        | 2022 |   -   |  48.3  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |        NSM         | 2022 |   -   |  47.6  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |      PullNet       | 2022 |   -   |  45.9  |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
