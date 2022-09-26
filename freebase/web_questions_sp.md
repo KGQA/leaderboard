@@ -24,10 +24,13 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |      SeqM      | 2020 | 71.83 |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |     STAGG      | 2015 | 69.00 |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |      UHop      | 2019 | 68.5  |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
+|     KBIGER     | 2022 | 68.4  |  75.3  |    EN    |  [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
 |      NSM       | 2022 |   -   |  69.0  |    EN    |            [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)            |
 | GraftNet-EF+LF | 2018 |   -   |  68.7  |    EN    |                [Sun et al.](https://aclanthology.org/D18-1455.pdf)                 |
 |    PullNet     | 2019 |   -   |  68.1  |    EN    |                 [Sun et al.](https://arxiv.org/pdf/1904.09537.pdf)                 |
 |  Topic Units   | 2019 | 67.9  |   -    |    EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
+|  NSM           | 2022 | 67.4 |  74.3  |    EN    |   [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
+|    GraftNet    | 2022 | 62.8|  67.8  |    EN    |    [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
 |      DCRN      | 2021 |   -   |  67.8  |    EN    |          [Cai et al.](https://aclanthology.org/2021.findings-acl.19.pdf)           |
 |      NRQA      | 2022 |   -   |  67.1  |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf) |
 |    GraftNet    | 2022 |   -   |  66.4  |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
@@ -36,6 +39,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |    TextRay     | 2019 | 60.3  |   -    |    EN    |        [Bhutani et al.](https://dl.acm.org/doi/pdf/10.1145/3357384.3358033)        |
 |     ReifKB     | 2020 |   -   |  52.7  |    EN    |                [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)                |
 |    KV-MemNN    | 2022 |   -   |  46.7  |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
+|    KV-Mem    | 2022 |  46.7   |  38.6  |    EN    |    [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
 
 ## References 
 <a name="myfootnote1">[1]</a> Yih, Wen-tau, Matthew Richardson, Christopher Meek, Ming-Wei Chang, and Jina Suh. [The value of semantic parse labeling for knowledge base question answering.](http://anthology.aclweb.org/P16-2033) In Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pp. 201-206. 2016.
