@@ -63,7 +63,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |            NRQA             | 2022 |  97.5  |      -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |         ReifKB+mask         | 2020 |  95.4  |      -      |                                 EN                                 |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
 |             SRN             | 2020 |  95.1  |      -      |                                 EN                                 |        [Qiu et al.](https://dl.acm.org/doi/10.1145/3336191.3371812)        |
-|          GraftNet           | 2018 |  94.8  |      -      |                                 EN                                 |            [Sun et al.](https://aclanthology.org/D18-1455.pdf)   
+|          GraftNet           | 2018 |  94.8  |      -      |                                 EN                                 |            [Sun et al.](https://aclanthology.org/D18-1455.pdf) |   
 |          AlAgha, 2022          | 2022 |  94.1  |      -      |                                 EN                                 | [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)            |
 |           MINERVA           | 2022 |  92.9  |      -      |                                 EN                                 |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |             VRN             | 2017 |  89.9  |      -      |                                 EN                                 |            [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)            |
