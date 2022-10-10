@@ -7,28 +7,32 @@ This dataset can be downloaded via the [link](https://github.com/kelvin-jiang/Fr
 
 ## Leaderboard 
 
-|  Model / System  | Year | Exact Match | Accuracy | Language |                      Reported by                      |
-|:----------------:|:----:|:-----------:|:--------:|:--------:|:-----------------------------------------------------:|
-|       FAE        | 2022 |      -      |  63.30   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|       EAE        | 2022 |      -      |  53.40   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|     CBR-SUBG     | 2022 |      -      |  52.07   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|      BuboQA      | 2022 |      -      |  38.25   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|     FOFE-net     | 2019 |      -      |  37.00   |    EN     | [Jiang et al.](https://aclanthology.org/N19-1028.pdf) |
-|   KBQA-Adapter   | 2022 |      -      |  28.78   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|       KEQA       | 2022 |      -      |  28.73   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|    HR-BiLSTM     | 2022 |      -      |  28.40   |    EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
-|  T5-XXL+WikiKG   | 2022 |    47.25    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|   T5-XXL+KELM    | 2022 |    45.90     |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|      T5-XXL      | 2022 |    45.02    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|    T5-XXL+C4     | 2022 |    44.14    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-| T5-large+WikiKG  | 2022 |    35.29    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|  T5-large+KELM   | 2022 |    34.16    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|   T5-large+C4    | 2022 |    34.01    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|     T5-large     | 2022 |    32.88    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|  T5-base+WikiKG  | 2022 |    28.38    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|    T5-base+C4    | 2022 |    28.33    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|   T5-base+KELM   | 2022 |    28.15    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
-|     T5-base      | 2022 |    27.55    |    -     |    EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|  Model / System  | Year | Exact Match | Accuracy | Hits@1 | Language |                      Reported by                      |
+|:----------------:|:----:|:-----------:|:--------:|:--------:|:--------:|:-----------------------------------------------------:|
+|   DECAF (DPR + FiD-large)  | 2022 |      -      | -  |  79.0±0.6  |    EN     |  [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)   |
+|  DECAF (BM25 + FiD-large)  | 2022 |      -      |  -  | 78.8± 0.5 |    EN     |  [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)   |
+| FILM  | 2022 |      -      |  -  | 63.3 |    EN     |  [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)   |
+| CBR-SUBG  | 2022 |      -      |  -  | 52.1 |    EN     |  [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)   |
+|       FAE        | 2022 |      -      |  63.30   |   -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|       EAE        | 2022 |      -      |  53.40   |    -  | EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|     CBR-SUBG     | 2022 |      -      |  52.07   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|      BuboQA      | 2022 |      -      |  38.25   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|     FOFE-net     | 2019 |      -      |  37.00   |   -  |  EN     | [Jiang et al.](https://aclanthology.org/N19-1028.pdf) |
+|   KBQA-Adapter   | 2022 |      -      |  28.78   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|       KEQA       | 2022 |      -      |  28.73   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|    HR-BiLSTM     | 2022 |      -      |  28.40   |   -  |  EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|  T5-XXL+WikiKG   | 2022 |    47.25    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|   T5-XXL+KELM    | 2022 |    45.90     |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|      T5-XXL      | 2022 |    45.02    |    -     |    -  | EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|    T5-XXL+C4     | 2022 |    44.14    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+| T5-large+WikiKG  | 2022 |    35.29    |    -     |  -  |   EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|  T5-large+KELM   | 2022 |    34.16    |    -     |  -  |   EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|   T5-large+C4    | 2022 |    34.01    |    -     |  -  |   EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|     T5-large     | 2022 |    32.88    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|  T5-base+WikiKG  | 2022 |    28.38    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|    T5-base+C4    | 2022 |    28.33    |    -     |  -  |   EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|   T5-base+KELM   | 2022 |    28.15    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|     T5-base      | 2022 |    27.55    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
 
 
 
