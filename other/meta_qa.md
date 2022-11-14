@@ -25,7 +25,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |           QNRKGQA           | 2022 |  97.3  |   - |    -    |     EN   |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |            NSM+h            | 2021 |  97.2  |  - |     -      |     EN      |                [He et al.](https://arxiv.org/pdf/2101.03737.pdf)   |
 |   Edge-aware GNN            | 2022 |  97.2  | 98.5 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
-|   ccc               | 2022 |  99.0  | 97.6 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   GlobalGraph               | 2022 |  99.0  | 97.6 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |   2HR-DR                    | 2022 |  98.8  | 97.3 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |   SGReader                  | 2022 |  96.7  | 96.0 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |   GRAFT-Net                 | 2022 |  97.4  | 91.0 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
@@ -67,9 +67,10 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |         TransferNet         | 2022 |  98.5  |  - |     -      |     EN         | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 |            NRQA             | 2022 |  97.5  |  - |     -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf)  |
 |   Edge-aware GNN            | 2022 |  96.8  | 93.7 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
-|   GlobalGraph               | 2022 |   95.8  | 83.0 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   GlobalGraph               | 2022 |   95.5  | 83.0 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |   2HR-DR                    | 2022 |   93.7  | 81.4 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
-|   SGReader                  | 2022 |   87.0  | 79.8 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   SGReader                  | 2022 |   80.7  | 79.8 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   GraftNet                  | 2022 |   94.8  | 72.7 |       -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |         ReifKB+mask         | 2020 |  95.4  |   - |    -      |       EN        |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
 |             SRN             | 2020 |  95.1  |  - |     -      |      EN     |        [Qiu et al.](https://dl.acm.org/doi/10.1145/3336191.3371812)        |
 |          GraftNet           | 2018 |  94.8  |  - |     -      |       EN      |            [Sun et al.](https://aclanthology.org/D18-1455.pdf) |   
@@ -80,7 +81,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |          KV-MemNN           | 2022 |  82.7  |  - |     -      |              EN    | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 | Borders et al. 's QA system | 2017 |  81.8  |  - |     -      |             EN      |            [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)          |
 |           ReifKB            | 2020 |  81.1  |  - |     -      |       EN  |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
-|   KV-MemNN                  | 2022 |   87.0  | 76.0 |    -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   KV-MemNN                  | 2022 |   -  | 76.0 |    -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |             IRN             | 2022 |  71.3  |  - |     -      |         EN     |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |    Supervised embedding     | 2017 |  29.1  | - |      -      |           EN    |             [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)           |
 |          KV-MemNN           | 2017 |  25.1  |  - |     -      |         EN               |        [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)        |
