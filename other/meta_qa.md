@@ -81,7 +81,7 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |          KV-MemNN           | 2022 |  82.7  |  - |     -      |              EN    | [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf) |
 | Borders et al. 's QA system | 2017 |  81.8  |  - |     -      |             EN      |            [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)          |
 |           ReifKB            | 2020 |  81.1  |  - |     -      |       EN  |              [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)              |
-|   KV-MemNN                  | 2022 |   -  | 76.0 |    -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
+|   KV-MemNN                  | 2022 |  76.0  |  - |    -    |     EN      |   [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf) |
 |             IRN             | 2022 |  71.3  |  - |     -      |         EN     |            [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |    Supervised embedding     | 2017 |  29.1  | - |      -      |           EN    |             [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)           |
 |          KV-MemNN           | 2017 |  25.1  |  - |     -      |         EN               |        [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)        |
