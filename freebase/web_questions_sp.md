@@ -63,8 +63,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |           FILM | 2022 | 54.7| -|    EN    |    [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)               |
 |     ReifKB     | 2020 |   -   |  52.7  |    EN    |                [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)                |
 |    KV-MemNN    | 2022 |   -   |  46.7  |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
-|    KV-Mem    | 2022 |  46.7   |  38.6  |    EN    |    [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
-|    KV-Mem    | 2022 |  38.6 |  46.7  |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)     |
+|    KV-Mem       | 2022 |  38.6   |  46.7  |    EN    |    [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)   |
 
 
 ## References 
