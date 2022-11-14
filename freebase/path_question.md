@@ -35,13 +35,21 @@ This dataset can be downloaded via the [link](https://github.com/zmtkeke/IRN).
 
 | Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
 |:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
-|  AlAgha, 2022| 2022 |    -    |  -   | 92.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+|  AlAgha, 2022| 2022 |   -  |  -   | 92.3(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| Edge-aware GNN | 2022 | -   |  -   |85.6(Hits@1) | EN  |    [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)   |
 |     ISM      | 2022 |    -    |  -   | 84.9(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
 |  TransferNet| 2022 |    -    |  -   | 84.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |  Uhop-HR| 2022 |    -    |  -   | 82.6(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |  RL-MHR| 2022 |    -    |  -   | 82.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| GlobalGraph| 2022 | -   |  -   |76.0(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)   |
+| 2HR-DR     | 2022 | -   |  -    |75.5(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
+| IRN    | 2022 | -   |  -    |72.5(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
+| SGReader    | 2022 | -   |  -    |71.9(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
 |  HR-BiLSTM| 2022 |    -    |  -   | 71.9(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| GRAFT-Net    | 2022 | -   |  -    |70.7(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
 |  IRN| 2022 |    -    |  -   | 66.2(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| KV-MemNN   | 2022 | -   |  -  |62.2(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
+
 
 ## PQ (3-hop)
 
@@ -68,11 +76,18 @@ This dataset can be downloaded via the [link](https://github.com/zmtkeke/IRN).
 
 | Model / System | Year |Precision|Recall|      F1      |Language|                            Reported by                            |
 |:--------------:|:----:|:-------:|:----:|:------------:|:------:|:-----------------------------------------------------------------:|
+| GlobalGraph     | 2022 | -   |  -   |94.1(Hits@1) | EN  |    [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)   |
+| Edge-aware GNN  | 2022 | -    | -    |93.1(Hits@1) | EN  |    [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)   |
+| 2HR-DR     | 2022 | -   |  -    |92.1(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
+| GRAFT-Net    | 2022 | -   |  -    |91.3(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
 |  AlAgha, 2022| 2022 |    -    |  -   | 89.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| SGReader    | 2022 | -   |  -    |89.3(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
 |  TransferNet| 2022 |    -    |  -   | 82.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |     ISM      | 2022 |    -    |  -   | 81.7(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)             |
 |  Uhop-HR| 2022 |    -    |  -   | 80.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |  RL-MHR| 2022 |    -    |  -   | 77.8(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
+| IRN    | 2022 | -   |  -    |71.0(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
+| KV-MemNN   | 2022 | -   |  -  |67.4(Hits@1) | EN  |   [Zhang](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)  |
 |  HR-BiLSTM| 2022 |    -    |  -   | 61.6(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 |  IRN| 2022 |    -    |  -   | 59.1(Hits@1) | EN  |    [AlAgha, 2022](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9834917)   |
 
