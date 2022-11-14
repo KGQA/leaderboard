@@ -19,9 +19,14 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 |    ProgramTransfer-o     | 2022 | 55.8 |    54.7    |    EN    |        [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)         |
 |    ProgramTransfer-pa    | 2022 | 54.5 |    54.3    |    EN    |        [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)         |
 |          NSM+h           | 2022 |  -   |    53.9    |    EN    |              [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)              |
+|        REAREV            | 2022 |  -   |    52.9    |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
 |        QNRKGQA+h         | 2022 |  -   |    51.5    |    EN    | [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11) |
 |          SR+NSM          | 2022 |  -   |    50.2    |    EN    |              [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)              |
 |         QNRKGQA          | 2022 |  -   |    50.5    |    EN    | [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11) |
+|        NSM-distill       | 2022 |  -   |    48.8    |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
+|        Rigel             | 2022 |  -   |    48.7    |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
+|        TransferNet       | 2022 |  -   |    48.6    |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
+|        PullNet           | 2022 |  -   |    45.9    |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
 |    ProgramTransfer-f     | 2022 | 45.9 |    45.2    |    EN    |        [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)         |
 |          KBIGER          | 2022 | 45.5 |    50.2    |    EN    |              [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)              |
 |           TERP           | 2022 |  -   |    49.2    |    EN    | [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)  |
