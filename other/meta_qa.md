@@ -19,13 +19,14 @@ Note that this dataset is divided into 1-hop, 2-hop and 3-hop in the original pa
 |                NRQA                 | 2022 |  98.1  |      -      |     EN      | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf) |
 |                DCRN                 | 2022 |  97.5  |      -      |     EN      |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
 |                TERP                 | 2022 |  97.5  |      -      |     EN      |                  [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)                  |
+|                  TransferNet                  | 2022 |  97.5  |      -      |     EN      |                  [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)                  |
 |                 VRN                 | 2017 |  97.5  |      -      |     EN      |                [Zhang et al.](https://arxiv.org/pdf/1709.04071.pdf)                |
 |              EmbedKGQA              | 2020 |  97.5  |      -      |     EN      |          [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf)           |
 |                QAGCN                | 2022 |  97.3  |      -      |     EN      |                [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)                 |
 |                NSM+p                | 2021 |  97.3  |      -      |     EN      |                 [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                  |
 |               QNRKGQA               | 2022 |  97.3  |      -      |     EN      |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |                NSM+h                | 2021 |  97.2  |      -      |     EN      |                 [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                  |
-|                  EMQL                  | 2022 |  97.2  |      -      |     EN      |                  [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)                  |
+|                EMQL                 | 2022 |  97.2  |      -      |     EN      |                  [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)                  |
 |                 NSM                 | 2021 |  97.1  |      -      |     EN      |                 [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                  |
 |                 SRN                 | 2020 |  97.0  |      -      |     EN      |            [Qiu et al.](https://dl.acm.org/doi/10.1145/3336191.3371812)            |
 |              GraftNet               | 2018 |  97.0  |      -      |     EN      |                [Sun et al.](https://aclanthology.org/D18-1455.pdf)                 |
