@@ -28,6 +28,7 @@
 - [CronQuestions](wikidata/cron_questions.md) 
 - [CLC-QuAD](wikidata/clcquad.md)
 - [SimpleQuestionsWikidata](wikidata/simple_questions_wikidata.md)
+- [Mintaka](wikidata/Mintaka.md)
 
 ### Freebase
 
