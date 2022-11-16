@@ -7,7 +7,7 @@ Train, dev, and test set can be found [here](https://github.com/amazon-research/
 
 
 |Model  | Year | hits@1 | Language | Reported By |
-| ------------- | ------------- | ----------| ------------- | -------------- |
+|:-------------:|:-------------:|:----------:|:-------------:|:--------------:|
 | XL-T5 (fine-tuned) | 2022 | 0.38 | English | [Sen et al., 2022](https://aclanthology.org/2022.coling-1.138.pdf)|
 | DPR (trained) |2022 | 0.31 | English | [Sen et al., 2022](https://aclanthology.org/2022.coling-1.138.pdf)|
 | T5 | 2022 | 0.28 | English | [Sen et al., 2022](https://aclanthology.org/2022.coling-1.138.pdf)|
