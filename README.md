@@ -36,6 +36,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 - [CLC-QuAD](wikidata/clcquad.md)
 - [SimpleQuestionsWikidata](wikidata/simple_questions_wikidata.md)
 - [MKQA](wikidata/MKQA.md)
+- [Mintaka](wikidata/Mintaka.md)
 
 ### Freebase
 
