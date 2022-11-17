@@ -10,6 +10,8 @@ This dataset can be downloaded via the [link](http://thukeg.gitee.io/kqa-pro/).
 ## Leaderboard
 
 
+The authors maintain their own [leaderboard](http://thukeg.gitee.io/kqa-pro/leaderboard.html, which accepts submission.
+
 ## References
 <a name="myfootnote1">[1]</a> Shi, Jiaxin, Shulin Cao, Liangming Pan, Yutong Xiang, Lei Hou, Juanzi Li, Hanwang Zhang, and Bin He. [KQA Pro: A Large-Scale Dataset with Interpretable Programs and Accurate SPARQLs for Complex Question Answering over Knowledge Base.](https://arxiv.org/pdf/2007.03875.pdf) arXiv preprint arXiv:2007.03875 (2020).
 
