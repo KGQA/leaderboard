@@ -37,6 +37,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 - [SimpleQuestionsWikidata](wikidata/simple_questions_wikidata.md)
 - [MKQA](wikidata/MKQA.md)
 - [Mintaka](wikidata/Mintaka.md)
+- [Complex QA over Temporal KG](ComplexQA_over_Temporal_KG.md)
 
 ### Freebase
 
