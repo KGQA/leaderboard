@@ -1,4 +1,4 @@
-# Compositioanl Wikidata Questions (CWQ)
+# Compositional Wikidata Questions (CWQ)
 
 **Compositional Wikidata Questions (CWQ)**<sup>[[1]](#myfootnote1)</sup> is a multilingual KBQA dataset grounded in and executable over Wikidata. Our dataset includes questions in four languages (Hebrew, Kannada, Chinese and English), and their associated SPARQL queries.
 
