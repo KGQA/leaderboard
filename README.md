@@ -27,6 +27,7 @@ The [QA Systems Table](systems.md) contains links to publications, demo/APIs (if
 
 ### Wikidata
 
+- [QALD-10](wikidata/qald.md#qald-10)
 - [QALD-9-plus](wikidata/qald.md#qald-9-plus)
 - [KQA Pro](wikidata/kqa_pro.md)
 - [RuBQ 1.0](wikidata/rubq.md#rubq-1)
