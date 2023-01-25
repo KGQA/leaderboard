@@ -30,6 +30,7 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 |        Rigel             | 2022 |  -   |    48.7    |     -     |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
 |        TransferNet       | 2022 |  -   |    48.6    |     -     |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
 |        PullNet           | 2022 |  -   |    45.9    |     -     |    EN    | [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf) |
+|   MRP-QA-marginal_prob   | 2022 | 49.9 |    -       |     -     |    EN    |   [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)            |
 |    ProgramTransfer-f     | 2022 | 45.9 |    45.2    |     -     |    EN    |        [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)         |
 |          KBIGER          | 2022 | 45.5 |    50.2    |     -     |    EN    |              [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)              |
 |           TERP           | 2022 |  -   |    49.2    |      -    |   EN    | [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)  |
@@ -44,11 +45,14 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 |            EmbedKGQA     | 2022 |  -   |    44.7    |     -     |    EN    | [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)  |
 |           QGG            | 2020 | 40.4 |    44.1    |      -    |   EN    |    [Lan and Jiang et al.](https://aclanthology.org/2020.acl-main.91.pdf)    |
 |       Topic Units        | 2019 | 36.5 |     -      |      -    |   EN    |        [Lan et al.](https://www.ijcai.org/proceedings/2019/0701.pdf)        |
+|         KBQA-GST         | 2022 | 36.5 |    -       |     -     |    EN    |   [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)            |
 |         TextRay          | 2019 | 33.9 |    40.8    |     -     |    EN    |      [Bhutani et al.](https://dl.acm.org/doi/10.1145/3357384.3358033)       |
+|        HR-BiLSTM         | 2022 | 31.2 |    -       |     -     |    EN    |   [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)            |
 |           KGT5           | 2019 |  -   |    36.5    |     -     |    EN    |              [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)              |
 |         GraphNet         | 2022 |  -   |    32.8    |     -     |    EN    | [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11) |
 |          KV-Mem          | 2022 |  -   |    21.1    |      -    |   EN    | [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11) |
 |           UHop           | 2019 | 29.8 |     -      |      -    |   EN    |             [Chen et al.](https://arxiv.org/pdf/1904.01246.pdf)             |
+|        GRAFT-Net         | 2022 | 26.0 |    -       |     -     |    EN    |   [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)            |
 |    ProgramTransfer-p     | 2022 | 2.3  |    2.1     |      -    |   EN    |        [Cao et al.](https://aclanthology.org/2022.acl-long.559.pdf)         |
 
 
