@@ -197,13 +197,15 @@ dl p { padding-left: 20px; font-style: italic; }
 
 hr { height: 1px; margin-bottom: 5px; border: none; background: url("../images/bg_hr.png") repeat-x center; }
 
-table { border: 1px solid #373737; margin-bottom: 20px; text-align: left; width: 100%; }
+table { border: 1px solid #373737; margin-bottom: 20px; text-align: left; width: 100%; overflow:auto;
+    overflow-x:scroll;
+    display:block;}
 
-th { font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 10px; background: #373737; color: #fff; }
+th { font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 10px; background: #373737; color: #fff; width: 100%; }
 
-td { padding: 10px;  }
+td { padding: 10px; width: 100%; }
 
-tr { border: 1px solid #373737; }
+tr { border: 1px solid #373737; width: 100%; }
 
 form { background: #f2f2f2; padding: 20px; }
 
