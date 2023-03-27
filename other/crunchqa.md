@@ -40,16 +40,16 @@
 ## Leaderboard: Entity
 
 
-|       Model / System        | Year  | Hits@1 | Language |                             Reported by                             |
-|:---------------------------:|:-----:|:------:|:--------:|:-------------------------------------------------------------------:|
-|   TransE(clustering) [1]    | 2023  |  18.2  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|           TransE            | 2023  |   17   |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|       ComplExLiteral        | 2023  |  13.8  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|   ComplEx(clustering) [1]   | 2023  |  13.2  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|          DistMult           | 2023  |  12.7  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|           ComplEx           | 2023  |   12   |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|  DistMult(clustering) [1]   | 2023  |  11.1  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
-|    DistMultGatedLiteral     | 2023  |  10.6  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|      Model / System       | Year  | Hits@1 | Language |                             Reported by                             |
+|:-------------------------:|:-----:|:------:|:--------:|:-------------------------------------------------------------------:|
+|  TransE(clustering) [1]   | 2023  |  18.2  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|        TransE [1]         | 2023  |   17   |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|    ComplExLiteral [1]     | 2023  |  13.8  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|  ComplEx(clustering) [1]  | 2023  |  13.2  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|       DistMult [1]        | 2023  |  12.7  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+|        ComplEx [1]        | 2023  |   12   |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+| DistMult(clustering) [1]  | 2023  |  11.1  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
+| DistMultGatedLiteral [1]  | 2023  |  10.6  |   EN     | [Yu et al.](https://ieeexplore.ieee.org/abstract/document/10021012) |
 
 
 * [1] Those methods are based on EmbedKGQA framework. 
