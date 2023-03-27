@@ -12,6 +12,11 @@ This dataset can be downloaded via the [link](https://www.dropbox.com/sh/7pkwkrf
 |:------------------------:|:----:|:----:|:----------:|----------:|:--------:|:---------------------------------------------------------------------------:|
 |      GMT-KBQA            | 2022 | 77.0 |    -       |   72.2    |     EN    |    [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)              |
 |     CBR-KBQA             | 2022 | 70.0 |    -       |   67.1     |     EN    |    [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)              |
+|     chatGPT              | 2023 |   -  |    -       |   64.02     |     EN    |    [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)              |
+|     GPT-3.5v3            | 2023 |   -  |    -       |   57.54     |     EN    |    [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)              |
+|     GPT-3.5v2            | 2023 |   -  |    -       |   53.96     |     EN    |    [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)              |
+|     GPT-3                | 2023 |   -  |    -       |   51.77     |     EN    |    [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)              |
+|     FLAN-T5              | 2023 |   -  |    -       |   46.69     |     EN    |    [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)              |
 |     BART-large           | 2022 | 68.2 |   -        |   -     |     EN    |    [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)              |
 |  DECAF (BM25 + FiD-3B)   | 2022 |  -   |    70.4    |    -      |   EN    |              [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)              |
 |         CBR-KBQA         | 2022 |  -   |    70.4    |    -      |     EN    |              [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)              |

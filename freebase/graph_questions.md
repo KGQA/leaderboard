@@ -9,7 +9,13 @@ This dataset can be downloaded via the [link](https://github.com/ysu1989/GraphQu
 
 ## Leaderboard 
 
-
+|          Model / System           | Year |   Accuracy   |   F1   |                        Reported by                         |
+|:---------------------------------:|:----:|:------:|:------:|:----------------------------------------------------------:|
+|       ChatGPT                     | 2023 | 53.10   |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|       GPT-3.5v3                   | 2023 | 47.95   |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|       GPT-3.5v2                   | 2023 | 40.85   |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|       GPT-3                       | 2023 | 38.32   |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|       FLAN-T5                     | 2023 | 32.27   |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
 ## References
 <a name="myfootnote1">[1]</a> Su, Yu, Huan Sun, Brian Sadler, Mudhakar Srivatsa, Izzeddin Gür, Zenghui Yan, and Xifeng Yan. [On generating characteristic-rich question sets for qa evaluation.](http://cs.ucsb.edu/~ysu/papers/emnlp16_graphquestions.pdf) In Proceedings of the 2016 Conference on Empirical Methods in Natural Language Processing, pp. 562-572. 2016.
 

@@ -24,9 +24,14 @@ All copyrights belong to the authors of this dataset.
 |  BERT+Ranking | 2022 | - | 58.0|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
 |      ArcaneQA (single model)      | 2021 | 57.872 | 64.924 |                         Anonymous                          |
 |    BERT+Ranking (single model)    | 2021 | 50.578 | 57.988 |       [Gu et. al.](https://arxiv.org/abs/2011.07743)       |
+|       ChatGPT                     | 2023 | 46.77  |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
 |   GloVe+Ranking (single model)    | 2021 | 39.521 | 45.136 |       [Gu et. al.](https://arxiv.org/abs/2011.07743)       |
 |  QGG| 2022 | - | 36.7|     [Yu et. al.](https://arxiv.org/pdf/2210.00063.pdf)     |
+|            GPT-3.5v3              | 2023 | 35.43  |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
 | BERT+Transduction (single model)  | 2021 | 33.255 | 36.803 |       [Gu et. al.](https://arxiv.org/abs/2011.07743)       |
+|            GPT-3.5v2              | 2023 | 30.50  |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|            FLAN-T5                | 2023 | 29.02  |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
+|            GPT-3                  | 2023 | 27.58  |     -  |       [Tan et. al.](https://arxiv.org/pdf/2303.07992.pdf)  |
 | GloVe+Transduction (single model) | 2021 | 17.587 | 18.432 |       [Gu et. al.](https://arxiv.org/abs/2011.07743)       |
 
 ## Leaderboard: Compositional Generalization 

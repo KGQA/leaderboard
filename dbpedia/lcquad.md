@@ -133,6 +133,11 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
 |:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
 |          SGPT_Q     [3]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|          ChatGPT            | 2023 |     -     |    -    | 42.76 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          GPT-3.5v3          | 2023 |     -     |    -    | 39.04 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|           GPT-3.5v2         | 2023 |     -     |    -    | 33.77 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          GPT-3             | 2023 |     -     |    -    | 33.04 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|           FLAN-T5          | 2023 |     -     |    -    | 30.14 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
 |          UNIQORN         | 2021 |    33.1 |  -   | - |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
 |           QAnswer        | 2020 | 30.80   |  -   | - |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)  |
 |           GraftNet      | 2018 | 19.7    |  -   | - |   EN   |   [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)     |
