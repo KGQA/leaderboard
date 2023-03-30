@@ -2,9 +2,10 @@
 
 **MLPQ** [[1]](#myfootnote1)</sup> is the first Cross-Lingual KGQA dataset over multilingual DBpedia, which contains 300K questions in English, Chinese, and French.
 This dataset has three language pairs (English-Chinese, English-French, and Chinese-French), and requires a 2-hop or 3-hop cross-lingual path 
+inference to answer each question. This dataset has three language pairs (English-Chinese, English-French, and Chinese-French), and requires a 2-hop or 3-hop cross-lingual path 
 inference to answer each question.
 
-This dataset will be made available on request. Please check out the [link](https://www.sciencedirect.com/science/article/abs/pii/S221457962300014X) and email the authors. 
+This dataset can be downloaded via the [link](https://github.com/tan92hl/Dataset-for-QA-over-Multilingual-KG). 
 
 ## Leaderboard 
 
