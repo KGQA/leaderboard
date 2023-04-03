@@ -25,10 +25,12 @@ This dataset can be downloaded via the [link](https://github.com/askplatypus/wik
 |      Text2Graph (PTBG (TransE) Wikidata5m)  |2022|  -   | - | 59.97 ± 0.15 |   EN   |        [Chekalina et al.](https://arxiv.org/pdf/2204.10629.pdf)                     |
 |         SYGMA [3]         |2021|   42    |  55  |  44  |   EN   |                    [Neelam S et al](https://arxiv.org/pdf/2109.13430.pdf)                     |
 |      KEQA (TransE FB5M)  |2022|  -   | - | 40.48 ± 0.10 |   EN   |        [Chekalina et al.](https://arxiv.org/pdf/2204.10629.pdf)                     |
+| GETT-QA [4] | 2023 |  76.1  ± 0.2 | - | - |   EN   |        [Banerjee et al.](https://arxiv.org/pdf/2303.13284.pdf)                |
 
  * [1]  wikidata 03/2020. 
  * [2]  wikidata 03/2020. 
  * [3] wikidata version not stated.
+ * [4] With truncated KG embeddings.
 
 
 ## References
