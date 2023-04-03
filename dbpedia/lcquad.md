@@ -141,11 +141,14 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 |           Platypus    | 2018 |  3.6    |  -   |  -  |   EN   |[Pramanik et al.](https://arxiv.org/abs/2108.08614) |
 |   Pullnet            | 2019 |  1.1    |  -   |  -  |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)      |
 |   UNIK-QA          | 2020 |    0.5    |  -   | - |   EN   |    [Pramanik et al.](https://arxiv.org/abs/2108.08614)   |
+| GETT-QA [4] | 2023 | 40.3 | - | - | EN | [Banerjee et al.](https://arxiv.org/pdf/2303.13284.pdf)
+
 
 
 * [1] discarded 2,502 (8.2%) of the 30,226 instances due to such quality issues..
 * [2] 2k dev, 8k test, more complex questions from origical LC-QuAD 2.0. 
 * [3] Token wise match of query string is performed. Answers are not fetched from KG.
+* [4] With truncated KG embeddings.
 
 ## LC-QuAD v2 + QALD-9
 
