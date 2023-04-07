@@ -92,6 +92,7 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 |           SPARQL Generator     | 2022 |     -     |   -   |   -   |   71.27     |  EN   |                                              [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463)                                               |
 |        Diomedi and Hogan     | 2022 |     -     |   -   |   -   |  14     |   EN   |                                              [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463)                                               |
 |           Yin et al.     | 2022 |     -     |   -   |  -  |    8   |  EN   |                                              [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463)                                               |
+| KGQAn | 2023 | 58.07 | 47.12 | 52.03 | - | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf)
 
 
 ## LC-QuAD v2
