@@ -103,6 +103,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |           AskNow           | 2021 |     -     |   -    |   8   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |      Qanary(TM+DP+QB)      | 2021 |     -     |   -    |   7   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |            Elon            | 2021 |   4.90    |  5.30  |   5   |   EN   |                                                 [Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)                                                 |
+| KGQAn | 2023 | 49.81 | 39.39 | 43.99 | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf)
 
  * [1] DBpedia 2016-10. 
  * [2] DBpedia 2016-10. 
