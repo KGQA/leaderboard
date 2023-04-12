@@ -11,12 +11,15 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 
 |           Model / System            | Year |     F1     |   Hits@1   | Accuracy |Language |                                    Reported by                                     |
 |:-----------------------------------:|:----:|:----------:|:----------:|:--------:|:-------:|:----------------------------------------------------------------------------------:|
+|        chatGPT                      | 2023 |    -       |    -       |    83.70 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |        DECAF (DPR + FiD-3B)         | 2022 |    78.8    |    82.1    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
+|        GPT-3.5v3                    | 2023 |    -       |    -       |   79.60 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |       DECAF (DPR + FiD-large)       | 2022 | 77.1 ± 0.2 | 80.7 ± 0.2 |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |               UniK-QA               | 2022 |     -      |    79.1    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |             SQALER+GNN              | 2022 |     -      |    76.1    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |                EmQL                 | 2020 |     -      |    75.5    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |              GMT-KBQA               | 2022 |    76.6    |     -      |   73.1   |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
+|        GPT-3.5v2                    | 2023 |    -       |    -       |   72.34 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |          Program Transfer           | 2022 |    76.5    |    74.6    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |         RnG-KBQA (T5-large)         | 2022 | 76.2 ± 0.2 | 80.7 ± 0.2 |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |              RnG-KBQA               | 2022 |    75.6    |     -      |   71.1   |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
@@ -30,6 +33,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |             BART-large              | 2022 |    74.6    |     -      |    -     |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
 |                 QGG                 | 2022 |    74.0    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |              CBR-KBQA               | 2021 |    72.8    |     -      |   69.9   |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
+|        GPT-3                        | 2023 |    -       |    -       |   67.78 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |                 NSM                 | 2021 |     -      |   74.30    |    -     |   EN    |                 [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                  |
 |                Rigel                | 2022 |     -      |    73.3    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |                 SGM                 | 2022 |   72.36    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
@@ -71,6 +75,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |              SGReader               | 2022 |    57.3    |    67.2    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |             ARN_ComplEx             | 2023 |     -      |    65.3    |    -     |   EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                 |
 |            ARN_DistMult             | 2023 |     -      |    61.7    |    -     |   EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                 |
+|        FLAN-T5                      | 2023 |    -       |    -       |   59.87 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |                KGT5                 | 2022 |    56.1    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |                FILM                 | 2022 |    54.7    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |               ReifKB                | 2020 |     -      |    52.7    |    -     |   EN    |                [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)                |

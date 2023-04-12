@@ -1,0 +1,16 @@
+# Simple_question_freebase
+
+**implequestion Freebase**<sup>[[1]](#myfootnote1)</sup> is a dataset of SimpleQuestions based on a subset of Freebase - FB2M.
+
+This dataset can be downloaded via the [link](https://github.com/davidgolub/SimpleQA/tree/master/datasets/SimpleQuestions).
+
+
+## Leaderboard
+
+
+## References
+<a name="myfootnote1">[1]</a> Bordes et al. [Large-scale Simple Question Answering with Memory Networks](https://arxiv.org/pdf/1506.02075.pdf).
+<a name="myfootnote2">[2]</a> For this dataset, we only collect performance after 01.01.23.
+
+
+[Go back to the README](../README.md)
