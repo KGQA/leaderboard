@@ -104,6 +104,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |      Qanary(TM+DP+QB)      | 2021 |     -     |   -    |   7   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |            Elon            | 2021 |   4.90    |  5.30  |   5   |   EN   |                                                 [Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)                                                 |
 | KGQAn | 2023 | 49.81 | 39.39 | 43.99 | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf)
+|   Ensemble BR framework    | 2023 |   42.40   | 47.60  | 43.00 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) | 
 
  * [1] DBpedia 2016-10. 
  * [2] DBpedia 2016-10. 
@@ -138,6 +139,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 |     Qanary(TM+DP+QB)      | 2021 |    -     |   -   |   4   |    -     |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 | Entity Type Tags Modified |2022|    -     |   -   |   -   |  88.15   |   EN    | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |     SPARQL Generator      |2022|    -     |   -   |   -   |  40.09   |   EN    | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
+|   Ensemble BR framework   | 2023 |  52.20   | 56.10 | 51.70 |    -     |   EN    |  [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) | 
 
 
 ## QALD-7
@@ -174,6 +176,7 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |       Qanary(TM+DP+QB)       | 2021 |    -     |   -    |   6   |    -    |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
 |  Entity Type Tags Modified   |2022|    -     |   -    |   -   |  76.69  |   EN    | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
 |       SPARQL Generator       |2022|    -     |   -    |   -   |  60.74  |   EN    | [Lin and Lu](https://journals.riverpublishers.com/index.php/JWE/article/view/11463/14671)             |
+|    Ensemble BR framework     | 2023 |  59.80   | 69.60  | 61.20 |    -    |   EN    | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) | 
 
 
  * [1] Wikidata. 
