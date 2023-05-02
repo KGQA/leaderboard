@@ -70,29 +70,36 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |          GPT-3.5v3         | 2023 |     -     |   -    | 46.19  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |            NSpM            | 2022 |     -     |   -    | 45.34 |   EN   |                                                     [Al Hasan Rony et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253)                                                      |
 |          GPT-3.5v2         | 2023 |     -     |   -    | 44.95  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
+|           KGQAn            | 2023 |   49.81   | 39.39  | 43.99 |   EN   | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
+|   Ensemble BR framework    | 2023 |   42.40   | 47.60  | 43.00 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           KGQAn            | 2021 |   50.61   | 34.67  | 41.15 |   EN   |                                                             [Omar et al.](http://ceur-ws.org/Vol-2980/paper312.pdf)                                                              |
 |       Light-QAWizard       | 2022 |   39.80   | 42.60  | 40.60 |   EN   |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
+|       Light-QAWizard       | 2023 |   39.80   | 42.60  | 40.60 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |   Stage-I Part Noise [7]   | 2022 |   63.90   | 28.70  | 39.60 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |          GPT-3             | 2023 |     -     |   -    | 38.54  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |   Stage-II w/o type [5]    | 2022 |   59.40   | 26.10  | 36.20 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |    Stage-II w/ type [6]    | 2022 |   59.40   | 26.10  | 36.20 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |   Stage-I Full Noise [8]   | 2022 |   82.60   |   23   | 36.00 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |            QAmp            | 2019 |    25     |   50   |  33   |   EN   |[Vakulenko et. al.](https://dl.acm.org/doi/pdf/10.1145/3357384.3358026?casa_token=X_2SYFDIrd8AAAAA:Z9FcBHNuARtktnurgKswRUvVZx7E1eSdRsXWqVIZej6fJDVTcUGVQ-aqazqiStuQKqAd362eKw3CzQ)|
+|          QAwizard          | 2023 |   31.10   | 46.90  | 33    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |        WDAqua-core0        | 2021 |     -     |   -    |  32   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |            NSQA            | 2021 |   31.89   | 32.05  | 31.26 |   EN   |                                                    [P.Kapanipathi et alf](https://aclanthology.org/2021.findings-acl.339.pdf)                                                    |
 |            DTQA            | 2021 |   31.41   | 32.16  | 30.88 |   EN   |                                                    [Abdelaziz et al.](https://ojs.aaai.org/index.php/AAAI/article/view/17988)                                                    |
 |            NSQA            | 2021 |   31.40   | 32.10  | 30.80 |   EN   |                                                            [ M. Borroto et al](https://arxiv.org/pdf/2111.03000.pdf)                                                             |
 |         sparql-qa          | 2021 |    31     | 32.48  | 30.60 |   EN   |                                                            [ M. Borroto et al](https://arxiv.org/pdf/2111.03000.pdf)                                                             |
 |         FLAN-T5            | 2023 |     -     |   -    | 30.17  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
+|            DTQA            | 2023 |   31.40   | 32.20  | 30.10 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |          gAnswer           | 2021 |     -     |   -    |  30   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |          gAnswer           | 2021 |   29.34   | 32.68  | 29.81 |   EN   |                                                    [Abdelaziz et al.](https://ojs.aaai.org/index.php/AAAI/article/view/17988)                                                    |
 |        gAnswer [3]         | 2021 |   29.30   | 32.70  | 29.80 |   EN   |                                                            [Purkayastha et al.](https://arxiv.org/pdf/2109.09475.pdf)                                                            |
 |          gAnswer2          | 2019 |   29.30   | 32.70  | 29.80 |   EN   |                                                              [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)                                                               |
+|          gAnswer2          | 2023 |   29.30   | 32.70  | 29.80 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |          gAnswer           | 2021 |   60.70   | 31.60  | 29.60 |   EN   |                                               [ L Siciliani et al.](http://www.semantic-web-journal.net/system/files/swj2701.pdf)                                                |
 |           TeBaQA           | 2022 |     -     |   -    | 28.81 |   EN   |                                                     [Al Hasan Rony et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253)                                                      |
 |        WDAqua-core1        | 2019 |    22     |   38   |  28   |   EN   |[Vakulenko et. al.](https://dl.acm.org/doi/pdf/10.1145/3357384.3358026?casa_token=X_2SYFDIrd8AAAAA:Z9FcBHNuARtktnurgKswRUvVZx7E1eSdRsXWqVIZej6fJDVTcUGVQ-aqazqiStuQKqAd362eKw3CzQ)|
 |            SQG             | 2022 |     -     |   -    | 27.85 |   EN   |                                                     [Al Hasan Rony et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253)                                                      |
 |        WDAqua-core1        | 2019 |   26.10   | 26.70  |  25   |   EN   |                                                              [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)                                                               |
+|           WDAqua           | 2023 |   26.10   | 26.70  | 25    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |        WDAqua-core1        | 2021 |   26.09   | 26.70  | 24.99 |   EN   |                                                    [Abdelaziz et al.](https://ojs.aaai.org/index.php/AAAI/article/view/17988)                                                    |
 |          qaSearch          | 2019 |   23.60   | 24.10  | 23.70 |   EN   |                                                              [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)                                                               |
 |          QAnswer           | 2021 |   45.90   | 22.20  | 19.70 |   EN   |                                               [ L Siciliani et al.](http://www.semantic-web-journal.net/system/files/swj2701.pdf)                                                |
@@ -103,7 +110,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |           AskNow           | 2021 |     -     |   -    |   8   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |      Qanary(TM+DP+QB)      | 2021 |     -     |   -    |   7   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
 |            Elon            | 2021 |   4.90    |  5.30  |   5   |   EN   |                                                 [Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)                                                 |
-| KGQAn | 2023 | 49.81 | 39.39 | 43.99 | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf)
 
  * [1] DBpedia 2016-10. 
  * [2] DBpedia 2016-10. 
@@ -122,12 +128,17 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 
 |      Model / System       | Year |Precision |Recall |  F1   | Accuracy |Language |                                  Reported by                                   |
 |:-------------------------:|:----:|:--------:|:-----:|:-----:|:--------:|:-------:|:------------------------------------------------------------------------------:|
+|   Ensemble BR framework    | 2023 |   52.20   | 56.10  | 51.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           qaSQP           | 2019 |  45.90   | 46.30 | 46.10 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
-|      Light-QAWizard       | 2022 |  46.20   | 50.00 | 45.70 |    -     |   EN    |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
+|      Light-QAWizard       | 2022 |  46.20   | 50    | 45.70 |    -     |   EN    |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
+|      Light-QAWizard       | 2023 |   46.20   | 50     | 45.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
+|          gAnswer2          | 2023 |   38.62   | 39.02  | 38.80 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |         gAnswer2          | 2019 |  38.60   |  39   | 38.80 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
 |          gAnswer          | 2021 |  38.62   | 39.02 | 38.80 |    -     |   EN    |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
 |       WDAqua-core0        | 2021 |  39.12   | 40.65 | 38.72 |    -     |   EN    |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
 |       WDAqua-core0        | 2019 |  39.10   | 40.70 | 38.70 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
+|          WDAqua           | 2023 |   39.10   | 40.70  | 38.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
+|          QAwizard          | 2023 |   37.50   | 35.80  | 34.30 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |       WDAqua-core0        | 2021 |    -     |   -   |  33   |    -     |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |         QASparql          | 2021 |    -     |   -   |  30   |    -     |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)              |
 |         qaSearch          | 2019 |  24.40   | 24.40 | 24.40 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
@@ -151,10 +162,14 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |             LAMA             | 2019 |    -     |   -    | 90.50 |    -    |   EN    |            [Radoev et. al.](https://arxiv.org/pdf/2004.13843.pdf)             |
 |         LingTeQA [1]         | 2020 |  63.40   | 73.50  | 64.20 |    -    |   EN    |    [D. Nhuan et al](https://ieeexplore.ieee.org/abstract/document/9282949)    |
 |         Liang et al.         | 2021 |  81.30   | 52.70  | 63.90 |    -    |   EN    |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
+|   Ensemble BR framework    | 2023 |   59.80   | 69.60  | 61.20 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |        Light-QAWizard        | 2022 |  56.50   | 65.20  | 59.40 |   -     |   EN    |                                                     [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                  |
+|             Light-QAWizard             | 2023 |   56.50   | 65.20  | 59.40 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
+|          QAwizard          | 2023 |   59      | 59     | 59    |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           gAnswer2           | 2020 |  55.70   | 59.20  | 55.60 |    -    |   EN    |            [Athreya et. al](https://arxiv.org/pdf/2004.13843.pdf)             |
 |         WDAqua-core0         | 2021 |  48.80   | 53.50  | 51.10 |    -    |   EN    |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
 |         WDAqua-core0         | 2020 |    49    |   54   |  51   |    -    |   EN    |            [Athreya et. al](https://arxiv.org/pdf/2004.13843.pdf)             |
+|          gAnswer2          | 2023 |   46.90   | 49.80  | 48.70 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |          TeBaQA RNN          | 2020 |  41.60   | 42.30  | 41.70 |    -    |   EN    |            [Athreya et. al](https://arxiv.org/pdf/2004.13843.pdf)             |
 |             GSM              | 2022 |    38    |   39   |  38   |    -    |   EN    |               [Liu et al.](https://www2022.thewebconf.org/PaperFiles/77.pdf)             |
 |G Maheshwari et. al. Pointwise| 2019 |    28    |   43   |  34   |    -    |   EN    |         [G Maheshwari et. al.](https://arxiv.org/pdf/1811.01118.pdf)          |
@@ -169,6 +184,7 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |          Yu et al.           | 2021 |  19.72   | 21.03  | 19.23 |    -    |   EN    |               [Wu et al.](https://arxiv.org/pdf/2101.01510.pdf)               |
 |            STAGG             | 2021 |  19.34   | 24.63  | 18.61 |    -    |   EN    |               [Wu et al.](https://arxiv.org/pdf/2101.01510.pdf)               |
 |           QASparql           | 2021 |    -     |   -    |  17   |    -    |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
+|           WDAqua           | 2023 |   16      | 16.20  | 16.30 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |            AskNow            | 2021 |    -     |   -    |  15   |    -    |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
 |           Platypus           | 2021 |    -     |   -    |   8   |    -    |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
 |       Qanary(TM+DP+QB)       | 2021 |    -     |   -    |   6   |    -    |   EN    |             [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)             |
