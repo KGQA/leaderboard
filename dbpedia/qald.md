@@ -66,8 +66,8 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |    Stage I No Noise [2]    | 2022 |   80.40   | 42.10  | 55.30 | EN | [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263) |
 |        LingTeQA [1]        | 2020 |   52.60   | 64.20  | 53.50 |   EN   |                                                     [P. Nhuan et al](https://ieeexplore.ieee.org/abstract/document/9282949)                                                      |
 |           qaSQP            | 2019 |   45.80   | 47.10  | 46.30 |   EN   |                                                              [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)                                                               |
-|          chatGPT           | 2023 |     -     |   -    | 45.71  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
-|          GPT-3.5v3         | 2023 |     -     |   -    | 46.19  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
+|          chatGPT           | 2023 |     -     |   -    | 45.71 |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
+|          GPT-3.5v3         | 2023 |     -     |   -    | 46.19 |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |            NSpM            | 2022 |     -     |   -    | 45.34 |   EN   |                                                     [Al Hasan Rony et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253)                                                      |
 |          GPT-3.5v2         | 2023 |     -     |   -    | 44.95  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |           KGQAn            | 2023 |   49.81   | 39.39  | 43.99 |   EN   | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
@@ -76,10 +76,11 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |       Light-QAWizard       | 2022 |   39.80   | 42.60  | 40.60 |   EN   |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
 |       Light-QAWizard       | 2023 |   39.80   | 42.60  | 40.60 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |   Stage-I Part Noise [7]   | 2022 |   63.90   | 28.70  | 39.60 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
-|          GPT-3             | 2023 |     -     |   -    | 38.54  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
+|          GPT-3             | 2023 |     -     |   -    | 38.54 |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |   Stage-II w/o type [5]    | 2022 |   59.40   | 26.10  | 36.20 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |    Stage-II w/ type [6]    | 2022 |   59.40   | 26.10  | 36.20 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |   Stage-I Full Noise [8]   | 2022 |   82.60   |   23   | 36.00 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
+|         QAWizard          | 2022 |   31.10   | 46.90  | 33.00 |    -     |   EN    |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
 |            QAmp            | 2019 |    25     |   50   |  33   |   EN   |[Vakulenko et. al.](https://dl.acm.org/doi/pdf/10.1145/3357384.3358026?casa_token=X_2SYFDIrd8AAAAA:Z9FcBHNuARtktnurgKswRUvVZx7E1eSdRsXWqVIZej6fJDVTcUGVQ-aqazqiStuQKqAd362eKw3CzQ)|
 |          QAwizard          | 2023 |   31.10   | 46.90  | 33    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |        WDAqua-core0        | 2021 |     -     |   -    |  32   |   EN   |                                                              [Orogat et al.](https://arxiv.org/pdf/2105.00811.pdf)                                                               |
@@ -126,6 +127,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 
 ### Leaderboard
 
+
 |      Model / System       | Year |Precision |Recall |  F1   | Accuracy |Language |                                  Reported by                                   |
 |:-------------------------:|:----:|:--------:|:-----:|:-----:|:--------:|:-------:|:------------------------------------------------------------------------------:|
 |   Ensemble BR framework    | 2023 |   52.20   | 56.10  | 51.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
@@ -156,6 +158,7 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/public.pdf) for details about the dataset creation process, data format, task and participating systems.
 
 ### Leaderboard
+
 
 |        Model / System        | Year |Precision | Recall |  F1   |Accuracy |Language |                                  Reported by                                  |
 |:----------------------------:|:----:|:--------:|:------:|:-----:|:-------:|:-------:|:-----------------------------------------------------------------------------:|
