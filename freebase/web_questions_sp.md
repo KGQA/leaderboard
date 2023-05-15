@@ -34,6 +34,23 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |                 QGG                 | 2022 |    74.0    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |              CBR-KBQA               | 2021 |    72.8    |     -      |   69.9   |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |        GPT-3                        | 2023 |    -       |    -       |   67.78 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
+|        KGQA-RR(Roberta)             | 2023 |    -       |    -       |    64.59 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(Luke)             | 2023 |    -       |    -       |    64.52 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(Kepler)             | 2023 |    -       |    -       |    64.46 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(Bert)             | 2023 |    -       |    -       |    64.11 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(Albert)             | 2023 |    -       |    -       |    63.89 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(XLnet)             | 2023 |    -       |    -       |    63.87 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(DistilBert)        | 2023 |    -       |    -       |    63.59 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-RR(DistilRoberta)     |     2023 |    -       |    -     |    62.57 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(Roberta)             | 2023 |    -       |    -       |    62.32 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(Luke)             | 2023 |    -       |    -       |    62.31 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(Kepler)             | 2023 |    -      |    -       |    62.02 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(Bert)             | 2023 |    -      |    -       |    61.76 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(DistilBert)        | 2023 |    -      |    -       |   61.49 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(Albert)             | 2023 |    -      |    -       |   61.47 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(XLnet)             | 2023 |    -      |    -       |   61.46 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(DistilRoberta)      | 2023 |    -      |    -       |   61.05 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
+|        KGQA-CL(GPT2)               | 2023 |    -      |    -       |   60.49 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
 |                 NSM                 | 2021 |     -      |   74.30    |    -     |   EN    |                 [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                  |
 |                Rigel                | 2022 |     -      |    73.3    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |                 SGM                 | 2022 |   72.36    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
@@ -80,6 +97,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |                FILM                 | 2022 |    54.7    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |               ReifKB                | 2020 |     -      |    52.7    |    -     |   EN    |                [Cohen et al.](https://arxiv.org/pdf/2002.06115.pdf)                |
 |               KV-Mem                | 2022 |    38.6    |    46.7    |    -     |   EN    |                 [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)                  |
+|        KGQA-RR(GPT2)               | 2023 |    -      |    -       |  18.11 |   EN    |                 [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                  |
 
 
 ## References 
