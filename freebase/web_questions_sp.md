@@ -12,6 +12,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |           Model / System            | Year |     F1     |   Hits@1   | Accuracy |Language |                                    Reported by                                     |
 |:-----------------------------------:|:----:|:----------:|:----------:|:--------:|:-------:|:----------------------------------------------------------------------------------:|
 |        chatGPT                      | 2023 |    -       |    -       |    83.70 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
+|        TIARA       | 2022 |    78.9       |    75.2       |   -   |   EN    |                 [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)                 |
 |        DECAF (DPR + FiD-3B)         | 2022 |    78.8    |    82.1    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |        GPT-3.5v3                    | 2023 |    -       |    -       |   79.60 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
 |       DECAF (DPR + FiD-large)       | 2022 | 77.1 ± 0.2 | 80.7 ± 0.2 |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
@@ -31,6 +32,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |               ReTrack               | 2022 |    74.7    |     -      |    -     |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
 |               ReTrack               | 2021 |    74.6    |    74.7    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |             BART-large              | 2022 |    74.6    |     -      |    -     |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
+|          Subgraph Retrieval           | 2022 |    74.5    |     83.2      |    -     |   EN    |            [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)             |
 |                 QGG                 | 2022 |    74.0    |     -      |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |              CBR-KBQA               | 2021 |    72.8    |     -      |   69.9   |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |        GPT-3                        | 2023 |    -       |    -       |   67.78 |   EN    |                 [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                  |
@@ -63,8 +65,10 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |               SSKGQA                | 2022 |     -      |    71.4    |    -     |   EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
 |             TransferNet             | 2022 |     -      |    71.4    |    -     |   EN    |                 [Shi et al.](https://arxiv.org/pdf/2104.07302.pdf)                 |
 |                SeqM                 | 2020 |   71.83    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
+|             ReTraCK              | 2021 |   71.0    |     71.6      |    -     |   EN    |  [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)   |
 |               REAREV                | 2022 |    70.9    |    76.4    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |                HGNet                | 2021 |    70.3    |    70.6    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
+|           GrailQA Ranking           | 2021 |    70.0    |     -     |    -     |   EN    |                 [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)                  |
 |               SQALER                | 2022 |     -      |    70.6    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |                STAGG                | 2015 |   69.00    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |                UHop                 | 2019 |    68.5    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
@@ -75,6 +79,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |              KBQA-GST               | 2022 |    67.9    |     -      |    -     |   EN    |          [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)           |
 |             Topic Units             | 2019 |    67.9    |     -      |    -     |   EN    |  [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)   |
 |                 NSM                 | 2022 |    67.4    |    74.3    |    -     |   EN    |                 [Du et al.](https://arxiv.org/pdf/2209.03005.pdf)                  |
+|            Relation Learning            | 2021 |    64.5    |    72.9    |    -     |   EN    |                 [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)                  |
 |               SR+NSM                | 2022 |    64.1    |    69.5    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |                 NSM                 | 2022 |    62.8    |    68.7    |    -     |   EN    |    [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)    |
 |              ARN_ConvE              | 2023 |     -      |    68.0    |    -     |   EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                 |

@@ -74,7 +74,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-06.pdf) for de
 |   Ensemble BR framework    | 2023 |   42.40   | 47.60  | 43.00 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           KGQAn            | 2021 |   50.61   | 34.67  | 41.15 |   EN   |                                                             [Omar et al.](http://ceur-ws.org/Vol-2980/paper312.pdf)                                                              |
 |       Light-QAWizard       | 2022 |   39.80   | 42.60  | 40.60 |   EN   |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
-|       Light-QAWizard       | 2023 |   39.80   | 42.60  | 40.60 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |   Stage-I Part Noise [7]   | 2022 |   63.90   | 28.70  | 39.60 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
 |          GPT-3             | 2023 |     -     |   -    | 38.54 |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |   Stage-II w/o type [5]    | 2022 |   59.40   | 26.10  | 36.20 |   EN   |                                                            [Purkayastha et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9892263)                                                            |
@@ -133,7 +132,6 @@ Please see the original [paper](http://ceur-ws.org/Vol-2241/paper-05.pdf) for de
 |   Ensemble BR framework    | 2023 |   52.20   | 56.10  | 51.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           qaSQP           | 2019 |  45.90   | 46.30 | 46.10 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
 |      Light-QAWizard       | 2022 |  46.20   | 50    | 45.70 |    -     |   EN    |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
-|      Light-QAWizard       | 2023 |   46.20   | 50     | 45.70 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |          gAnswer2          | 2023 |   38.62   | 39.02  | 38.80 |    -     |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |         gAnswer2          | 2019 |  38.60   |  39   | 38.80 |    -     |   EN    |             [Zheng et. al.](https://arxiv.org/pdf/1910.09760.pdf)              |
 |          gAnswer          | 2021 |  38.62   | 39.02 | 38.80 |    -     |   EN    |[Steinmetz et al.](https://link.springer.com/article/10.1007/s13740-021-00128-9)|
@@ -167,7 +165,6 @@ Please see the original [paper](https://svn.aksw.org/papers/2017/ESWC_2017_QALD/
 |         Liang et al.         | 2021 |  81.30   | 52.70  | 63.90 |    -    |   EN    |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
 |   Ensemble BR framework    | 2023 |   59.80   | 69.60  | 61.20 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |        Light-QAWizard        | 2022 |  56.50   | 65.20  | 59.40 |   -     |   EN    |                                                     [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                  |
-|             Light-QAWizard             | 2023 |   56.50   | 65.20  | 59.40 |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |          QAwizard          | 2023 |   59      | 59     | 59    |    -    |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           gAnswer2           | 2020 |  55.70   | 59.20  | 55.60 |    -    |   EN    |            [Athreya et. al](https://arxiv.org/pdf/2004.13843.pdf)             |
 |         WDAqua-core0         | 2021 |  48.80   | 53.50  | 51.10 |    -    |   EN    |[Liang et al.](https://assets.researchsquare.com/files/rs-70794/v1_stamped.pdf)|
