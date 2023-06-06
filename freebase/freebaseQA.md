@@ -16,6 +16,23 @@ This dataset can be downloaded via the [link](https://github.com/kelvin-jiang/Fr
 |       FAE        | 2022 |      -      |  63.30   |   -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
 |       EAE        | 2022 |      -      |  53.40   |    -  | EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
 |     CBR-SUBG     | 2022 |      -      |  52.07   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
+|   KGQA-RR(Luke)  | 2023 |      -      |  42.08   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|   KGQA-RR(Kepler)| 2023 |      -      |  42.02   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(Roberta)| 2023 |      -      |  41.97   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(Bert)   | 2023 |      -      |  41.48   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(Albert) | 2023 |      -      |  41.16   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(XLnet)  | 2023 |      -      |  41.15   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(DistilBert)| 2023 |      -   |  40.88   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-RR(DistilRoberta)| 2023 |     - |  39.36   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|   KGQA-CL(Luke)  | 2023 |      -      |  40.62   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(Roberta)| 2023 |      -      |  40.40   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(Kepler) | 2023 |      -      |  40.29   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(Bert)   | 2023 |      -      |  40.12   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(DistilBert)| 2023 |      -   |  39.84   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(ALbert) | 2023 |         -   |  39.83   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(XLnet) | 2023 |          -   |  39.80   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(DistilRoberta) | 2023 |  -   |  39.43   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
+|  KGQA-CL(GPT2)   | 2023 |         -   |  39.03   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
 |      BuboQA      | 2022 |      -      |  38.25   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
 |     FOFE-net     | 2019 |      -      |  37.00   |   -  |  EN     | [Jiang et al.](https://aclanthology.org/N19-1028.pdf) |
 |   KBQA-Adapter   | 2022 |      -      |  28.78   |  -  |   EN     |  [Das et al.](https://arxiv.org/pdf/2202.10610.pdf)   |
@@ -33,6 +50,7 @@ This dataset can be downloaded via the [link](https://github.com/kelvin-jiang/Fr
 |    T5-base+C4    | 2022 |    28.33    |    -     |  -  |   EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
 |   T5-base+KELM   | 2022 |    28.15    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
 |     T5-base      | 2022 |    27.55    |    -     |   -  |  EN     |   [Moiseev et al.](https://arxiv.org/pdf/2205.08184.pdf)    |
+|  KGQA-RR(GPT2)| 2023 |     - |  5.09   |  -  |   EN     |  [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)   |
 
 
 
