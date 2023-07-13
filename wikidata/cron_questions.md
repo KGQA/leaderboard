@@ -12,6 +12,7 @@ _member of sports team_, _position held_, _award received_, _spouse_, and _emplo
 |  TempoQR-Hard  | 2021  | 0.918  |  0.978  |  [Mavromatis et. al.](https://arxiv.org/pdf/2112.05785.pdf)  |
 |  TempoQR-Soft  | 2021  | 0.799  |  0.957  |  [Mavromatis et. al.](https://arxiv.org/pdf/2112.05785.pdf)  |
 |    TMA         | 2021  | 0.784  |  0.943  |  [Liu et. al.](https://arxiv.org/pdf/2302.12529.pdf)         |
+|     AE-TQ      | 2022  | 0.769  |    -    |  [Long et. al.](https://link.springer.com/chapter/10.1007/978-3-031-20891-1_6)         |
 |    EntityQR    | 2021  | 0.745  |  0.944  |  [Mavromatis et. al.](https://arxiv.org/pdf/2112.05785.pdf)  |
 |    CronKGQA    | 2021  | 0.647  |  0.884  |  [Mavromatis et. al.](https://arxiv.org/pdf/2112.05785.pdf)  |
 |      EaE       | 2021  | 0.288  |  0.678  |  [Mavromatis et. al.](https://arxiv.org/pdf/2112.05785.pdf)  |
