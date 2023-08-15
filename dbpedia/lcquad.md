@@ -136,23 +136,24 @@ This dataset can be downloaded via the [link](https://figshare.com/projects/LCQu
 ### Leaderboard for systems which do not require gold entity and/or relation as input
 
 
-|      Model / System       | Year |Precision|Recall| F1  |Language|                                        Reported by                                        |
-|:-------------------------:|:----:|:-------:|:----:|:---:|:------:|:-----------------------------------------------------------------------------------------:|
-|          SGPT_Q     [3]      | 2022 |     -     |    -    | 83.45 |    EN    | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
-|          ChatGPT            | 2023 |     -     |    -    | 42.76 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
-|          GPT-3.5v3          | 2023 |     -     |    -    | 39.04 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
-|           GPT-3.5v2         | 2023 |     -     |    -    | 33.77 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
-|          GPT-3             | 2023 |     -     |    -    | 33.04 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
-|           FLAN-T5          | 2023 |     -     |    -    | 30.14 |    EN    | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
-|          UNIQORN         | 2021 |    33.1 |  -   | - |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
-|           QAnswer        | 2020 | 30.80   |  -   | - |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)  |
-|           GraftNet      | 2018 | 19.7    |  -   | - |   EN   |   [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)     |
-|   ElNeuQA-ConvS2S [1]     | 2021 |  26.90  |  27  |26.90|   EN   |                  [Diomedi, Hogan](https://arxiv.org/pdf/2107.02865.pdf)    |
-|   GRAFT-Net + Clocq [2]   | 2022 |  19.70  |  -   |  -  |   EN   |       [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)          |
-|           Platypus    | 2018 |  3.6    |  -   |  -  |   EN   |[Pramanik et al.](https://arxiv.org/abs/2108.08614) |
-|   Pullnet            | 2019 |  1.1    |  -   |  -  |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)      |
-|   UNIK-QA          | 2020 |    0.5    |  -   | - |   EN   |    [Pramanik et al.](https://arxiv.org/abs/2108.08614)   |
-| GETT-QA [4] | 2023 | 40.3 | - | - | EN | [Banerjee et al.](https://arxiv.org/pdf/2303.13284.pdf)
+|      Model / System       | Year | Precision |  Recall |   F1  | Hits@1 |Language|                                        Reported by                                        |
+|:-------------------------:|:----:|:---------:|:-------:|:-----:|:------:|:------:|:-----------------------------------------------------------------------------------------:|
+|          SGPT_Q     [3]   | 2022 |     -     |    -    | 83.45 |   -    |   EN   | [Al Hasan Rony et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253) |
+|          ChatGPT          | 2023 |     -     |    -    | 42.76 |   -    |   EN   | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          GPT-3.5v3        | 2023 |     -     |    -    | 39.04 |   -    |   EN   | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          GPT-3.5v2        | 2023 |     -     |    -    | 33.77 |   -    |   EN   | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          GPT-3            | 2023 |     -     |    -    | 33.04 |   -    |   EN   | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|          FLAN-T5          | 2023 |     -     |    -    | 30.14 |   -    |   EN   | [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf) |
+|       W. Han et al.       | 2023 |     -     |    -    |   -   |  42.6  |   EN   | [Han et al.](https://link.springer.com/chapter/10.1007/978-3-031-30672-3_39) |
+|          UNIQORN          | 2021 |   33.1    |    -    |   -   |  25.2  |   EN   |                  [Pramanik et al.](https://arxiv.org/abs/2108.08614)     |
+|          QAnswer          | 2020 |   30.80   |    -    |   -   |   -    |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)  |
+|          GraftNet         | 2018 |   19.7    |    -    |   -   |   -    |   EN   |   [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)     |
+|   ElNeuQA-ConvS2S [1]     | 2021 |   26.90   |    27   | 26.90 |   -    |   EN   |                  [Diomedi, Hogan](https://arxiv.org/pdf/2107.02865.pdf)    |
+|   GRAFT-Net + Clocq [2]   | 2022 |   19.70   |    -    |   -   |   -    |   EN   |       [Christmann P. et al](https://arxiv.org/pdf/2108.08597.pdf)          |
+|         Platypus          | 2018 |    3.6    |    -    |   -   |   -    |   EN   |[Pramanik et al.](https://arxiv.org/abs/2108.08614) |
+|          Pullnet          | 2019 |    1.1    |    -    |   -   |  11.9  |   EN   | [Pramanik et al.](https://arxiv.org/abs/2108.08614)      |
+|          UNIK-QA          | 2020 |    0.5    |    -    |   -   |   -    |   EN   |    [Pramanik et al.](https://arxiv.org/abs/2108.08614)   |
+|        GETT-QA [4]        | 2023 |   40.3    |   -     |   -   |   -    |   EN   | [Banerjee et al.](https://arxiv.org/pdf/2303.13284.pdf) |
 
 
 

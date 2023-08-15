@@ -28,6 +28,7 @@ This dataset can be downloaded via the [link](https://www.microsoft.com/en-us/do
 |              QNRKGQA+h              | 2022 |     -      |    75.7    |    -     |   EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |      DECAF (BM25 + FiD-large)       | 2022 | 74.9 ± 0.3 | 79.0 ± 0.4 |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
 |        MRP-QA-marginal_prob         | 2022 |    74.9    |     -      |    -     |   EN    |          [Wang et al.](https://aclanthology.org/2022.naacl-main.294.pdf)           |
+|            W. Han et al.            | 2023 |     -      |    75.2    |    -     |   EN    |          [Han et al.](https://link.springer.com/chapter/10.1007/978-3-031-30672-3_39)           |
 |               QNRKGQA               | 2022 |     -      |    74.9    |    -     |   EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |               ReTrack               | 2022 |    74.7    |     -      |    -     |   EN    |            [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)             |
 |               ReTrack               | 2021 |    74.6    |    74.7    |    -     |   EN    |                 [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                  |
