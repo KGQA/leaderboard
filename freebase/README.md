@@ -1,0 +1,3 @@
+# Freebase 
+
+Freebase is a large collaborative knowledge graph (KG) that was developed by Metaweb and later acquired by Google. It contains structured data about a wide range of topics, including people, places, ideas, and more. Freebase's data is collected from various sources, including individual, user-contributed data and large data imports. What makes it unique is its emphasis on linking information together. Each entity in Freebase can have any number of properties which link it to other entities, creating a vast, interconnected web of knowledge. Despite being officially retired by Google in 2016, its data continues to serve as a valuable resource in numerous applications, particularly in natural language processing and AI-related tasks.
