@@ -1,1 +1,15 @@
 .idea
+frontend/node_modules/*
+frontend/.svelte-kit
+frontend/node_modules
+
+frontend/DS_Store
+frontend/build
+frontend/.svelte-kit
+frontend/package
+frontend/.env
+frontend/.env.*
+frontend/!.env.example
+frontend/vite.config.js.timestamp-*
+frontend/vite.config.ts.timestamp-*
+.DS_Store
