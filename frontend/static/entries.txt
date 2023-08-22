@@ -1,0 +1,66 @@
+/
+/datasets/dbpedia/LC-QuAD v1
+/datasets/dbpedia/LC-QuAD v2
+/datasets/dbpedia/
+/datasets/dbpedia/MLPQ
+/datasets/dbpedia/QALD-1
+/datasets/dbpedia/QALD-2
+/datasets/dbpedia/QALD-3
+/datasets/dbpedia/QALD-4
+/datasets/dbpedia/QALD-5
+/datasets/dbpedia/QALD-6
+/datasets/dbpedia/QALD-7
+/datasets/dbpedia/QALD-8
+/datasets/dbpedia/QALD-9
+/datasets/dbpedia/Monument
+/datasets/dbpedia/Reword-QALD-9
+/datasets/dbpedia/SimpleDBpediaQA
+/datasets/dbpedia/QALD-9-Plus
+/datasets/freebase/
+/datasets/freebase/ComplexQuestions
+/datasets/freebase/ComplexWebQuestions
+/datasets/freebase/CompositionalFreebaseQuestions
+/datasets/freebase/Free917
+/datasets/freebase/FreebaseQA
+/datasets/freebase/GrailQA - Compositional Generalization
+/datasets/freebase/GrailQA - Overall
+/datasets/freebase/GrailQA - Zero-shot Generalization
+/datasets/freebase/GraphQuestions
+/datasets/freebase/PathQuestion - 2 Hops
+/datasets/freebase/PathQuestion - 3 Hops
+/datasets/freebase/PathQuestion-Large - 2 Hops
+/datasets/freebase/PathQuestion-Large - 3 Hops
+/datasets/freebase/SimpleQuestions
+/datasets/freebase/TempQuestions
+/datasets/freebase/The 30M Factoid QA
+/datasets/freebase/WebQuestions
+/datasets/freebase/WebQuestionsSP
+/datasets/wikidata/
+/datasets/wikidata/CLC-QuAD
+/datasets/wikidata/Compositional Wikidata Questions
+/datasets/wikidata/CronQuestions
+/datasets/wikidata/KQA Pro
+/datasets/wikidata/Mintake
+/datasets/wikidata/MKQA
+/datasets/wikidata/QALD-9-Plus
+/datasets/wikidata/QALD-10
+/datasets/wikidata/RuBQ-v1
+/datasets/wikidata/RuBQ-v2
+/datasets/wikidata/SimpleQuestionsWikidata
+/datasets/wikidata/TimeQuestions - Explicit
+/datasets/wikidata/TimeQuestions - Implicit
+/datasets/wikidata/TimeQuestions - Ordinal
+/datasets/wikidata/TimeQuestions - Overall
+/datasets/wikidata/TKGQA
+/datasets/other/
+/datasets/other/COVID-QA
+/datasets/other/CrunchQA
+/datasets/other/DBLP-QuAD
+/datasets/other/Event-QA
+/datasets/other/MetaQA - 1 Hop
+/datasets/other/MetaQA - 2 Hop
+/datasets/other/MetaQA - 3 Hop
+/datasets/other/WC2014QA - 1 Hop
+/datasets/other/WC2014QA - 2 Hop
+/datasets/other/WC2014QA - Total
+/systems/

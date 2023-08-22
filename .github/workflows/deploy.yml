@@ -1,0 +1,31 @@
+name: Deploy to GitHub Pages
+
+on:
+    push:
+        branches: [main, master]
+    pull_request:
+        branches: [main, master]
+
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v3
+
+            - name: Setup Node.js environment
+              uses: actions/setup-node@v3
+              with:
+                  node-version: "18" # specify the Node.js version you want
+            - name: Build site # If your site requires a build step, include it here
+              run: |
+                  cd frontend
+                  npm install
+                  npm run build
+              env:
+                  CI: true
+            - name: Deploy to GitHub Pages
+              uses: peaceiris/actions-gh-pages@v3
+              with:
+                  github_token: ${{ secrets.PERSONAL_TOKEN }}
+                  publish_dir: ./frontend/build

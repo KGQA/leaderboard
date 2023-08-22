@@ -1,0 +1,3 @@
+# DBPedia
+
+DBpedia is a significant data source in the linked open data cloud and plays a crucial role in semantic web applications. It is a crowd-sourced community effort to extract structured information from Wikipedia, making it available on the web. The dataset enables sophisticated querying and linking of data from diverse domains. It contains information about millions of different subjects, including people, places, organizations, and abstract concepts, sourced from various language editions of Wikipedia. This dataset is widely used in research, enabling data scientists and researchers to leverage the richness of Wikipedia's information in a structured and machine-readable format.
