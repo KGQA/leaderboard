@@ -1,0 +1,1 @@
+import{q as p}from"./scheduler.2739a3c5.js";function e(n){return(n==null?void 0:n.length)!==void 0?n:Array.from(n)}function t(n,{delay:f=0,duration:s=400,easing:u=p}={}){const c=+getComputedStyle(n).opacity;return{delay:f,duration:s,easing:u,css:d=>`opacity: ${d*c}`}}export{e,t as f};
