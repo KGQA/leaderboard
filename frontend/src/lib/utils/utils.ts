@@ -338,17 +338,18 @@ export function setEventListeners(page: any) {
 		let currPRChanges = get(currentPRChanges);
 		if (!currPRChanges) {
 			currentPRChanges.set(initPRChanges());
+			currPRChanges = get(currentPRChanges);
 		}
 		if (currPRChanges && currPRChanges.changedRows == null) {
 			currPRChanges.changedRows = [];
 		}
-		console.log("Adding row to 'changedRows'", cell.getRow());
+		console.log("Adding row to 'changedRows'", cell.getRow().getData());
 
 		// check if row is already in changedRows
 		let rowAlreadyInChanges = currPRChanges?.changedRows.find((row) => {
 			return row.row['id'] == cell.getRow().getIndex();
 		});
-
+		console.log('rowAlreadyInChanges', rowAlreadyInChanges);
 		if (currPRChanges && rowAlreadyInChanges) {
 			console.log('Row already in changes, updating');
 			// update the row
