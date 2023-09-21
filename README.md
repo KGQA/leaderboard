@@ -31,6 +31,12 @@ If you have an entire new dataset, which you want to add to the leaderboard, you
     -   $(datasetName).md - This is the footer of your dataste, again in plain markdown.
 -   Create a pull request
 
+### Video Tutorial
+
+In addition, you can also check out this video tutorial:
+
+<iframe width="1440" height="614" src="https://www.youtube.com/embed/prddZwwe6cc" title="KGQA Leaderboard Contribution Tutorial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ### Citation
 
 `Perevalov, A., Yan, X., Kovriguina, L., Jiang, L., Both, A., & Usbeck, R. (2022). Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis. arXiv preprint arXiv:2201.08174.`
