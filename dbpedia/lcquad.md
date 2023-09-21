@@ -59,7 +59,7 @@ This dataset can be downloaded via the [link](https://github.com/AskNowQA/LC-QuA
 |            ValueNet4SPARQL     | 2023 |   86    |   84   | 85  |   -    |   EN   |   [Kosten et al.](https://www.semantic-web-journal.net/system/files/swj3313.pdf)                           |
 |            PGN-BERT            | 2018 |     -     |   -    |   67   |   -    |  EN   |                                                  [Banerjee et al](https://arxiv.org/pdf/2204.12793.pdf)                                                   |
 |          STaG-QA_pre           | 2021 |   74.50   | 54.80  | 53.60  |    -    | EN   |                                                  [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                                                   |
-| KGQAn | 2023 | 58.07 | 47.12 | 52.03 | - | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
+| KGQAn | 2023 | 58.71 | 46.11 | 51.65 | - | EN | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
 |            STaG-QA             | 2021 |   76.50   | 52.80  | 51.40  |   -    |  EN   |                                                  [Ravishankar et al.](https://arxiv.org/abs/2111.05825)                                                   |
 |           sparql-qa            | 2021 |   49.50   | 49.20  | 49.10  |    -    | EN   |                                                [ M. Borroto et al](http://ceur-ws.org/Vol-2918/paper3.pdf)                                                |
 |              BART              | 2021 |   48.01   | 49.19  | 47.62  |    -    | EN   |                                                    [Chen et al.](https://arxiv.org/pdf/2111.00732.pdf)                                                    |
