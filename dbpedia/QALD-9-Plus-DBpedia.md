@@ -1,5 +1,5 @@
 ---
-name: QALD-9-Plus
+name: QALD-9-Plus-DBpedia
 datasetUrl: https://github.com/ag-sc/QALD/tree/master
 ---
 
