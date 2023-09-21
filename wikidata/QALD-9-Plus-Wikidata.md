@@ -1,5 +1,5 @@
 ---
-    name: QALD-9-Plus
+    name: QALD-9-Plus-Wiki
     datasetUrl: https://github.com/KGQA/QALD_9_plus
 ---
 

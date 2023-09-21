@@ -15,7 +15,7 @@
 /datasets/dbpedia/Monument
 /datasets/dbpedia/Reword-QALD-9
 /datasets/dbpedia/SimpleDBpediaQA
-/datasets/dbpedia/QALD-9-Plus
+/datasets/dbpedia/QALD-9-Plus-DBpedia
 /datasets/freebase/
 /datasets/freebase/ComplexQuestions
 /datasets/freebase/ComplexWebQuestions
@@ -42,7 +42,7 @@
 /datasets/wikidata/KQA Pro
 /datasets/wikidata/Mintake
 /datasets/wikidata/MKQA
-/datasets/wikidata/QALD-9-Plus
+/datasets/wikidata/QALD-9-Plus-Wikidata
 /datasets/wikidata/QALD-10
 /datasets/wikidata/RuBQ-v1
 /datasets/wikidata/RuBQ-v2
