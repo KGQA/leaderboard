@@ -16,4 +16,4 @@ export const NUMERIC_FIELDS = [
 	'Lang_Zh'
 ];
 
-export const GITHUB_BOT_URL = 'https://api.leaderboard.agsolutions.dev/make_pull_request';
+export const GITHUB_BOT_URL = 'https://kgqa-leaderboard-bot.nliwod.org/make_pull_request';
