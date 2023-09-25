@@ -1,4 +1,4 @@
-export const PUBLIC_REPO_URL = 'Artur-Galstyan/leaderboard';
+export const PUBLIC_REPO_URL = 'KGQA/leaderboard';
 
 export const NUMERIC_FIELDS = [
 	'Accuracy',
