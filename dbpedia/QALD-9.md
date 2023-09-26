@@ -16,7 +16,7 @@
 |          GPT-3.5v3         | 2023 |     -     |   -    | 46.19 |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
 |            NSpM            | 2022 |     -     |   -    | 45.34 |   EN   |                                                     [Al Hasan Rony et al](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9815253)                                                      |
 |          GPT-3.5v2         | 2023 |     -     |   -    | 44.95  |   EN   |                                                     [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                                                      |
-|           KGQAn            | 2023 |   49.81   | 39.39  | 43.99 |   EN   | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
+|           KGQAn            | 2023 |   51.13   | 38.72  | 44.07 |   EN   | [Omar et al.](https://arxiv.org/pdf/2303.00595.pdf) |
 |   Ensemble BR framework    | 2023 |   42.40   | 47.60  | 43.00 |   EN   | [Chen et al.](https://assets.researchsquare.com/files/rs-2676239/v1_covered.pdf?c=1680800823) |
 |           KGQAn            | 2021 |   50.61   | 34.67  | 41.15 |   EN   |                                                             [Omar et al.](http://ceur-ws.org/Vol-2980/paper312.pdf)                                                              |
 |       Light-QAWizard       | 2022 |   39.80   | 42.60  | 40.60 |   EN   |                                                    [Chen et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9893129)                                                     |
