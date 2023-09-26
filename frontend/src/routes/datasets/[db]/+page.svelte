@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import KnowledgeGraphNavbar from '$lib/components/KnowledgeGraphNavbar.svelte';
+	import { PUBLIC_REPO_URL } from '$lib/constants';
 	import { getGitHubFilesInFolder, getRawGitHubContent } from '$lib/utils/githubUrlBuilder';
 	import { marked } from 'marked';
 	import { onMount } from 'svelte';
@@ -11,7 +12,7 @@
 
 	async function load(params: any) {
 		try {
-			const githubUrl = getRawGitHubContent(`Artur-Galstyan/leaderboard`, `${params.db}/README.md`);
+			const githubUrl = getRawGitHubContent(PUBLIC_REPO_URL, `${params.db}/README.md`);
 
 			const githubMarkdownTextReq = await fetch(githubUrl);
 			const githubMarkdownText = await githubMarkdownTextReq.text();

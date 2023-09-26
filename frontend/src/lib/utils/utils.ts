@@ -1,4 +1,4 @@
-import { NUMERIC_FIELDS } from '$lib/constants';
+import { NUMERIC_FIELDS, PUBLIC_REPO_URL } from '$lib/constants';
 import matter from 'gray-matter';
 import { marked } from 'marked';
 import { getRawGitHubContent } from '$lib/utils/githubUrlBuilder';
@@ -197,7 +197,7 @@ async function loadFromGithub(db: string | null, dataset: string | null, systems
 	let headerPath = systems ? `^systems_updated.md` : `${db}/^${dataset}.md`;
 	let footerPath = systems ? `$systems_updated.md` : `${db}/$${dataset}.md`;
 	try {
-		const githubUrl = getRawGitHubContent(`Artur-Galstyan/leaderboard`, mainPath);
+		const githubUrl = getRawGitHubContent(PUBLIC_REPO_URL, mainPath);
 		const githubUrlReq = await fetch(githubUrl);
 		const githubMarkdownText = await githubUrlReq.text();
 		const parsed = matter(githubMarkdownText);
@@ -209,7 +209,7 @@ async function loadFromGithub(db: string | null, dataset: string | null, systems
 		const htmlContent = marked.parse(parsed.content, { mangle: false, headerIds: false });
 		const parsedTable = htmlToJson.parse(htmlContent).results[0];
 
-		const githubUrlInfo = getRawGitHubContent(`Artur-Galstyan/leaderboard`, headerPath);
+		const githubUrlInfo = getRawGitHubContent(PUBLIC_REPO_URL, headerPath);
 		const githubUrlInfoReq = await fetch(githubUrlInfo);
 		const githubMarkdownTextInfo = await githubUrlInfoReq.text();
 		const parsedInfo = matter(githubMarkdownTextInfo);
@@ -217,7 +217,7 @@ async function loadFromGithub(db: string | null, dataset: string | null, systems
 
 		let htmlFooter = undefined;
 		try {
-			const githubUrlFooter = getRawGitHubContent(`Artur-Galstyan/leaderboard`, footerPath);
+			const githubUrlFooter = getRawGitHubContent(PUBLIC_REPO_URL, footerPath);
 			const githubUrlFooterReq = await fetch(githubUrlFooter);
 			if (githubUrlFooterReq.status == 404) {
 				throw Error('Not found');

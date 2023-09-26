@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
+	import { PUBLIC_REPO_URL } from '$lib/constants';
 	import { getRawGitHubContent } from '$lib/utils/githubUrlBuilder';
 	import Fuse from 'fuse.js';
 	import matter from 'gray-matter';
@@ -17,7 +18,7 @@
 
 	async function load() {
 		try {
-			const githubUrl = getRawGitHubContent(`Artur-Galstyan/leaderboard/`, 'README.md');
+			const githubUrl = getRawGitHubContent(PUBLIC_REPO_URL, 'README.md');
 
 			const githubMarkdownTextReq = await fetch(githubUrl);
 			const githubMarkdownText = await githubMarkdownTextReq.text();
