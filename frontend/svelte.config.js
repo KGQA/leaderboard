@@ -40,6 +40,9 @@ const config = {
 		paths: {
 			base: '/leaderboard',
 			relative: false
+		},
+		csrf: {
+			checkOrigin: false
 		}
 	}
 };
