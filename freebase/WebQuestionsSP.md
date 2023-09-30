@@ -47,6 +47,7 @@
 |           KGQA-CL(XLnet)            | 2023 |     -      |     -      |  61.46   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
 |       KGQA-CL(DistilRoberta)        | 2023 |     -      |     -      |  61.05   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
 |            KGQA-CL(GPT2)            | 2023 |     -      |     -      |  60.49   |    EN    |                   [Hu et al.](https://arxiv.org/pdf/2303.10368.pdf)                   |
+|            W. Han et al.            | 2023 |     -      |    75.2    |    -     |    EN    |          [Han et al.](https://link.springer.com/chapter/10.1007/978-3-031-30672-3_39) |
 |                 NSM                 | 2021 |     -      |   74.30    |    -     |    EN    |                   [He et al.](https://arxiv.org/pdf/2101.03737.pdf)                   |
 |                Rigel                | 2022 |     -      |    73.3    |    -     |    EN    |     [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)      |
 |                 SGM                 | 2022 |   72.36    |     -      |    -     |    EN    |    [Ma L et al.](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9747229)    |
