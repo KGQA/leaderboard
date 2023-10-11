@@ -2,6 +2,7 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import { PUBLIC_REPO_URL } from '$lib/constants';
+	import { notifySuccess } from '$lib/notifications';
 	import { getRawGitHubContent } from '$lib/utils/githubUrlBuilder';
 	import Fuse from 'fuse.js';
 	import matter from 'gray-matter';
@@ -95,12 +96,26 @@
 <div class="flex justify-center mt-12">
 	<img src="{base}/logo-min.png" alt="The wisest koala" class="w-64 my-auto" />
 </div>
-<div class="text-center mt-4 mb-12 text-5xl">KGQA Leaderboard</div>
+<div class="text-center mt-4 text-5xl">KGQA Leaderboard</div>
+<div class="flex justify-center">
+	<button
+		on:click={() => {
+			let citation =
+				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
+
+			navigator.clipboard.writeText(citation);
+			notifySuccess('Copied!', 'Citation copied to clipboard');
+		}}
+		class="btn btn-secondary btn-sm btn-wide mb-12"
+	>
+		Copy Citation
+	</button>
+</div>
 
 <div class="flex justify-center">
 	<input
 		type="text"
-		class="input input-primary input-sm w-60"
+		class="input input-primary input-sm md:w-[25%] w-11/12"
 		placeholder="Search Datasets 🔎"
 		name="filter"
 		id="filter"
@@ -141,7 +156,7 @@
 		{/each}
 	</div>
 {/if}
-<div class="flex justify-center">
+<div class="flex justify-center my-2">
 	<button
 		on:click={() => {
 			window.location.href = base + '/systems';
@@ -153,7 +168,9 @@
 </div>
 <div class="my-10" />
 {#if content}
-	<div class="prose text-justify mx-auto">
-		{@html content}
+	<div class="flex justify-center">
+		<div class="prose text-justify mx-auto w-[95%]">
+			{@html content}
+		</div>
 	</div>
 {/if}
