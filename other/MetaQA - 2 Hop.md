@@ -15,6 +15,7 @@
 |               QNRKGQA               | 2022 |  99.9  |  -   |      -      |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |              QNRKGQA+h              | 2022 |  99.9  |  -   |      -      |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |               SSKGQA                | 2022 |  99.7  |  -   |      -      |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
+|                TERP                 | 2022 |  99.4  |  -   |      -      |    EN    |           [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)            |
 |              EmbedKGQA              | 2020 |  98.8  |  -   |      -      |    EN    |          [Saxena et al.](https://aclanthology.org/2020.acl-main.412.pdf)           |
 |             TransferNet             | 2022 |  98.5  |  -   |      -      |    EN    |     [Mingchen Li and Jonathan Shihao Ji](https://arxiv.org/pdf/2204.10194.pdf)     |
 |                NRQA                 | 2022 |  97.5  |  -   |      -      |    EN    | [Guo et al.](https://link.springer.com/content/pdf/10.1007/s10489-022-03927-0.pdf) |

@@ -18,6 +18,7 @@
 |             GlobalGraph             | 2022 |  99.0  | 97.6 |      -      |    EN    |    [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)     |
 |               2HR-DR                | 2022 |  98.8  | 97.3 |      -      |    EN    |    [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)     |
 |              SGReader               | 2022 |  96.7  | 96.0 |      -      |    EN    |    [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)     |
+|                TERP                 | 2022 |  97.5  |  -   |      -      |    EN    |           [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)            |
 |              GRAFT-Net              | 2022 |  97.4  | 91.0 |      -      |    EN    |    [Zhang et al.](https://downloads.hindawi.com/journals/cin/2022/4734179.pdf)     |
 |            ARN_DistMult             | 2023 | 97.12  |  -   |      -      |    EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                  |
 |              ARN_TuckER               | 2023 | 97.11  |  -   |      -      |    EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                  |
