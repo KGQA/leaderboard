@@ -99,6 +99,7 @@
 <div class="text-center mt-4 text-5xl">KGQA Leaderboard</div>
 <div class="flex justify-center">
 	<button
+    id="copy-citation-button"
 		on:click={() => {
 			let citation =
 				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
@@ -112,11 +113,11 @@
 	</button>
 </div>
 
-<div class="flex justify-center">
+<div class="flex justify-center mt-[3rem]">
 	<input
 		type="text"
-		class="input input-primary input-sm md:w-[25%] w-11/12"
-		placeholder="Search Datasets 🔎"
+		class="input input-primary input-sm md:w-[25%] w-[400px]"
+		placeholder="🔎 Search Datasets"
 		name="filter"
 		id="filter"
 		on:input={search}
@@ -146,7 +147,7 @@
 		{/if}
 	</div>
 </div>
-<div class="w-[70%] mx-auto divider">Or select Knowledge Graph from the list below</div>
+<div class="w-[70%] mx-auto divider mt-[2rem]">Or select Knowledge Graph from the list below</div>
 {#if prefaceData}
 	<div transition:fade|local class="flex justify-center space-x-4">
 		{#each prefaceData.knowledgeGraphs as kg}
@@ -156,15 +157,8 @@
 		{/each}
 	</div>
 {/if}
-<div class="flex justify-center my-2">
-	<button
-		on:click={() => {
-			window.location.href = base + '/systems';
-		}}
-		class="btn btn-accent"
-	>
-		Systems
-	</button>
+<div class="flex justify-center my-2">	
+  <a class="" href={base + "/systems"}>Systems</a>
 </div>
 <div class="my-10" />
 {#if content}
