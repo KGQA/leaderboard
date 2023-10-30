@@ -12,6 +12,7 @@
 |                NSM+h                | 2021 |  98.9  |  -   |      -       |    EN    |             [He et al.](https://arxiv.org/pdf/2101.03737.pdf)              |
 |               QNRKGQA               | 2022 |  98.9  |  -   |      -       |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
 |              QNRKGQA+h              | 2022 |  98.9  |  -   |      -       |    EN    |    [Ma et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_11)     |
+|                TERP                 | 2022 |  98.9  |  -   |      -       |    EN    |           [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)            |
 | KGQA Based on Query Path Generation | 2022 |  98.5  |  -   |      -       |    EN    |    [Yang et al.](https://link.springer.com/chapter/10.1007/978-3-031-10983-6_12)|
 |                QAGCN                | 2022 |  97.6  |  -   |      -       |    EN    |       [Wang et al.](https://arxiv.org/pdf/2206.01818.pdf)             |
 |              ARN_ConvE              | 2023 | 97.06  |  -   |      -      |    EN    |                 [Cui et al.](https://www.sciencedirect.com/science/article/abs/pii/S0020025522013317)                  |

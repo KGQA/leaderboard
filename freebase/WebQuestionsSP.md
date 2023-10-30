@@ -11,6 +11,7 @@
 |              GPT-3.5v3              | 2023 |     -      |     -      |  79.60   |    EN    |                  [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                   |
 |       DECAF (DPR + FiD-large)       | 2022 | 77.1 ± 0.2 | 80.7 ± 0.2 |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
 |               UniK-QA               | 2022 |     -      |    79.1    |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
+|                TERP                 | 2022 |     -      |    76.8    |    -     |    EN    |              [Qiao et al.](https://aclanthology.org/2022.coling-1.156.pdf)            |
 |             SQALER+GNN              | 2022 |     -      |    76.1    |    -     |    EN    |     [Costas Mavromatis and George Karypis](https://arxiv.org/pdf/2210.13650.pdf)      |
 |                EmQL                 | 2020 |     -      |    75.5    |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                   |
 |              GMT-KBQA               | 2022 |    76.6    |     -      |   73.1   |    EN    |              [Hu et al.](https://aclanthology.org/2022.coling-1.145.pdf)              |
