@@ -6,7 +6,7 @@
 |           Model / System            | Year |     F1     |   Hits@1   | Accuracy | Language |                                      Reported by                                          |
 | :---------------------------------: | :--: | :--------: | :--------: | :------: | :------: | :---------------------------------------------------------------------------------------: |
 |               chatGPT               | 2023 |     -      |     -      |  83.70   |    EN    |                  [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                       |
-|                FRED                 | 2023 | 0.86 ± 0.05|     -      |    -     |    EN    |[Lamott et al.](https://recap.uni-trier.de/static/377a488cc4cee95714b3ad713aa22fa7/88.pdf) |
+|                FRED                 | 2023 |   86 ± 5   |     -      |    -     |    EN    |[Lamott et al.](https://recap.uni-trier.de/static/377a488cc4cee95714b3ad713aa22fa7/88.pdf) |
 |                TIARA                | 2022 |    78.9    |    75.2    |    -     |    EN    |            [Shu et. al.](https://aclanthology.org/2022.emnlp-main.555.pdf)                |
 |        DECAF (DPR + FiD-3B)         | 2022 |    78.8    |    82.1    |    -     |    EN    |                   [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)                       |
 |              GPT-3.5v3              | 2023 |     -      |     -      |  79.60   |    EN    |                  [Tan et al.](https://arxiv.org/pdf/2303.07992.pdf)                       |
