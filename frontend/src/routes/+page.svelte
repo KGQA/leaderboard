@@ -99,7 +99,7 @@
 <div class="text-center mt-4 text-5xl">KGQA Leaderboard</div>
 <div class="flex justify-center">
 	<button
-    id="copy-citation-button"
+		id="copy-citation-button"
 		on:click={() => {
 			let citation =
 				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
@@ -147,7 +147,7 @@
 		{/if}
 	</div>
 </div>
-<div class="w-[70%] mx-auto divider mt-[2rem]">Or select Knowledge Graph from the list below</div>
+<div class="w-[70%] mx-auto divider mt-[2rem]">Or select a Knowledge Graph from the list below</div>
 {#if prefaceData}
 	<div transition:fade|local class="flex justify-center space-x-4">
 		{#each prefaceData.knowledgeGraphs as kg}
@@ -157,8 +157,8 @@
 		{/each}
 	</div>
 {/if}
-<div class="flex justify-center my-2">	
-  <a class="" href={base + "/systems"}>Systems</a>
+<div class="flex justify-center my-2">
+	<a class="" href={base + '/systems'}>Systems</a>
 </div>
 <div class="my-10" />
 {#if content}
