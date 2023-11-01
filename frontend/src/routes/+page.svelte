@@ -97,26 +97,11 @@
 	<img src="{base}/logo-min.png" alt="The wisest koala" class="w-64 my-auto" />
 </div>
 <div class="text-center mt-4 text-5xl">KGQA Leaderboard</div>
-<div class="flex justify-center">
-	<button
-		id="copy-citation-button"
-		on:click={() => {
-			let citation =
-				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
-
-			navigator.clipboard.writeText(citation);
-			notifySuccess('Copied!', 'Citation copied to clipboard');
-		}}
-		class="btn btn-secondary btn-sm btn-wide mb-12"
-	>
-		Copy Citation
-	</button>
-</div>
 
 <div class="flex justify-center mt-[3rem]">
 	<input
 		type="text"
-		class="input input-primary input-sm md:w-[25%] w-[400px]"
+		class="input input-primary input-sm w-[400px]"
 		placeholder="🔎 Search Datasets"
 		name="filter"
 		id="filter"
@@ -158,7 +143,22 @@
 	</div>
 {/if}
 <div class="flex justify-center my-2">
-	<a class="" href={base + '/systems'}>Systems</a>
+	<a class="" href={base + '/systems'}>See a list of all surveyed Systems</a>
+</div>
+<div class="flex justify-center">
+	<button
+		id="copy-citation-button"
+		on:click={() => {
+			let citation =
+				'[Knowledge Graph Question Answering Leaderboard: A Community Resource to Prevent a Replication Crisis](https://aclanthology.org/2022.lrec-1.321) (Perevalov et al., LREC 2022)';
+
+			navigator.clipboard.writeText(citation);
+			notifySuccess('Copied!', 'Citation copied to clipboard');
+		}}
+		class="btn btn-secondary btn-sm btn-wide mb-12"
+	>
+		📋 Copy Citation
+	</button>
 </div>
 <div class="my-10" />
 {#if content}
