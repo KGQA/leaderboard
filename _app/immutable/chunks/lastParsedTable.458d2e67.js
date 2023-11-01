@@ -1,1 +1,0 @@
-import{w as o}from"./singletons.483f1170.js";const a=o(null);function s(){return{newColumns:[],newRows:[],changedRows:[],newLeaderboards:[],lastChange:null}}function l(e){const n=document.getElementById(e);if(!n)throw new Error(`Dialog ${e} not found`);n.open?n.close():n.showModal()}const r=o(null),c=o([]);export{r as a,a as c,s as i,c as l,l as t};
