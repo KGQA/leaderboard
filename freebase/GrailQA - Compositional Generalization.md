@@ -18,6 +18,7 @@
 |             RnG-KBQA              | 2022 |   -    |  71.2  |       [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)         |
 |      RnG-KBQA (single model)      | 2021 | 63.792 | 71.156 |       [Ye et al.](https://arxiv.org/pdf/2109.08678.pdf)         |
 |      ReTraCk (single model)       | 2021 | 61.499 | 70.911 |   [Chen et al.](https://aclanthology.org/2021.acl-demo.39/)     |
+|        GPT-3.5-turbo (5-shot)     | 2023 |  60.5  |  66.3  |       [Shu et al.](https://arxiv.org/pdf/2309.08345.pdf)        |
 |           Pangu (Codex)           | 2023 |  58.2  |  64.9  |       [Shu et al.](https://arxiv.org/pdf/2309.08345.pdf)        |
 |        S2QL (single model)        | 2021 | 54.716 | 64.679 |                            Anonymous                            |
 |      ArcaneQA (single model)      | 2021 | 56.395 | 63.533 |                            Anonymous                            |
