@@ -15,6 +15,7 @@
 |       DECAF (BM25 + FiD-3B)       | 2022 |   -    |  72.3  |       [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)         |
 |       UniParser (Anonymous)       | 2022 |   -    |  69.8  |       [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)         |
 |      RnG-KBQA (single model)      | 2021 | 62.988 | 69.182 |       [Ye et al.](https://arxiv.org/pdf/2109.08678.pdf)         |
+|     GPT-3.5-turbo (5-shot)        | 2023 |  61.9  |  67.2  |       [Shu et al.](https://arxiv.org/pdf/2309.08345.pdf)        |
 |     DECAF (BM25 + FiD-large)      | 2022 |   -    |  68.0  |       [Yu et al.](https://arxiv.org/pdf/2210.00063.pdf)         |
 |             ArcaneQA              | 2022 |  52.9  |  66.0  | [Shu et al.](https://aclanthology.org/2022.emnlp-main.555.pdf)  |
 |        S2QL (single model)        | 2021 | 55.122 | 63.598 |                            Anonymous                            |
