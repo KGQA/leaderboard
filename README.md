@@ -29,6 +29,7 @@ If you have an entire new dataset, which you want to add to the leaderboard, you
     -   ^(datasetName).md - This is the header of your dataset in plain markdown.
     -   (datasetName).md - This is the main leaderboard table. You can copy the template from [here]()
     -   $(datasetName).md - This is the footer of your dataste, again in plain markdown.
+-   Add correspnding route in the file frontend/static/entries.txt
 -   Create a pull request
 
 ### Video Tutorial
