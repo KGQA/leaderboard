@@ -63,4 +63,5 @@
 /datasets/other/WC2014QA - 1 Hop
 /datasets/other/WC2014QA - 2 Hop
 /datasets/other/WC2014QA - Total
+/datasets/other/Spider4SPARQL
 /systems/
